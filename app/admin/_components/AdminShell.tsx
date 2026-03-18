@@ -62,7 +62,7 @@ const COLLAPSED_W = 62;
 
 function SidebarLocaleSelector() {
   const { locale, setLocale, locales, localesLoading } = useLocaleContext();
-  if (localesLoading || locales.length <= 1) return null;
+  if (localesLoading) return null;
   return (
     <div style={{ margin: "6px 10px 4px", background: C.surface, border: `1px solid ${C.borderMid}`, borderRadius: 10, padding: "10px 12px" }}>
       <div style={{ color: C.textDim, fontSize: 9, fontWeight: 700, letterSpacing: "0.12em", textTransform: "uppercase" as const, marginBottom: 9 }}>

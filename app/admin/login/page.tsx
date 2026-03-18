@@ -1,12 +1,16 @@
 "use client";
 
-import { useState, Suspense } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 
-function LoginForm() {
+export default function LoginPage() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const from = searchParams.get("from") || "/admin";
+  const [from, setFrom] = useState("/admin");
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    setFrom(params.get("from") || "/admin");
+  }, []);
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -494,27 +498,5 @@ function LoginForm() {
         }
       `}</style>
     </>
-  );
-}
-
-export default function LoginPage() {
-  return (
-    <Suspense
-      fallback={
-        <div
-          style={{
-            minHeight: "100dvh",
-            background: "#0a0a10",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <div style={{ color: "#52525e", fontSize: 14 }}>Yükleniyor…</div>
-        </div>
-      }
-    >
-      <LoginForm />
-    </Suspense>
   );
 }

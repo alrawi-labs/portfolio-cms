@@ -108,8 +108,7 @@ function SidebarContent({
       }}>
         {!collapsed && (
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <img src="/assets/images/adminLogo.png" alt="" style={{ width: 32, height: 32, borderRadius: 9, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15, flexShrink: 0 }} />        
-
+            <div style={{ width: 32, height: 32, background: C.accent, borderRadius: 9, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15, flexShrink: 0 }}>⚡</div>
             <div>
               <div style={{ color: C.text, fontSize: 13, fontWeight: 600 }}>Admin CMS</div>
               <div style={{ color: C.textDim, fontSize: 10, marginTop: 1 }}>Portfolio Yönetimi</div>
@@ -117,7 +116,7 @@ function SidebarContent({
           </div>
         )}
         {collapsed && (
-            <img src="/assets/images/adminLogo.png" alt="" style={{ width: 32, height: 32, borderRadius: 9, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15, flexShrink: 0 }} />        
+          <div style={{ width: 32, height: 32, background: C.accent, borderRadius: 9, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15 }}>⚡</div>
         )}
         {!collapsed && (
           <button onClick={onClose || onToggleCollapse} style={{
@@ -216,14 +215,19 @@ function Shell({ children }: { children: React.ReactNode }) {
   const [mobileOpen, setMobileOpen]   = useState(false);
   const [scrolled, setScrolled]       = useState(false);
   const [isMobile, setIsMobile]       = useState(false);
+  const [mounted, setMounted]         = useState(false);
 
-  /* Ekran boyutu takibi */
+  /* Ekran boyutu takibi — sadece client'ta */
   useEffect(() => {
+    setMounted(true);
     function check() { setIsMobile(window.innerWidth < 768); }
     check();
     window.addEventListener("resize", check);
     return () => window.removeEventListener("resize", check);
   }, []);
+
+  /* Hydration tamamlanana kadar desktop layout göster */
+  const effectiveMobile = mounted && isMobile;
 
   /* Rota değişince mobil menüyü kapat */
   useEffect(() => { setMobileOpen(false); }, [pathname]);
@@ -249,7 +253,7 @@ function Shell({ children }: { children: React.ReactNode }) {
     <div style={{ display: "flex", minHeight: "100dvh", background: C.bg, flex: 1 }}>
 
       {/* ══ DESKTOP Sidebar ══ */}
-      {!isMobile && (
+      {!effectiveMobile && (
         <aside style={{
           width: sidebarW,
           background: C.sidebar,
@@ -271,7 +275,7 @@ function Shell({ children }: { children: React.ReactNode }) {
       )}
 
       {/* ══ MOBİL Drawer Overlay ══ */}
-      {isMobile && mobileOpen && (
+      {effectiveMobile && mobileOpen && (
         <div
           onClick={() => setMobileOpen(false)}
           style={{
@@ -283,7 +287,7 @@ function Shell({ children }: { children: React.ReactNode }) {
       )}
 
       {/* ══ MOBİL Sidebar Drawer ══ */}
-      {isMobile && (
+      {effectiveMobile && (
         <aside style={{
           width: SIDEBAR_W,
           background: C.sidebar,
@@ -309,7 +313,7 @@ function Shell({ children }: { children: React.ReactNode }) {
       {/* ══ İçerik ══ */}
       <div style={{
         flex: 1,
-        marginLeft: isMobile ? 0 : sidebarW,
+        marginLeft: effectiveMobile ? 0 : sidebarW,
         transition: "margin-left 0.22s cubic-bezier(0.4,0,0.2,1)",
         display: "flex", flexDirection: "column", minHeight: "100vh",
       }}>
@@ -323,11 +327,11 @@ function Shell({ children }: { children: React.ReactNode }) {
           transition: "all 0.2s",
           height: 52,
           display: "flex", alignItems: "center",
-          padding: isMobile ? "0 16px" : "0 36px",
+          padding: effectiveMobile ? "0 16px" : "0 36px",
           gap: 12,
         }}>
           {/* Mobil hamburger */}
-          {isMobile && (
+          {effectiveMobile && (
             <button
               onClick={() => setMobileOpen(o => !o)}
               style={{
@@ -346,15 +350,15 @@ function Shell({ children }: { children: React.ReactNode }) {
           )}
 
           {/* Logo (sadece mobilde) */}
-          {isMobile && (
+          {effectiveMobile && (
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-            <img src="/assets/images/adminLogo.png" alt="" style={{ width: 32, height: 32, borderRadius: 9, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15, flexShrink: 0 }} />        
+              <div style={{ width: 26, height: 26, background: C.accent, borderRadius: 7, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13 }}>⚡</div>
               <span style={{ color: C.text, fontSize: 13, fontWeight: 600 }}>Admin CMS</span>
             </div>
           )}
 
           {/* Aktif sayfa bilgisi (desktop) */}
-          {!isMobile && activeItem && (
+          {!effectiveMobile && activeItem && (
             <>
               <span style={{ color: C.accent, fontSize: 14 }}>{activeItem.icon}</span>
               <span style={{ color: C.text, fontSize: 13, fontWeight: 500 }}>{activeItem.label}</span>
@@ -364,7 +368,7 @@ function Shell({ children }: { children: React.ReactNode }) {
           )}
 
           {/* Aktif sayfa (mobil — sağda) */}
-          {isMobile && activeItem && (
+          {effectiveMobile && activeItem && (
             <span style={{ color: C.textSub, fontSize: 13, marginLeft: "auto" }}>
               {activeItem.label}
             </span>
@@ -377,7 +381,7 @@ function Shell({ children }: { children: React.ReactNode }) {
           onScroll={e => setScrolled((e.currentTarget as HTMLElement).scrollTop > 8)}
           style={{
             flex: 1,
-            padding: isMobile ? "16px 16px 60px" : "24px 36px 60px",
+            padding: effectiveMobile ? "16px 16px 60px" : "24px 36px 60px",
             color: C.text, overflowY: "auto", overflowX: "hidden",
           }}
         >

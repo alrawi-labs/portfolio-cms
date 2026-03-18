@@ -57,8 +57,8 @@ const C = {
   red:        "#f87171",
 };
 
-const SIDEBAR_W    = 236;
-const COLLAPSED_W  = 62;
+const SIDEBAR_W   = 236;
+const COLLAPSED_W = 62;
 
 function SidebarLocaleSelector() {
   const { locale, setLocale, locales, localesLoading } = useLocaleContext();
@@ -86,7 +86,6 @@ function SidebarLocaleSelector() {
   );
 }
 
-/* ── Sidebar içeriği ── */
 function SidebarContent({
   collapsed, pathname, onClose, onToggleCollapse, loggingOut, onLogout,
 }: {
@@ -108,7 +107,7 @@ function SidebarContent({
       }}>
         {!collapsed && (
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
-            <div style={{ width: 32, height: 32, background: C.accent, borderRadius: 9, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15, flexShrink: 0 }}>⚡</div>
+            <img src="/assets/images/adminLogo.png" alt="" style={{ width: 32, height: 32, borderRadius: 9, flexShrink: 0 }} />
             <div>
               <div style={{ color: C.text, fontSize: 13, fontWeight: 600 }}>Admin CMS</div>
               <div style={{ color: C.textDim, fontSize: 10, marginTop: 1 }}>Portfolio Yönetimi</div>
@@ -116,7 +115,7 @@ function SidebarContent({
           </div>
         )}
         {collapsed && (
-          <div style={{ width: 32, height: 32, background: C.accent, borderRadius: 9, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15 }}>⚡</div>
+          <img src="/assets/images/adminLogo.png" alt="" style={{ width: 32, height: 32, borderRadius: 9, flexShrink: 0 }} />
         )}
         {!collapsed && (
           <button onClick={onClose || onToggleCollapse} style={{
@@ -210,14 +209,14 @@ function Shell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
   const router   = useRouter();
 
-  const [loggingOut, setLoggingOut]   = useState(false);
-  const [collapsed, setCollapsed]     = useState(false);
-  const [mobileOpen, setMobileOpen]   = useState(false);
-  const [scrolled, setScrolled]       = useState(false);
-  const [isMobile, setIsMobile]       = useState(false);
-  const [mounted, setMounted]         = useState(false);
+  const [loggingOut, setLoggingOut] = useState(false);
+  const [collapsed, setCollapsed]   = useState(false);
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [scrolled, setScrolled]     = useState(false);
+  const [isMobile, setIsMobile]     = useState(false);
+  const [mounted, setMounted]       = useState(false);
 
-  /* Ekran boyutu takibi — sadece client'ta */
+  /* Hydration tamamlanana kadar isMobile false kalır */
   useEffect(() => {
     setMounted(true);
     function check() { setIsMobile(window.innerWidth < 768); }
@@ -226,10 +225,6 @@ function Shell({ children }: { children: React.ReactNode }) {
     return () => window.removeEventListener("resize", check);
   }, []);
 
-  /* Hydration tamamlanana kadar desktop layout göster */
-  const effectiveMobile = mounted && isMobile;
-
-  /* Rota değişince mobil menüyü kapat */
   useEffect(() => { setMobileOpen(false); }, [pathname]);
 
   if (pathname === "/admin/login") return <>{children}</>;
@@ -246,7 +241,8 @@ function Shell({ children }: { children: React.ReactNode }) {
     item.href === "/admin" ? pathname === "/admin" : pathname.startsWith(item.href)
   );
 
-  /* Desktop sidebar genişliği */
+  /* mounted olana kadar desktop gibi davran → hydration mismatch yok */
+  const effectiveMobile = mounted && isMobile;
   const sidebarW = collapsed ? COLLAPSED_W : SIDEBAR_W;
 
   return (
@@ -274,16 +270,12 @@ function Shell({ children }: { children: React.ReactNode }) {
         </aside>
       )}
 
-      {/* ══ MOBİL Drawer Overlay ══ */}
+      {/* ══ MOBİL Overlay ══ */}
       {effectiveMobile && mobileOpen && (
-        <div
-          onClick={() => setMobileOpen(false)}
-          style={{
-            position: "fixed", inset: 0, zIndex: 199,
-            background: "rgba(0,0,0,0.6)",
-            backdropFilter: "blur(4px)",
-          }}
-        />
+        <div onClick={() => setMobileOpen(false)} style={{
+          position: "fixed", inset: 0, zIndex: 199,
+          background: "rgba(0,0,0,0.6)", backdropFilter: "blur(4px)",
+        }} />
       )}
 
       {/* ══ MOBİL Sidebar Drawer ══ */}
@@ -330,18 +322,14 @@ function Shell({ children }: { children: React.ReactNode }) {
           padding: effectiveMobile ? "0 16px" : "0 36px",
           gap: 12,
         }}>
-          {/* Mobil hamburger */}
           {effectiveMobile && (
-            <button
-              onClick={() => setMobileOpen(o => !o)}
-              style={{
-                background: "transparent", border: "none",
-                color: C.textSub, cursor: "pointer",
-                width: 36, height: 36, borderRadius: 8,
-                display: "flex", alignItems: "center", justifyContent: "center",
-                fontSize: 18, flexShrink: 0,
-                transition: "background 0.15s",
-              }}
+            <button onClick={() => setMobileOpen(o => !o)} style={{
+              background: "transparent", border: "none",
+              color: C.textSub, cursor: "pointer",
+              width: 36, height: 36, borderRadius: 8,
+              display: "flex", alignItems: "center", justifyContent: "center",
+              fontSize: 18, flexShrink: 0, transition: "background 0.15s",
+            }}
               onMouseEnter={e => (e.currentTarget as HTMLElement).style.background = C.surfaceHov}
               onMouseLeave={e => (e.currentTarget as HTMLElement).style.background = "transparent"}
             >
@@ -349,15 +337,13 @@ function Shell({ children }: { children: React.ReactNode }) {
             </button>
           )}
 
-          {/* Logo (sadece mobilde) */}
           {effectiveMobile && (
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
-              <div style={{ width: 26, height: 26, background: C.accent, borderRadius: 7, display: "flex", alignItems: "center", justifyContent: "center", fontSize: 13 }}>⚡</div>
+              <img src="/assets/images/adminLogo.png" alt="" style={{ width: 32, height: 32, borderRadius: 9, flexShrink: 0 }} />
               <span style={{ color: C.text, fontSize: 13, fontWeight: 600 }}>Admin CMS</span>
             </div>
           )}
 
-          {/* Aktif sayfa bilgisi (desktop) */}
           {!effectiveMobile && activeItem && (
             <>
               <span style={{ color: C.accent, fontSize: 14 }}>{activeItem.icon}</span>
@@ -367,7 +353,6 @@ function Shell({ children }: { children: React.ReactNode }) {
             </>
           )}
 
-          {/* Aktif sayfa (mobil — sağda) */}
           {effectiveMobile && activeItem && (
             <span style={{ color: C.textSub, fontSize: 13, marginLeft: "auto" }}>
               {activeItem.label}

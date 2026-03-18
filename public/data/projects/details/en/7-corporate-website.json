@@ -1,0 +1,120 @@
+{
+  "id": 7,
+  "title": "Corporate Website",
+  "description": "Professional corporate website with CMS integration",
+  "longDescription": "A modern corporate website featuring a custom WordPress theme, advanced CMS capabilities, multilingual support, and seamless integration with marketing automation tools.",
+  "category": "Web Development",
+  "tags": [
+    "WordPress",
+    "PHP",
+    "MySQL"
+  ],
+  "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=800&fit=crop",
+  "techLogos": [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-plain.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+  ],
+  "date": "2023-09",
+  "client": "GlobalTech Industries",
+  "duration": "3 months",
+  "teamSize": 4,
+  "role": "WordPress Developer & Theme Designer",
+  "technologies": [
+    {
+      "name": "WordPress",
+      "description": "Content management system"
+    },
+    {
+      "name": "PHP",
+      "description": "Server-side scripting"
+    },
+    {
+      "name": "MySQL",
+      "description": "Database management"
+    },
+    {
+      "name": "WPML",
+      "description": "Multilingual plugin"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": 0,
+      "heading": "Custom Theme Development",
+      "content": "We built a fully custom WordPress theme from scratch, designed to reflect GlobalTech's corporate identity while maintaining excellent performance and SEO optimization."
+    },
+    {
+      "type": 0,
+      "heading": "Enterprise Features",
+      "content": "The website includes advanced features like multilingual support for 8 languages, marketing automation integration, custom post types for case studies and team members, and a powerful careers portal."
+    }
+  ],
+  "challenges": [
+    "Meeting strict corporate branding guidelines",
+    "Ensuring fast load times with rich media content",
+    "Implementing complex multi-level navigation",
+    "Managing content updates across 8 languages"
+  ],
+  "solutions": [
+    "Modular design system with reusable components",
+    "Image optimization and lazy loading strategies",
+    "Custom navigation walker with mega menu support",
+    "WPML integration with translation workflow"
+  ],
+  "results": [
+    {
+      "metric": "Performance",
+      "value": "95/100",
+      "description": "Google PageSpeed score"
+    },
+    {
+      "metric": "Traffic",
+      "value": "+120%",
+      "description": "Organic traffic increase"
+    },
+    {
+      "metric": "Leads",
+      "value": "+80%",
+      "description": "Lead generation growth"
+    },
+    {
+      "metric": "Bounce Rate",
+      "value": "-35%",
+      "description": "Bounce rate reduction"
+    }
+  ],
+  "testimonial": {
+    "text": "The new website has elevated our brand presence significantly. The CMS is intuitive and the multilingual capabilities are seamless.",
+    "author": "Patricia Martinez",
+    "position": "Marketing Director, GlobalTech Industries"
+  },
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

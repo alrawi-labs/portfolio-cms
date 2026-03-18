@@ -1,0 +1,108 @@
+{
+  "header": {
+    "home": "Home",
+    "stats": "Stats",
+    "services": "Services",
+    "work": "Work",
+    "projects": "Projects",
+    "resume": "Resume",
+    "about": "About",
+    "skills": "Skills",
+    "languages": "Languages",
+    "volunteering": "Volunteering",
+    "certificates": "Certificates",
+    "contact": "Contact",
+    "startAProject": "Start a Project"
+  },
+  "home": {
+    "hero": {
+      "greeting": "Hello, I'm",
+      "name": "Yasir",
+      "titleLine1": "Full-Stack",
+      "titleLine2": "Web Developer",
+      "description": "I transform complex user experience challenges into clear, cohesive solutions, developing strong and reliable foundations that deliver real impact and tangible results",
+      "downloadCV": "Download CV",
+      "viewWork": "View Work",
+      "follow": "FOLLOW"
+    },
+    "stats": {
+      "title": "Our Achievements",
+      "subtitle": "Let the figures tell the story of our impact before you explore our work",
+      "yearsLabel": "Years",
+      "yearsDesc": "of Experience",
+      "projectsLabel": "Projects",
+      "projectsDesc": "Successfully Completed",
+      "clientsLabel": "Clients",
+      "clientsDesc": "Worldwide",
+      "awardsLabel": "Awards",
+      "awardsDesc": "& Recognition",
+      "trustedBy": "Trusted by industry leaders worldwide",
+      "yearsExp": "Years Exp",
+      "projects": "Projects",
+      "k": "K"
+    }
+  },
+  "contact": {
+    "title": "Let's Work Together",
+    "subtitle": "Got an idea or project? Let’s collaborate and turn your vision into reality.",
+    "badge": "Contact Me",
+    "form": {
+      "name": {
+        "label": "Name",
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "john@example.com"
+      },
+      "subject": {
+        "label": "Subject",
+        "placeholder": "Project Inquiry"
+      },
+      "message": {
+        "label": "Message",
+        "placeholder": "Tell me about your project..."
+      },
+      "submit": "Send Message",
+      "sending": "Sending..."
+    },
+    "success": {
+      "title": "Message Sent Successfully!",
+      "message": "Thank you for reaching out. I'll get back to you as soon as possible."
+    },
+    "info": {
+      "email": {
+        "title": "Email"
+      },
+      "phone": {
+        "title": "Phone"
+      },
+      "location": {
+        "title": "Location"
+      }
+    },
+    "social": {
+      "title": "Follow Me"
+    }
+  },
+  "loading": {
+    "text": "LOADING"
+  },
+  "backToProjects": "Back to Projects",
+  "technologiesUsed": "Technologies Used",
+  "projectLink": "Project Link",
+  "liveDemo": "Live Demo",
+  "viewSource": "View Source",
+  "sourceCode": "Source Code",
+  "challenges": "Challenges",
+  "solutions": "Solutions",
+  "duration": "Duration",
+  "teamSize": "Team Size",
+  "resultsImpact": "Results & Impact",
+  "videoNotSupported": "Your browser does not support the video tag.",
+  "client": "Client",
+  "technologies": "Technologies",
+  "date": "Date",
+  "buy": "Buy this",
+  "buynow": "Buy Now"
+}

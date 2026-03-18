@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "badge": "Portföy",
+    "title": "Projelerimiz",
+    "subtitle": "Başarıyı yönlendiren yenilikçi çözümler ve yaratıcı çalışmalar portföyümüzü keşfedin"
+  },
+  "search": {
+    "placeholder": "Projelerde ara...",
+    "filterButton": "Filtreler",
+    "showingResults": "Gösteriliyor",
+    "project": "proje",
+    "projects": "projeler"
+  },
+  "categories": {
+    "all": "Tümü",
+    "webDevelopment": "Web Geliştirme",
+    "mobileApp": "Mobil Uygulama",
+    "design": "Tasarım",
+    "aiMl": "Yapay Zeka / ML",
+    "blockchain": "Blockchain"
+  },
+  "projectCard": {
+    "technologiesUsed": "Kullanılan Teknolojiler"
+  },
+  "noResults": {
+    "title": "Proje bulunamadı",
+    "description": "Arama veya filtre kriterlerinizi yeniden deneyin",
+    "clearButton": "Filtreleri Temizle"
+  },
+  "featuredProjects": {
+    "title": "Öne Çıkan Projeler",
+    "subtitle": "Modern teknolojilerle geliştirilmiş yenilikçi çözümleri sergiliyoruz",
+    "viewProject": "Projeyi Görüntüle",
+    "allProjects": {
+      "title": "Tüm Portföyümü Keşfedin",
+      "description": "Farklı teknolojiler ve alanlarda daha fazla yenilikçi proje, yaratıcı çözüm ve teknik mükemmeliyeti keşfedin",
+      "button": "Tüm Projeleri Görüntüle",
+      "stats": {
+        "projects": "Projeler",
+        "technologies": "Teknolojiler",
+        "years": "Yıllar"
+      }
+    }
+  }
+}

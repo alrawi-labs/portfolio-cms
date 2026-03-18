@@ -1,0 +1,108 @@
+{
+  "header": {
+    "home": "الرئيسية",
+    "stats": "الإحصائيات",
+    "services": "الخدمات",
+    "work": "أعمالي",
+    "projects": "المشاريع",
+    "resume": "السيرة الذاتية",
+    "about": "من أنا",
+    "skills": "المهارات",
+    "languages": "اللغات",
+    "volunteering": "العمل التطوعي",
+    "certificates": "الشهادات",
+    "contact": "تواصل معي",
+    "startAProject": "ابدأ مشروعاً"
+  },
+  "home": {
+    "hero": {
+      "greeting": "مرحباً، أنا",
+      "name": "ياسر",
+      "titleLine1": "مطور ويب شامل",
+      "titleLine2": "من الواجهة إلى الخادم",
+      "description": "أعيد صياغة تحدّيات تجربة المستخدم المعقّدة إلى حلول واضحة عالية الانسجام، وأطوّر خلفيات قوية وموثوقة تمنح التجربة أثراً حقيقياً ونتائج ملموسة",
+      "downloadCV": "تحميل السيرة الذاتية",
+      "viewWork": "تصفح أعمالي",
+      "follow": "تابعني"
+    },
+    "stats": {
+      "title": "إنجازاتنا",
+      "subtitle": "دع الأرقام تحكي قصة تأثيرنا قبل أن تستكشف أعمالنا",
+      "yearsLabel": "سنوات",
+      "yearsDesc": "من الخبرة",
+      "projectsLabel": "مشاريع",
+      "projectsDesc": "تم إنجازها بنجاح",
+      "clientsLabel": "عملاء",
+      "clientsDesc": "حول العالم",
+      "awardsLabel": "جوائز",
+      "awardsDesc": "وتقديرات",
+      "trustedBy": "موضع ثقة رواد الصناعة عالمياً",
+      "yearsExp": "سنوات خبرة",
+      "projects": "مشاريع",
+      "k": "ألف"
+    }
+  },
+  "contact": {
+    "title": "لنعمل معاً",
+    "subtitle": "لديك فكرة أو مشروع؟ دعنا نعمل معًا ونحوّل رؤيتك إلى واقع ملموس.",
+    "badge": "تواصل معي",
+    "form": {
+      "name": {
+        "label": "الاسم",
+        "placeholder": "الاسم الكريم"
+      },
+      "email": {
+        "label": "البريد الإلكتروني",
+        "placeholder": "name@example.com"
+      },
+      "subject": {
+        "label": "الموضوع",
+        "placeholder": "استفسار عن مشروع"
+      },
+      "message": {
+        "label": "الرسالة",
+        "placeholder": "أخبرني المزيد عن مشروعك..."
+      },
+      "submit": "إرسال الرسالة",
+      "sending": "جاري الإرسال..."
+    },
+    "success": {
+      "title": "تم إرسال الرسالة بنجاح!",
+      "message": "شكراً لتواصلك معي. سأقوم بالرد عليك في أقرب وقت ممكن."
+    },
+    "info": {
+      "email": {
+        "title": "البريد الإلكتروني"
+      },
+      "phone": {
+        "title": "الهاتف"
+      },
+      "location": {
+        "title": "الموقع"
+      }
+    },
+    "social": {
+      "title": "تابعني"
+    }
+  },
+  "loading": {
+    "text": "جاري التحميل"
+  },
+  "backToProjects": "العودة إلى المشاريع",
+  "technologiesUsed": "التقنيات المستخدمة",
+  "projectLink": "رابط المشروع",
+  "liveDemo": "عرض مباشر",
+  "viewSource": "عرض المصدر",
+  "sourceCode": "الكود المصدري",
+  "challenges": "التحديات",
+  "solutions": "الحلول",
+  "duration": "المدة",
+  "teamSize": "حجم الفريق",
+  "resultsImpact": "النتائج والتأثير",
+  "videoNotSupported": "متصفحك لا يدعم وسم الفيديو.",
+  "client": "العميل",
+  "technologies": "التقنيات",
+  "date": "التاريخ",
+  "buy": "معلومات الشراء",
+  "buynow": "اشتري الان"
+}

@@ -1,0 +1,108 @@
+{
+  "header": {
+    "home": "Ana Sayfa",
+    "stats": "İstatistikler",
+    "services": "Hizmetler",
+    "work": "Çalışmalar",
+    "projects": "Projeler",
+    "resume": "Özgeçmiş",
+    "about": "Hakkımda",
+    "skills": "Yetenekler",
+    "languages": "Diller",
+    "volunteering": "Gönüllülük",
+    "certificates": "Sertifikalar",
+    "contact": "İletişim",
+    "startAProject": "Bir Proje Başlat"
+  },
+  "home": {
+    "hero": {
+      "greeting": "Merhaba, ben",
+      "name": "Yasir",
+      "titleLine1": "Full-Stack",
+      "titleLine2": "Web Geliştirici",
+      "description": "Karmaşık kullanıcı deneyimi zorluklarını net ve uyumlu çözümlere dönüştürüyor, güçlü ve güvenilir altyapılar geliştirerek deneyime gerçek bir etki ve somut sonuçlar kazandırıyorum",
+      "downloadCV": "CV İndir",
+      "viewWork": "Çalışmalarımı Gör",
+      "follow": "TAKİP ET"
+    },
+    "stats": {
+      "title": "Başarılarımız",
+      "subtitle": "Çalışmalarımızı keşfetmeden önce, rakamlar etkimizi anlatsın",
+      "yearsLabel": "Yıl",
+      "yearsDesc": "Deneyim",
+      "projectsLabel": "Proje",
+      "projectsDesc": "Başarıyla Tamamlandı",
+      "clientsLabel": "Müşteri",
+      "clientsDesc": "Dünya Çapında",
+      "awardsLabel": "Ödül",
+      "awardsDesc": "ve Takdir",
+      "trustedBy": "Dünya çapında sektör liderleri tarafından güvenilmektedir",
+      "yearsExp": "Yıl Deneyim",
+      "projects": "Proje",
+      "k": "B"
+    }
+  },
+  "contact": {
+    "title": "Birlikte Çalışalım",
+    "subtitle": "Bir fikriniz veya projeniz mi var? Gelin birlikte çalışalım ve vizyonunuzu gerçeğe dönüştürelim.",
+    "badge": "Bana Ulaşın",
+    "form": {
+      "name": {
+        "label": "Ad",
+        "placeholder": "John Doe"
+      },
+      "email": {
+        "label": "E-posta",
+        "placeholder": "john@example.com"
+      },
+      "subject": {
+        "label": "Konu",
+        "placeholder": "Proje Hakkında"
+      },
+      "message": {
+        "label": "Mesaj",
+        "placeholder": "Projeniz hakkında bana bilgi verin..."
+      },
+      "submit": "Mesaj Gönder",
+      "sending": "Gönderiliyor..."
+    },
+    "success": {
+      "title": "Mesaj Başarıyla Gönderildi!",
+      "message": "İletişime geçtiğiniz için teşekkürler. En kısa sürede size geri döneceğim."
+    },
+    "info": {
+      "email": {
+        "title": "E-posta"
+      },
+      "phone": {
+        "title": "Telefon"
+      },
+      "location": {
+        "title": "Konum"
+      }
+    },
+    "social": {
+      "title": "Beni Takip Edin"
+    }
+  },
+  "loading": {
+    "text": "YÜKLENİYOR"
+  },
+  "backToProjects": "Projelere Geri Dön",
+  "technologiesUsed": "Kullanılan Teknolojiler",
+  "projectLink": "Proje Bağlantısı",
+  "liveDemo": "Canlı Demo",
+  "viewSource": "Kaynak Göster",
+  "sourceCode": "Kaynak Kodu",
+  "challenges": "Zorluklar",
+  "solutions": "Çözümler",
+  "duration": "Süre",
+  "teamSize": "Ekip Büyüklüğü",
+  "resultsImpact": "Sonuçlar ve Etki",
+  "videoNotSupported": "Tarayıcınız video etiketini desteklemiyor.",
+  "client": "Müşteri",
+  "date": "Tarih",
+  "technologies": "Teknolojiler",
+  "buy": "Satın Al",
+  "buynow": "Şimdi Satın Al"
+}

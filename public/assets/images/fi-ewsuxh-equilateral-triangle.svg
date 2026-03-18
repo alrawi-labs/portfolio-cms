@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg 
+    role="img" 
+    xmlns="http://www.w3.org/2000/svg" 
+    width="1000mm"
+    height="1000mm"
+    viewBox="0 0 1000 1000"
+    style="max-width:10cm; height: auto;">
+    
+    <path 
+        id="path" 
+        style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;"
+        d="M 499 43C 446 43 397 71 370 118C 370 118 20 724 20 724C -7 770 -7 827 20 874C 47 920 96 949 150 949C 150 949 850 949 850 949C 904 949 953 920 980 874C 1007 827 1007 770 980 724C 980 724 630 118 630 118C 604 73 558 45 507 43C 504 43 502 43 499 43C 499 43 499 43 499 43 M 0,0"
+        transform="">
+    </path>    
+</svg>

@@ -1,0 +1,42 @@
+{
+  "id": 14,
+  "title": "Personal Portfolio",
+  "subtitle": "Modern & Interactive Web Presence",
+  "description": "Professional portfolio website showcasing skills and projects with smooth animations and intuitive UI. Features responsive design, dark/light mode, optimized performance, and SEO. Built with Next.js, React, and Tailwind CSS.",
+  "tags": [
+    "Next.js",
+    "React",
+    "Tailwind CSS",
+    "SEO"
+  ],
+  "image": "/assets/images/Projects/FeaturedProjects/Portfolio.png",
+  "icon": "Globe",
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

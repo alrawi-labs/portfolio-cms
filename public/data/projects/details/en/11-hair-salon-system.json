@@ -1,0 +1,42 @@
+{
+  "id": 11,
+  "title": "Hair Salon System",
+  "subtitle": "Professional Appointment Platform",
+  "description": "Complete appointment management system with three specialized panels for customers, staff, and admins. Features AI-enhanced visuals, smooth animations, and flexible scheduling. Built with Django REST Framework and React with modern responsive design.",
+  "tags": [
+    "Django",
+    "React",
+    "Tailwind CSS",
+    "REST API"
+  ],
+  "image": "/assets/images/Projects/FeaturedProjects/Centilmen.png",
+  "icon": "Calendar",
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

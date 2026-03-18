@@ -1,0 +1,120 @@
+{
+  "id": 8,
+  "title": "Social Media Campaign",
+  "description": "Creative social media campaign for product launch",
+  "longDescription": "A comprehensive social media campaign including visual assets, video content, influencer collaborations, and data-driven strategy for a major product launch.",
+  "category": "Design",
+  "tags": [
+    "Photoshop",
+    "Illustrator",
+    "Marketing"
+  ],
+  "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=1200&h=800&fit=crop",
+  "techLogos": [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg"
+  ],
+  "date": "2023-08",
+  "client": "TrendyTech Products",
+  "duration": "2 months",
+  "teamSize": 8,
+  "role": "Creative Director & Social Media Strategist",
+  "technologies": [
+    {
+      "name": "Adobe Creative Suite",
+      "description": "Design and video editing tools"
+    },
+    {
+      "name": "Canva Pro",
+      "description": "Quick content creation"
+    },
+    {
+      "name": "Social Media Analytics",
+      "description": "Performance tracking"
+    },
+    {
+      "name": "Influencer Platforms",
+      "description": "Campaign management"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": 0,
+      "heading": "Campaign Strategy",
+      "content": "We developed a multi-platform strategy targeting Gen Z and Millennials through Instagram, TikTok, and YouTube. The campaign featured user-generated content, influencer partnerships, and interactive challenges."
+    },
+    {
+      "type": 0,
+      "heading": "Creative Execution",
+      "content": "Over 200 unique assets were created including static posts, stories, reels, and video ads. Each piece was optimized for its specific platform while maintaining consistent brand messaging."
+    }
+  ],
+  "challenges": [
+    "Standing out in a crowded social media landscape",
+    "Coordinating content across multiple platforms",
+    "Measuring campaign effectiveness accurately",
+    "Maintaining authentic brand voice with influencers"
+  ],
+  "solutions": [
+    "Bold, scroll-stopping visual design with animation",
+    "Centralized content calendar and approval workflow",
+    "UTM tracking and platform-specific analytics",
+    "Detailed influencer briefs with brand guidelines"
+  ],
+  "results": [
+    {
+      "metric": "Reach",
+      "value": "5M+",
+      "description": "People reached"
+    },
+    {
+      "metric": "Engagement",
+      "value": "8.5%",
+      "description": "Average engagement rate"
+    },
+    {
+      "metric": "Conversions",
+      "value": "15K+",
+      "description": "Product sales driven"
+    },
+    {
+      "metric": "ROI",
+      "value": "450%",
+      "description": "Return on investment"
+    }
+  ],
+  "testimonial": {
+    "text": "The campaign exceeded all our expectations. The creative work was outstanding and the results speak for themselves. Our product launch was a massive success.",
+    "author": "Alex Thompson",
+    "position": "CMO, TrendyTech Products"
+  },
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

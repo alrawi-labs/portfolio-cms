@@ -1,0 +1,47 @@
+{
+  "title": "المهارات والخبرات",
+  "subtitle": "التقنيات والأدوات التي أعمل بها لبناء حلول رقمية استثنائية",
+  "categories": {
+    "programmingLanguages": "لغات البرمجة",
+    "frameworks": "الأُطر والمكتبات",
+    "concepts": "المفاهيم والتقنيات",
+    "databases": "قواعد البيانات"
+  },
+  "skills": {
+    "programmingLanguages": [
+      { "name": "C#" },
+      { "name": "Java" },
+      { "name": "Python" },
+      { "name": "PHP" },
+      { "name": "JavaScript" },
+      { "name": "Dart" },
+      { "name": "HTML" },
+      { "name": "CSS" }
+    ],
+    "frameworks": [
+      { "name": "ASP.NET MVC Core" },
+      { "name": "Laravel" },
+      { "name": "Django" },
+      { "name": "React" },
+      { "name": "Next.js" },
+      { "name": "Flutter" },
+      { "name": "Bootstrap" },
+      { "name": "Tailwind" }
+    ],
+    "concepts": [
+      { "name": "البرمجة الكائنية (OOP)" },
+      { "name": "هياكل البيانات" },
+      { "name": "الخوارزميات" },
+      { "name": "البرمجة المتوازية" },
+      { "name": "تعلم الآلة" },
+      { "name": "التعلم العميق" },
+      { "name": "معالجة اللغة الطبيعية (NLP)" },
+      { "name": "تنقيب النصوص" },
+      { "name": "أمن الشبكات" }
+    ],
+    "databases": [
+      { "name": "MySQL" },
+      { "name": "Microsoft SQL Server" }
+    ]
+  }
+}

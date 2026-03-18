@@ -1,0 +1,42 @@
+{
+  "id": 13,
+  "title": "Sales Management",
+  "subtitle": "Modern Enterprise Solution",
+  "description": "Comprehensive sales management program with 12 core modules including inventory, customer management, and reporting. Features DevExpress UI, dark mode, multi-currency support, and detailed permission control for enterprise needs.",
+  "tags": [
+    "DevExpress",
+    "C#",
+    "Multi-Currency",
+    "Reports"
+  ],
+  "image": "/assets/images/Projects/FeaturedProjects/SalesManagement.png",
+  "icon": "TrendingUp",
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

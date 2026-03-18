@@ -1,0 +1,248 @@
+{
+    "id": 10,
+    "title": "Modern Portfolio",
+    "subtitle": "Modern Multilingual Developer Portfolio (Next.js Architecture)",
+    "isFeatured": true,
+    "description": "Modern, çok dilli ve yüksek performanslı bir geliştirici portfolyo altyapısı. Kişisel marka sunumunu estetik tasarım, modüler mimari ve ölçeklenebilir yapı ile birleştirir.",
+    "longDescription": "Modern Portfolio; geliştiricilerin projelerini, yeteneklerini ve teknik uzmanlıklarını profesyonel bir şekilde sunabilmeleri için tasarlanmış, çok dilli ve ölçeklenebilir bir portfolyo altyapısıdır.\n\nProje, yalnızca görsel bir vitrin değil; güçlü bir mimari karar sürecinin ürünüdür. Next.js App Router yapısı kullanılarak SEO uyumlu, hızlı ve performans odaklı bir sistem oluşturulmuştur. Dinamik route yapısı sayesinde projeler ayrı detay sayfalarında yönetilebilir.\n\nUluslararasılaşma (i18n) desteği ile içerikler çoklu dil yapısında organize edilmiştir. Tüm metinler merkezi bir yapıdan yönetilebilir ve yeni diller kolayca sisteme entegre edilebilir.\n\nModüler component mimarisi sayesinde her bölüm bağımsız şekilde geliştirilebilir ve yeniden kullanılabilir. Bu yapı, projeyi hem kişisel kullanım hem de ürünleştirme (template olarak satış) açısından sürdürülebilir kılmaktadır.\n\nTasarım tarafında minimalizm, tipografi dengesi ve akıcı animasyonlar ön planda tutulmuştur. Amaç; ziyaretçiye sade, profesyonel ve güven veren bir deneyim sunmaktır.",
+    "category": "Web Application",
+    "tags": [
+        "Next.js",
+        "TypeScript",
+        "Json",
+        "Tailwind CSS",
+        "Multilingual",
+        "UI/UX",
+        "App Router"
+    ],
+    "image": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770994912/portfolio_qeqmgo.png",
+    "techLogos": [
+        "nextjs",
+        "tailwind",
+        "json",
+        "typescript"
+    ],
+    "date": "2025-11",
+    "duration": "1 ay",
+    "teamSize": 1,
+    "role": "Full Stack Developer",
+    "demoLink": "https://yasiralrawi.netlify.app/tr",
+    "githubLink": "https://github.com/yasir237/modern-portfolio-tr",
+    "buy": {
+        "price": "16$",
+        "currency": "USD",
+        "features": [
+            "Ömür boyu güncelleme dahildir",
+            "Tek proje için geçerlidir",
+            "Kaynak kod dahildir"
+        ],
+        "buylink": "https://yasiralrawi.gumroad.com/l/psuwo"
+    },
+    "technologies": [
+        {
+            "name": "Next.js (App Router)",
+            "description": "SEO uyumlu, yüksek performanslı ve server/client bileşen mimarisi destekli modern React framework yapısı."
+        },
+        {
+            "name": "Internationalization (i18n)",
+            "description": "Dinamik route tabanlı çoklu dil desteği. İçerikler merkezi mesaj dosyalarından yönetilebilir."
+        },
+        {
+            "name": "Modüler Component Mimarisi",
+            "description": "Her bölüm bağımsız ve yeniden kullanılabilir bileşenler halinde tasarlanmıştır. Ölçeklenebilir ve sürdürülebilir yapı sağlar."
+        },
+        {
+            "name": "Tailwind CSS",
+            "description": "Utility-first yaklaşım ile hızlı geliştirme, tutarlı tasarım sistemi ve responsive yapı."
+        },
+        {
+            "name": "Dinamik Proje Yönetimi",
+            "description": "Her proje ayrı route üzerinden detaylandırılabilir. JSON tabanlı veri yapısı ile kolay içerik yönetimi."
+        }
+    ],
+    "contentBlocks": [
+        {
+            "type": 0,
+            "heading": "Proje Genel Bakışı",
+            "subheading": "Çok Dilli, Performans Odaklı ve Ölçeklenebilir Portfolyo Altyapısı",
+            "content": "Modern Portfolio, geliştiricilerin teknik uzmanlıklarını ve projelerini profesyonel bir yapı içerisinde sunabilmeleri için tasarlanmış modern bir web uygulamasıdır.\n\nSistem; çoklu dil desteği, dinamik proje detay sayfaları ve modüler bileşen mimarisi ile güçlü bir içerik organizasyonu sunar. SEO uyumlu yapı ve performans optimizasyonları sayesinde hızlı yüklenen ve arama motorlarına uygun bir deneyim sağlar.\n\nProje, hem kişisel marka sunumu hem de ürünleştirilerek template olarak satışa uygun olacak şekilde tasarlanmıştır."
+        },
+        {
+            "type": 3,
+            "heading": "Portfolyo Bölümleri ve Motivasyon Görselleri",
+            "images": [
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770994912/portfolio_qeqmgo.png",
+                    "alt": "Hero Bölümü",
+                    "caption": "Ana karşılama alanı — İsim, unvan, deneyim yılı ve çağrı butonları"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999444/istatistikler_yipkbu.png",
+                    "alt": "İstatistikler Bölümü",
+                    "caption": "Deneyim, proje sayısı, müşteri ve başarı metrikleri"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999440/hizmetler_apczez.png",
+                    "alt": "Hizmetler Bölümü",
+                    "caption": "Full Stack geliştirme, UI/UX tasarım, algoritma geliştirme ve güvenlik hizmetleri"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999655/one_cikan_projeler_axhxrs.png",
+                    "alt": "Öne Çıkan Projeler",
+                    "caption": "Modern teknolojilerle geliştirilmiş seçili projeler"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999656/projelere_yonlendirmek_dbwirf.png",
+                    "alt": "Projeleri Keşfet Bölümü",
+                    "caption": "Ziyaretçileri tüm projelere yönlendiren çağrı alanı"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999439/projeler_swsvpc.png",
+                    "alt": "Projeler Bölümü",
+                    "caption": "Geliştirilen projelerin listelendiği ana portfolyo alanı"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999442/proje_detay_ntu0bh.png",
+                    "alt": "Proje Detay Sayfası",
+                    "caption": "Tek bir projenin detaylı teknik ve görsel sunumu"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999654/deneyim_egitim_d8i64i.png",
+                    "alt": "Deneyim ve Eğitim",
+                    "caption": "Profesyonel deneyim ve akademik geçmişin kronolojik sunumu"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999649/yetenekler_l2vuox.png",
+                    "alt": "Yetenekler Bölümü",
+                    "caption": "Kullanılan programlama dilleri, frameworkler ve teknik uzmanlık alanları"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999651/diller_pges93.png",
+                    "alt": "Diller Bölümü",
+                    "caption": "Arapça, Türkçe ve İngilizce dil yetkinlik seviyeleri"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999658/gonullu_faaliyetler_qnj0jd.png",
+                    "alt": "Gönüllü Faaliyetler",
+                    "caption": "Konuk konuşmacılık ve sosyal katkı çalışmaları"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999656/sertifikalar_e4tg12.png",
+                    "alt": "Sertifikalar Bölümü",
+                    "caption": "IBM, BTK Akademi, Kodluyoruz ve diğer profesyonel sertifikalar"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999605/cumle1_hdmcxb.png",
+                    "alt": "Motivasyon Görseli 1",
+                    "caption": "Karmaşık fikirleri unutulmaz dijital deneyimlere dönüştürüyorum"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999496/cumle2_jorexe.png",
+                    "alt": "Motivasyon Görseli 2",
+                    "caption": "Tasarladığım her proje, yaratıcılık ve teknik zekanın imzasını taşır"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999443/cumle3_znlfij.png",
+                    "alt": "Motivasyon Görseli 3",
+                    "caption": "Sadece kod yazmıyorum, oyun değiştirici çözümler üretiyorum"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999442/cumle4_vm3tct.png",
+                    "alt": "Motivasyon Görseli 4",
+                    "caption": "Gözleri yakalayan ve zihni hayran bırakan arayüzler tasarlıyorum"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999443/iletisim_kivycu.png",
+                    "alt": "İletişim Bölümü",
+                    "caption": "İletişim formu ve doğrudan erişim bilgileri"
+                }
+            ]
+        },
+        {
+            "type": 0,
+            "heading": "Modern Multilingual Architecture",
+            "subheading": "Çok Dilli ve Ölçeklenebilir Sistem Tasarımı",
+            "content": "Bu portfolyo yalnızca görsel bir vitrin değildir. Performans odaklı, modüler ve veri tabanlı bir mimari üzerine inşa edilmiştir.\n\nHer dil için ayrı içerik dosyaları bulunur. Kullanıcı dil değiştirdiğinde sistem ilgili dil dosyasını otomatik olarak yükler.\n\nYeni bir dil eklemek için yalnızca yeni bir içerik dosyası oluşturmak yeterlidir."
+        },
+        {
+            "type": 0,
+            "heading": "JSON Tabanlı Proje Yönetimi",
+            "subheading": "Sınırsız Proje • Kod Değiştirmeden İçerik Yönetimi",
+            "content": "Her proje bağımsız bir JSON dosyası olarak eklenir.\n\nDosya sayısında herhangi bir sınırlama yoktur. Böylece sistem sınırsız sayıda projeyi destekler.\n\nYeni bir proje eklemek için yalnızca yeni bir JSON dosyası oluşturmak yeterlidir. Mevcut yapıya müdahale etmeye gerek yoktur.\n\nBu yaklaşım projeyi teknik bilgi gerektirmeden yönetilebilir hale getirir."
+        },
+        {
+            "type": 0,
+            "heading": "Dinamik Route ve SEO Uyumlu Yapı",
+            "subheading": "Her Proje İçin Ayrı Detay Sayfası",
+            "content": "Dinamik routing yapısı sayesinde her proje kendi URL yapısında sunulur.\n\nBu mimari, arama motorları için optimize edilmiş ayrı sayfalar üretir.\n\nHem kullanıcı deneyimi hem de SEO performansı için modern Next.js App Router yapısı kullanılmıştır."
+        },
+        {
+            "type": 0,
+            "heading": "Modüler Component Mimarisi",
+            "subheading": "Yeniden Kullanılabilir ve Sürdürülebilir Yapı",
+            "content": "Tüm bölümler bağımsız ve yeniden kullanılabilir bileşenler halinde tasarlanmıştır.\n\nBu yapı sayesinde sistem kolayca genişletilebilir, yeni bölümler eklenebilir ve mevcut tasarım bozulmadan geliştirilebilir.\n\nKod organizasyonu temiz, ölçeklenebilir ve sürdürülebilir olacak şekilde planlanmıştır."
+        },
+        {
+            "type": 0,
+            "heading": "Performans ve Kullanıcı Deneyimi",
+            "subheading": "Hızlı, Akıcı ve Modern",
+            "content": "Minimal tasarım anlayışı ve akıcı animasyonlar ile profesyonel bir kullanıcı deneyimi sunulmuştur.\n\nResponsive yapı sayesinde tüm cihazlarda tutarlı bir görünüm elde edilir.\n\nAmaç; sade, güven veren ve etkileyici bir dijital izlenim oluşturmaktır."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1770998139/portfoilo_ozet_xt95sy.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770994912/portfolio_qeqmgo.png",
+            "caption": "Sitenin Özeti"
+        },
+        {
+            "type": 0,
+            "heading": "Blok Tabanlı JSON İçerik Sistemi",
+            "subheading": "Dinamik ve Ölçeklenebilir Yapı",
+            "content": "Her proje bağımsız bir JSON dosyası olarak eklenir. İçerikler 'contentBlocks' dizisi altında yer alır ve her blok bir 'type' değeri ile tanımlanır.\n\nSistem, blok tipine göre ilgili bileşeni otomatik olarak render eder. Bu sayede metin, görsel, video, galeri ve çoklu kod içerikleri esnek şekilde yönetilebilir."
+        },
+        {
+            "type": 4,
+            "heading": "Desteklenen İçerik Blokları",
+            "codeBlocks": [
+                {
+                    "language": "json",
+                    "label": "Type 0 — Metin",
+                    "code": "{\n  \"type\": 0,\n  \"heading\": \"Proje Genel Bakışı\",\n  \"subheading\": \"Alt Başlık\",\n  \"content\": \"Bu alan düz metin içerikleri için kullanılır. Proje açıklamaları ve sistem detayları burada yer alır.\"\n}"
+                },
+                {
+                    "language": "json",
+                    "label": "Type 1 — Görsel",
+                    "code": "{\n  \"type\": 1,\n  \"heading\": \"\",\n  \"imageUrl\": \"https://example.com/image.png\",\n  \"caption\": \"Görsel açıklaması\"\n}"
+                },
+                {
+                    "language": "json",
+                    "label": "Type 2 — Video",
+                    "code": "{\n  \"type\": 2,\n  \"heading\": \"\",\n  \"videoUrl\": \"https://example.com/demo.mp4\",\n  \"posterUrl\": \"https://example.com/poster.png\",\n  \"caption\": \"Video açıklaması\"\n}"
+                },
+                {
+                    "language": "json",
+                    "label": "Type 3 — Galeri",
+                    "code": "{\n  \"type\": 3,\n  \"heading\": \"Ekran Görüntüleri\",\n  \"images\": [\n    {\n      \"url\": \"https://example.com/image1.png\",\n      \"alt\": \"Görsel 1\",\n      \"caption\": \"Ana sayfa tasarımı\"\n    },\n    {\n      \"url\": \"https://example.com/image2.png\",\n      \"alt\": \"Görsel 2\",\n      \"caption\": \"Proje detay sayfası\"\n    }\n  ]\n}"
+                },
+                {
+                    "language": "json",
+                    "label": "Type 4 — Çoklu Kod / Metin",
+                    "code": "{\n  \"type\": 4,\n  \"heading\": \"Teknik Örnekler\",\n  \"codeBlocks\": [\n    {\n      \"language\": \"javascript\",\n      \"label\": \"JavaScript Örneği\",\n      \"code\": \"console.log('Merhaba Dünya');\"\n    },\n    {\n      \"language\": \"python\",\n      \"label\": \"Python Örneği\",\n      \"code\": \"print('Merhaba Dünya')\"\n    }\n  ],\n  \"defaultTab\": 0\n}"
+                }
+            ],
+            "defaultTab": 0
+        },
+        {
+            "type": 0,
+            "heading": "Sistem Avantajları",
+            "content": "Yeni bir proje eklemek için yalnızca yeni bir JSON dosyası oluşturmak yeterlidir. Kod tarafında herhangi bir değişiklik yapılmaz.\n\nHer dil için ayrı içerik dosyası bulunur. Dil değiştirildiğinde sistem otomatik olarak ilgili dosyayı yükler.\n\nBu mimari, portfolyoyu sınırsız genişletilebilir, teknik bilgi gerektirmeden yönetilebilir ve ürünleştirilebilir hale getirir."
+        },
+        {
+    "type": 0,
+    "heading": "GitHub Üzerinden İnceleyin",
+    "subheading": "Kurulum Rehberi ve Dokümantasyon",
+    "content": "Projenin kaynak koduna, kurulum adımlarına ve detaylı dokümantasyonuna GitHub üzerinden erişebilirsiniz.\n\nRepository: https://github.com/yasir237/modern-portfolio-tr"
+}
+    ]
+}

@@ -1,0 +1,122 @@
+{
+  "id": 2,
+  "title": "Mobile Banking App",
+  "description": "Secure and user-friendly mobile banking application",
+  "longDescription": "A comprehensive mobile banking solution with advanced security features, real-time transactions, and intuitive user experience for both iOS and Android platforms.",
+  "category": "Mobile App",
+  "tags": [
+    "React Native",
+    "Firebase",
+    "iOS"
+  ],
+  "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&h=800&fit=crop",
+  "techLogos": [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg"
+  ],
+  "date": "2024-02",
+  "client": "SecureBank Ltd.",
+  "duration": "8 months",
+  "teamSize": 10,
+  "role": "Mobile App Lead Developer",
+  "demoLink": "https://example.com/demo2",
+  "githubLink": "https://github.com/example/project2",
+  "technologies": [
+    {
+      "name": "React Native",
+      "description": "Cross-platform mobile framework"
+    },
+    {
+      "name": "Firebase",
+      "description": "Backend services and authentication"
+    },
+    {
+      "name": "Biometric Auth",
+      "description": "Face ID and fingerprint integration"
+    },
+    {
+      "name": "Redux Toolkit",
+      "description": "State management solution"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": 0,
+      "heading": "Security First Approach",
+      "content": "Banking applications require the highest level of security. We implemented end-to-end encryption, biometric authentication, and real-time fraud detection to ensure user data remains protected at all times."
+    },
+    {
+      "type": 0,
+      "heading": "Seamless User Experience",
+      "content": "Despite the complex security measures, we maintained an intuitive interface. Users can complete transactions in just 3 taps, view real-time balance updates, and manage multiple accounts effortlessly."
+    }
+  ],
+  "challenges": [
+    "Implementing bank-grade security on mobile devices",
+    "Ensuring smooth performance on low-end devices",
+    "Complying with international banking regulations",
+    "Managing offline transaction queue"
+  ],
+  "solutions": [
+    "Multi-layer encryption with hardware security modules",
+    "Optimized rendering with native modules",
+    "Regular security audits and compliance certifications",
+    "Local database sync with conflict resolution"
+  ],
+  "results": [
+    {
+      "metric": "Security",
+      "value": "100%",
+      "description": "No security breaches"
+    },
+    {
+      "metric": "Rating",
+      "value": "4.8/5",
+      "description": "App store rating"
+    },
+    {
+      "metric": "Transactions",
+      "value": "1M+",
+      "description": "Monthly transactions"
+    },
+    {
+      "metric": "Response",
+      "value": "<2s",
+      "description": "Average transaction time"
+    }
+  ],
+  "testimonial": {
+    "text": "The app has revolutionized how our customers interact with their finances. The security features give us peace of mind while maintaining excellent UX.",
+    "author": "Michael Chen",
+    "position": "CTO, SecureBank Ltd."
+  },
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "id": 6,
+  "title": "Fitness Tracking App",
+  "description": "Comprehensive fitness and health tracking application",
+  "longDescription": "A feature-rich fitness app that tracks workouts, nutrition, sleep, and integrates with wearable devices to provide holistic health insights and personalized coaching.",
+  "category": "Mobile App",
+  "tags": [
+    "Flutter",
+    "Dart",
+    "HealthKit"
+  ],
+  "image": "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=1200&h=800&fit=crop",
+  "techLogos": [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
+  ],
+  "date": "2023-10",
+  "client": "FitLife Technologies",
+  "duration": "7 months",
+  "teamSize": 9,
+  "role": "Flutter Developer & Health API Specialist",
+  "technologies": [
+    {
+      "name": "Flutter",
+      "description": "Cross-platform mobile framework"
+    },
+    {
+      "name": "HealthKit & GoogleFit",
+      "description": "Health data integration"
+    },
+    {
+      "name": "Firebase",
+      "description": "Backend and cloud functions"
+    },
+    {
+      "name": "ML Kit",
+      "description": "Exercise recognition AI"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": 0,
+      "heading": "Holistic Health Tracking",
+      "content": "The app goes beyond simple step counting. It tracks workouts, nutrition, sleep quality, heart rate, and stress levels to provide a complete picture of user health and wellness."
+    },
+    {
+      "type": 0,
+      "heading": "AI-Powered Coaching",
+      "content": "Machine learning algorithms analyze user data to provide personalized workout recommendations, nutrition advice, and recovery suggestions tailored to individual goals and progress."
+    }
+  ],
+  "challenges": [
+    "Integrating with multiple wearable device APIs",
+    "Accurate exercise recognition from sensor data",
+    "Managing battery consumption for background tracking",
+    "Syncing data across devices seamlessly"
+  ],
+  "solutions": [
+    "Unified health data adapter layer",
+    "ML models trained on exercise movement patterns",
+    "Smart background refresh and data batching",
+    "Cloud-based sync with conflict resolution"
+  ],
+  "results": [
+    {
+      "metric": "Downloads",
+      "value": "500K+",
+      "description": "App downloads"
+    },
+    {
+      "metric": "Engagement",
+      "value": "85%",
+      "description": "Weekly active users"
+    },
+    {
+      "metric": "Rating",
+      "value": "4.7/5",
+      "description": "User rating"
+    },
+    {
+      "metric": "Goals",
+      "value": "+65%",
+      "description": "Fitness goal achievement"
+    }
+  ],
+  "testimonial": {
+    "text": "This app has completely changed how I approach fitness. The AI coaching feels personal and the insights are incredibly valuable.",
+    "author": "James Wilson",
+    "position": "Product Manager, FitLife Technologies"
+  },
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

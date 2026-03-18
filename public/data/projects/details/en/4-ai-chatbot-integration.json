@@ -1,0 +1,120 @@
+{
+  "id": 4,
+  "title": "AI Chatbot Integration",
+  "description": "Advanced AI-powered customer service chatbot",
+  "longDescription": "An intelligent conversational AI system that handles customer queries, provides personalized recommendations, and seamlessly escalates to human agents when needed.",
+  "category": "AI/ML",
+  "tags": [
+    "Python",
+    "TensorFlow",
+    "NLP"
+  ],
+  "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=1200&h=800&fit=crop",
+  "techLogos": [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+  ],
+  "date": "2023-12",
+  "client": "CustomerFirst Solutions",
+  "duration": "5 months",
+  "teamSize": 6,
+  "role": "AI/ML Engineer",
+  "technologies": [
+    {
+      "name": "Python & TensorFlow",
+      "description": "Machine learning framework"
+    },
+    {
+      "name": "Natural Language Processing",
+      "description": "Text understanding and generation"
+    },
+    {
+      "name": "GPT-4 API",
+      "description": "Advanced language model"
+    },
+    {
+      "name": "PostgreSQL",
+      "description": "Conversation history storage"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": 0,
+      "heading": "Intelligent Understanding",
+      "content": "The chatbot uses advanced NLP to understand context, sentiment, and intent. It can handle complex queries, maintain conversation context, and provide accurate responses in multiple languages."
+    },
+    {
+      "type": 0,
+      "heading": "Continuous Learning",
+      "content": "We implemented a feedback loop where the system learns from every interaction. Customer satisfaction ratings and conversation outcomes are used to fine-tune the model, improving accuracy over time."
+    }
+  ],
+  "challenges": [
+    "Understanding context in multi-turn conversations",
+    "Handling ambiguous or unclear user queries",
+    "Reducing response latency for real-time chat",
+    "Training model with limited domain-specific data"
+  ],
+  "solutions": [
+    "Context-aware transformer models with memory",
+    "Clarification prompts and smart suggestions",
+    "Model optimization and caching strategies",
+    "Data augmentation and transfer learning"
+  ],
+  "results": [
+    {
+      "metric": "Resolution",
+      "value": "78%",
+      "description": "Automated query resolution"
+    },
+    {
+      "metric": "Satisfaction",
+      "value": "4.5/5",
+      "description": "Customer satisfaction score"
+    },
+    {
+      "metric": "Cost",
+      "value": "-60%",
+      "description": "Support cost reduction"
+    },
+    {
+      "metric": "Response",
+      "value": "<3s",
+      "description": "Average response time"
+    }
+  ],
+  "testimonial": {
+    "text": "The AI chatbot has transformed our customer service. It handles the majority of queries instantly while freeing our team to focus on complex issues.",
+    "author": "David Park",
+    "position": "Head of Customer Success"
+  },
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

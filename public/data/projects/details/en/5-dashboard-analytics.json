@@ -1,0 +1,120 @@
+{
+  "id": 5,
+  "title": "Dashboard Analytics",
+  "description": "Real-time analytics dashboard with data visualization",
+  "longDescription": "A comprehensive analytics platform that provides real-time insights through interactive visualizations, customizable widgets, and automated reporting capabilities.",
+  "category": "Web Development",
+  "tags": [
+    "Vue.js",
+    "D3.js",
+    "API"
+  ],
+  "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&h=800&fit=crop",
+  "techLogos": [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/d3js/d3js-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+  ],
+  "date": "2023-11",
+  "client": "DataDriven Corp",
+  "duration": "4 months",
+  "teamSize": 7,
+  "role": "Frontend Architect",
+  "technologies": [
+    {
+      "name": "Vue.js 3",
+      "description": "Progressive JavaScript framework"
+    },
+    {
+      "name": "D3.js",
+      "description": "Data visualization library"
+    },
+    {
+      "name": "WebSocket",
+      "description": "Real-time data streaming"
+    },
+    {
+      "name": "Chart.js",
+      "description": "Interactive charts"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": 0,
+      "heading": "Real-Time Insights",
+      "content": "The dashboard updates in real-time as data flows in, allowing users to monitor key metrics and spot trends immediately. WebSocket connections ensure data is always current without manual refreshes."
+    },
+    {
+      "type": 0,
+      "heading": "Customizable Experience",
+      "content": "Users can create personalized dashboards by selecting from 50+ widget types, arranging layouts through drag-and-drop, and saving multiple dashboard configurations for different use cases."
+    }
+  ],
+  "challenges": [
+    "Rendering large datasets without performance issues",
+    "Maintaining real-time updates across multiple widgets",
+    "Supporting various data sources and formats",
+    "Creating responsive visualizations for all devices"
+  ],
+  "solutions": [
+    "Virtual scrolling and data pagination",
+    "Efficient WebSocket connection management",
+    "Flexible data adapter layer with transformers",
+    "Responsive SVG charts with mobile optimizations"
+  ],
+  "results": [
+    {
+      "metric": "Performance",
+      "value": "60fps",
+      "description": "Smooth rendering speed"
+    },
+    {
+      "metric": "Data Points",
+      "value": "1M+",
+      "description": "Visualized per dashboard"
+    },
+    {
+      "metric": "Users",
+      "value": "5K+",
+      "description": "Daily active users"
+    },
+    {
+      "metric": "Efficiency",
+      "value": "+40%",
+      "description": "Decision-making speed"
+    }
+  ],
+  "testimonial": {
+    "text": "This dashboard has become the single source of truth for our organization. The real-time insights have significantly improved our decision-making process.",
+    "author": "Lisa Anderson",
+    "position": "VP of Analytics, DataDriven Corp"
+  },
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

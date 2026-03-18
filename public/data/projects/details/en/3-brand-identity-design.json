@@ -1,0 +1,120 @@
+{
+  "id": 3,
+  "title": "Brand Identity Design",
+  "description": "Complete brand identity package for tech startup",
+  "longDescription": "A comprehensive brand identity system including logo design, color palette, typography, and brand guidelines for an emerging tech startup in the AI space.",
+  "category": "Design",
+  "tags": [
+    "Branding",
+    "Logo",
+    "UI/UX"
+  ],
+  "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=1200&h=800&fit=crop",
+  "techLogos": [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
+  ],
+  "date": "2024-01",
+  "client": "InnovateTech Startup",
+  "duration": "3 months",
+  "teamSize": 5,
+  "role": "Lead Brand Designer",
+  "technologies": [
+    {
+      "name": "Figma",
+      "description": "Design and prototyping tool"
+    },
+    {
+      "name": "Adobe Illustrator",
+      "description": "Vector graphics creation"
+    },
+    {
+      "name": "Photoshop",
+      "description": "Image editing and mockups"
+    },
+    {
+      "name": "After Effects",
+      "description": "Motion graphics and animations"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": 0,
+      "heading": "Brand Discovery",
+      "content": "We began with extensive workshops to understand the company's vision, values, and target audience. This discovery phase was crucial in developing a brand that truly represents InnovateTech's innovative spirit."
+    },
+    {
+      "type": 0,
+      "heading": "Visual Language",
+      "content": "The visual identity combines modern minimalism with tech-forward elements. The color palette of deep blues and electric purples conveys trust and innovation, while the geometric logo represents precision and AI intelligence."
+    }
+  ],
+  "challenges": [
+    "Creating a unique identity in a saturated tech market",
+    "Balancing professionalism with approachability",
+    "Ensuring scalability across all media formats",
+    "Maintaining consistency across digital and print"
+  ],
+  "solutions": [
+    "Unique geometric patterns inspired by neural networks",
+    "Friendly yet professional typography pairing",
+    "Comprehensive brand guidelines with examples",
+    "Flexible logo system with multiple variations"
+  ],
+  "results": [
+    {
+      "metric": "Recognition",
+      "value": "+85%",
+      "description": "Brand recognition increase"
+    },
+    {
+      "metric": "Consistency",
+      "value": "100%",
+      "description": "Brand compliance rate"
+    },
+    {
+      "metric": "Engagement",
+      "value": "+150%",
+      "description": "Social media growth"
+    },
+    {
+      "metric": "Investment",
+      "value": "$5M",
+      "description": "Series A funding raised"
+    }
+  ],
+  "testimonial": {
+    "text": "The brand identity perfectly captures who we are as a company. It has been instrumental in our fundraising success and market positioning.",
+    "author": "Emma Rodriguez",
+    "position": "Founder & CEO, InnovateTech"
+  },
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "id": 13,
+  "title": "Kurumsal Web İçerik Yönetim Platformu",
+  "subtitle": "Üniversiteler İçin Çok Dilli Kongre ve Kurumsal CMS Sistemi",
+  "isFeatured": true,
+  "description": "Bu proje, üniversitelerin kongre, sempozyum ve akademik etkinliklerini yönetmek için geliştirilmiş, ASP.NET Core MVC tabanlı kurumsal bir web platformudur. Yönetim paneli sayesinde teknik bilgisi olmayan personel, etkinlik ve içerikleri kolayca yönetebilir. Sistem; çok dilli yapı, rol bazlı yetkilendirme ve kurumsal güvenlik esas alınarak tasarlanmıştır.",
+  "longDescription": "Kurumsal Web İçerik ve Etkinlik Yönetim Platformu, üniversitelerde düzenlenen akademik kongre ve etkinlikler için dinamik web siteleri üretmeyi amaçlayan, CMS mantığında çalışan kapsamlı bir ASP.NET Core MVC uygulamasıdır.\n\nYönetim paneli üzerinden; ana sayfa içerikleri, başlıklar, alt sayfalar, kurul üyeleri, tarihler, ücretlendirme bilgileri, konaklama detayları, kurallar, iletişim bilgileri ve ek sayfalar merkezi olarak yönetilebilmektedir.\n\nQuery String tabanlı dil seçimi ile dinamik olarak içeriklerin çok dilli gösterimini sağlamaktadır. ASP.NET Identity altyapısı kullanılarak Root ve Admin rollerine sahip kullanıcılar için güvenli ve kontrollü bir yönetim ortamı oluşturulmuştur.\n\nİstendiği kadar ek sayfalar eklenebilir ve navbara eklenebilir ek sayfaların içeriğini Admin panelini kullanarak tasarlanabilir, navbarda ana bir tercih olarak veya bir dropliste dahil edilebilir.",
+  "category": "Kurumsal Web Sistemleri & Akademik Çözümler",
+  "tags": [
+    "ASP.NET Core MVC",
+    "Kurumsal CMS",
+    "Üniversite Sistemleri",
+    "Kongre Yönetimi",
+    "Çok Dilli Web",
+    "Role Based Authorization",
+    "Entity Framework Core",
+    "SQL Server"
+  ],
+  "image": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1768735937/dafsem-ozet-poster_wgqrz3.png",
+  "techLogos": [
+    "dotnet",
+    "csharp",
+    "sqlserver",
+    "bootstrap"
+  ],
+  "date": "2025-05",
+  "duration": "2 ay",
+  "teamSize": 1,
+  "role": "Full Stack Developer",
+  "demoLink": "https://familycongress.kku.edu.tr/index-tr.html",
+  "githubLink": null,
+   "buy": {
+        "price": "64$",
+        "currency": "USD",
+        "features": [
+      "تحكم كامل بمدى الحياة",
+      "اتاحة جميع المميزات",
+      "تسليم الكود المصدري"
+    ],
+        "buylink": "https://yasiralrawi.gumroad.com/l/elpyz"
+    },
+  "technologies": [
+    {
+      "name": "ASP.NET Core MVC",
+      "description": "Kurumsal web uygulamaları için katmanlı ve sürdürülebilir mimari"
+    },
+    {
+      "name": "Entity Framework Core & SQL Server",
+      "description": "Akademik etkinlik verileri için güçlü ve tutarlı veri yönetimi"
+    },
+    {
+      "name": "Çok Dilli Arayüz",
+      "description": "Query String tabanlı yapı ile dinamik ve sınırsız dil desteği"
+    },
+    {
+      "name": "ASP.NET Identity",
+      "description": "Root ve Admin rollerine sahip kullanıcılar için rol bazlı yetkilendirme"
+    },
+    {
+      "name": "Modüler CMS Yapısı",
+      "description": "Sayfa ve içeriklerin admin paneli üzerinden dinamik yönetimi"
+    },
+    {
+      "name": "Excel Tabanlı Toplu Veri Yönetimi",
+      "description": "Excel dosyası ile toplu veri yükleme ve otomatik hata analizi"
+    },
+    {
+      "name": "Soft Delete Mekanizması",
+      "description": "Kayıtlar veritabanından silinmez, pasif duruma alınır"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": 0,
+      "heading": "Proje Genel Bakışı",
+      "subheading": "Üniversitelerde Kurumsal Siteleri Yönetim Platformu",
+      "content": "Kurumsal Web İçerik ve Etkinlik Yönetim Platformu, üniversitelerde düzenlenen akademik kongre ve etkinlikler için dinamik web siteleri oluşturmayı amaçlayan, CMS mantığıyla çalışan kapsamlı bir ASP.NET Core MVC uygulamasıdır.\n\nYönetim paneli üzerinden ana sayfa içerikleri, başlıklar, alt sayfalar, kurul üyeleri, etkinlik tarihleri, ücretlendirme bilgileri, konaklama detayları, kurallar, iletişim bilgileri ve ek sayfalar merkezi ve kolay bir şekilde yönetilebilmektedir.\n\nQuery String tabanlı dil seçimi sayesinde içerikler dinamik olarak çok dilli biçimde sunulmaktadır. ASP.NET Identity altyapısı kullanılarak Root ve Admin rollerine sahip kullanıcılar için güvenli, kontrollü ve yetkilendirmeye dayalı bir yönetim ortamı sağlanmıştır.\n\nİhtiyaca göre sınırsız sayıda ek sayfa oluşturulabilir; bu sayfalar Admin paneli üzerinden tasarlanarak navigasyon menüsüne ana öğe olarak veya açılır menü (dropdown) altında esnek biçimde eklenebilir.\n\nTeknik tarafta proje, ASP.NET Core MVC mimarisi temel alınarak katmanlı (layered architecture) bir yapıda geliştirilmiştir. Controller, Service, Data (Context) ve ViewModel katmanları birbirinden net bir şekilde ayrılmış; iş mantığı, veri erişimi ve arayüz yapısı izole edilmiştir. Bu yaklaşım sayesinde kod okunabilirliği artırılmış, bakım ve geliştirme süreçleri kolaylaştırılmıştır.\n\nService katmanında arayüz (interface) tabanlı yapı kullanılarak gevşek bağlı bir mimari oluşturulmuş, Entity Framework Core ile veritabanı işlemleri güvenli ve sürdürülebilir şekilde yönetilmiştir. Katmanlı yapı, projeye sonradan dâhil olan geliştiricilerin sistemi hızlıca anlayıp katkı sağlayabilmesine olanak tanımaktadır."
+    },
+   {
+  "type": 2,
+  "heading": "",
+  "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1770500616/mvc_projeleri_ozeti_cmpegt.mp4",
+  "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770417874/proje-ozet-poster_kqob26.png",
+  "caption": "Projenin Özeti"
+},
+    {
+      "type": 0,
+      "heading": "Kullanıcı Arayüzü",
+      "subheading": "Ziyaretçiye sunulan ön yüz yapısı",
+      "content": "Kullanıcı arayüzü, sade ve anlaşılır bir yapı üzerine inşa edilmiştir. Her sayfanın üst bölümünde ilgili sayfanın başlığı yer almakta, başlığın hemen altında ise sayfaya ait içerikler düzenli bir biçimde sunulmaktadır. Sistem kapsamında kullanıcıya sunulan temel sayfalar aşağıdaki gibidir:\n**1. Anasayfa:** Öncelikli olarak *Önemli Tarihler* sayfasında tanımlanan tarihler gösterilir. Bunun altında dinamik olarak değişen bir görsel alanı (slider) yer alır. Sayfanın devamında etkinliğe ait afiş ve etkinlik mektubu yan yana konumlandırılarak ziyaretçiye sunulur.\n**2. Düzenleme Kurulu:** Düzenleme kurulu üyeleri, belirlenen kategorilere göre gruplanarak listelenir.\n**3. Bilim Kurulu:** Bilim kurulu üyeleri, kategorilerine ayrılmış şekilde düzenli bir görünümle sunulur.\n**4. Davetli Konuşmacılar:** Davetli konuşmacılar, ait oldukları kategorilere göre sınıflandırılarak gösterilir.\n**5. Başlıklar:** Etkinlik kapsamında ele alınacak akademik başlıkların yer aldığı sayfadır.\n**6. Etkinlik Programı:** Etkinliğe ait detaylı programın PDF formatında paylaşıldığı sayfadır.\n**7. Önemli Tarihler:** Başvuru, bildiri gönderim ve etkinlik süreçlerine ait kritik tarihlerin listelendiği sayfadır.\n**8. Yazım Kuralları:** Bildiri özetlerinin hazırlanması sırasında uyulması gereken yazım kurallarını içeren sayfadır.\n**9. Sunum Kuralları:** Sunum yapacak katılımcıların uyması gereken kuralların açıklandığı sayfadır.\n**10. Katılım Ücreti:** Katılım ücretleri, ödeme koşulları, ücretlere dâhil olan hizmetler ve ödeme için gerekli banka hesap bilgilerinin yer aldığı sayfadır.\n**11. Konaklama:** Etkinliğin düzenlendiği şehirde konaklama yapılabilecek tesislere ait isim, iletişim bilgileri ve detayları içeren sayfadır.\n**12. Başvuru:** Başvuru sürecinde gerekli olan indirilebilir formlar ve iletişim e-posta bilgilerinin bulunduğu sayfadır.\n**13. İletişim:** Etkinliğe ait adres, e-posta ve telefon bilgilerinin yer aldığı iletişim sayfasıdır.\n\nBunlara ek olarak, sistem esnek CMS yapısı sayesinde sınırsız sayıda yeni sayfanın eklenmesine veya mevcut sayfaların kaldırılmasına olanak tanımaktadır."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1768735300/dafsem_ozet_jdbgwh.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1768764267/Ekran_g%C3%B6r%C3%BCnt%C3%BCs%C3%BC_2026-01-18_081849_ujjxmz.png",
+      "caption": "Ziyaretçiye sunulan ön yüz yapısı"
+    },
+    {
+      "type": 0,
+      "heading": "Yönetim Paneli",
+      "subheading": "İçerik ve sistem yönetimi",
+      "content": "Yönetim paneli, akademik etkinliklere ait tüm içeriklerin merkezi ve yetkilendirilmiş bir yapı üzerinden yönetilmesini sağlayacak şekilde tasarlanmıştır. Teknik bilgisi olmayan idari personelin dahi kolayca kullanabilmesi için sade, anlaşılır ve modüler bir arayüz sunmaktadır.\nPanel üzerinden aşağıdaki içerik ve modüller yönetilebilmektedir:\n**• Ana Sayfa:** Anasayfada yer alan dinamik içerikler, görseller ve vitrin alanları yönetilir.\n**• Kurul:** Düzenleme kurulu, bilim kurulu ve davetli konuşmacılar gibi kurul yapıları kategorilere ayrılarak yönetilir.\n**• Başlıklar:** Etkinlik kapsamında ele alınacak akademik başlıklar tanımlanır ve güncellenir.\n**• Tarihler:** Başvuru, bildiri gönderim ve etkinlik süreçlerine ait önemli tarihler yönetilir.\n**• Kurallar:** Yazım ve sunum kuralları gibi katılımcıları ilgilendiren içerikler düzenlenir.\n**• Hizmetler:** Etkinlik süresince sunulan hizmetler tanımlanır.\n**• Ücretler:** Katılım ücretleri, ücret türleri ve ilgili açıklamalar yönetilir.\n**• Konaklama:** Konaklama seçenekleri, tesis bilgileri ve iletişim detayları düzenlenir.\n**• Banka Bilgileri:** Ödeme süreçleri için gerekli banka ve hesap bilgileri yönetilir.\n**• Başvuru:** Başvuruya ait indirilebilir dokümanlar ve yönlendirme bilgileri tanımlanır.\n**• İletişim:** Kurumsal iletişim bilgileri (adres, e-posta, telefon) güncellenir.\n**• Diller:** Sistem desteklenen diller ve çok dilli içerikler merkezi olarak yönetilir.\n**• Ek Sayfalar:** İhtiyaca göre sınırsız sayıda yeni sayfa oluşturulabilir; bu sayfalar navigasyona ana öğe olarak veya açılır menü (dropdown) altında eklenebilir.\n**• Ayarlar:** Siteye ait genel yapılandırmalar ve sistem ayarları yapılır.\n**• Hesaplar:** Root ve Admin kullanıcıları için rol bazlı yetkilendirme ve hesap yönetimi sağlanır.\nTüm yönetim süreçleri, rol bazlı yetkilendirme ve güvenlik kontrolleriyle desteklenmiş; sürdürülebilir, ölçeklenebilir ve kurumsal kullanıma uygun bir yapı sunacak şekilde geliştirilmiştir."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1768769679/panel-ozeti_p5yx9a.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1768769725/panel-ozet-poster_z3gxxa.png",
+      "caption": "Yönetim panelin özeti"
+    },
+    {
+      "type": 0,
+      "heading": "Ana Sayfa İçerik Yönetimi",
+      "content": "Ana sayfa içerik yönetimi, idari kullanıcıların etkinliğe ait vitrin alanlarını hızlı, esnek ve teknik bilgiye ihtiyaç duymadan güncelleyebilmesi amacıyla tasarlanmıştır.\n\nYönetim paneli üzerinden; etkinlik mektubu, öne çıkan tarihler, slider alanında yer alan görseller ve etkinliğe ait afiş görseli kolayca yönetilebilmektedir. Tüm bu içerikler ekleme, düzenleme, silme ve güncelleme işlemleriyle anlık olarak değiştirilebilir.\n\nSlider bölümünde kullanılan görseller dinamik bir yapı üzerinden kontrol edilmekte olup, fotoğraflar tek tek eklenebilir, sıralamaları değiştirilebilir veya sistemden tamamen kaldırılabilir. Aynı şekilde etkinliğin afiş görseli de admin paneli aracılığıyla pratik bir şekilde güncellenebilir ya da silinerek yeni bir görsel ile değiştirilebilir."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1768825928/anasayfa-yonetimi_ugqrnz.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1768843626/anasayfa-yonetimi-posteri_qyodjc.png",
+      "caption": "Ana Sayfa İçerik Yönetimi"
+    },
+    {
+      "type": 0,
+      "heading": "Kurul Üyeleri Yönetimi",
+      "subheading": "Kategori, unvan ve toplu veri yönetimi",
+      "content": "Kurul üyeleri yönetim süreci, akademik yapıların hiyerarşik ve düzenli biçimde yönetilebilmesi amacıyla çok adımlı ve esnek bir yapı ile tasarlanmıştır.\n\nBir kurul üyesi eklenmeden önce, ilgili üyenin bağlı olacağı kurul kategorisinin sisteme tanımlanması gerekmektedir. Kategori ekleme aşamasında, bu kategorinin hangi sayfa altında (örneğin Düzenleme Kurulu, Bilim Kurulu, Davetli Konuşmacılar vb.) görüntüleneceği belirlenir. Böylece kurul yapısı, site genelinde tutarlı ve kontrollü bir şekilde yönetilir.\n\nKategori tanımlandıktan sonra, kurul üyesinin akademik unvanı sisteme eklenir ve ardından kurul üyesine ait kişisel ve kurumsal bilgiler admin paneli üzerinden detaylı olarak girilir.\n\nKurul üyesi sayısının fazla olduğu durumlar için toplu veri yönetimi desteği sağlanmıştır. Admin paneli üzerinden Excel dosyası yüklenerek çok sayıda kurul üyesi tek seferde sisteme aktarılabilir. Sistem, yüklenen Excel dosyasını otomatik olarak analiz eder; hatalı veya eksik girilmiş verileri satır bazında tespit ederek her bir hatayı nedenleriyle birlikte tablo halinde yöneticinin ekranına sunar.\n\nTespit edilen hatalı kayıtlar, yalnızca problemli satırları içeren ayrı bir Excel dosyası olarak indirilebilir. Bu sayede yönetici sadece hatalı verileri düzelterek yeniden yükleme yapabilir ve tüm dosyayı baştan düzenlemek zorunda kalmaz. Bu yapı, özellikle büyük ölçekli akademik kurulların hızlı ve hatasız biçimde yönetilmesini mümkün kılar."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1768848710/kurulu-uyeleri-yonetimi_v3vum9.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1768848062/kurulu-uyeleri-yonetimi-posteri_hfuwur.png",
+      "caption": "Kurul Üyeleri Yönetimi"
+    },
+    {
+      "type": 0,
+      "heading": "Başlık, Yazım Kuralları ve Sunum Kuralları Yönetimi",
+      "subheading": "Kategori bazlı ve güvenli içerik yönetimi",
+      "content": "Başlık yönetimi, sistemin en temel ve sade yönetim alanlarından biri olarak tasarlanmıştır. Admin panelinde yer alan Başlıklar sekmesi üzerinden yeni başlıklar kolayca eklenebilir; mevcut kayıtlar görüntülenebilir, düzenlenebilir veya silinebilir. Kullanıcı deneyimini ve veri bütünlüğünü korumak amacıyla sistemde uygulanan silme işlemleri fiziksel silme şeklinde gerçekleştirilmez. Bir kayıt silindiğinde, veritabanında tamamen kaldırılmak yerine ilgili kaydın durumu (state) aktif (True) değerinden pasif (False) değerine çekilerek \"soft delete\" mantığıyla yönetilir.\n\nYazım Kuralları ve Sunum Kuralları yönetimi ise kategori bazlı bir yapı üzerine kurulmuştur. Sisteme yeni bir kural eklenmeden önce, bu kuralın ait olacağı kategori tanımlanmalıdır. Örneğin; \"Yazım Kuralları\" ve \"Sunum Kuralları\" ayrı kategoriler olarak sisteme eklenir ve her kural mutlaka bir kategoriye bağlı olacak şekilde yapılandırılır.\n\nKategori tanımlama işlemi tamamlandıktan sonra, admin paneli üzerinden kural içeriği oluşturulur ve hangi kategoriye ait olduğu seçilerek sisteme eklenir. Bu yapı sayesinde kurallar; sayfa bazlı, düzenli ve sürdürülebilir bir şekilde yönetilebilir. Kategori bazlı mimari, hem içeriklerin kullanıcı tarafında doğru sayfalarda gösterilmesini sağlar hem de ileride yeni kural türlerinin sisteme kolayca entegre edilmesine olanak tanır."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1768851470/baslik-yazim-sunum-kurallari_wjjo1b.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1768853963/baslik-yazim-sunum-kurallari-posteri_sjjydh.png",
+      "caption": "Başlık, Yazım Kuralları ve Sunum Kuralları Yönetimi"
+    },
+    {
+      "type": 0,
+      "heading": "Katılım Ücreti Yönetimi",
+      "subheading": "Ücretler, Hizmetler ve Banka Hesapları",
+      "content": "Katılım Ücreti sayfasında yer alan tüm ücret, hizmet ve banka hesap bilgileri Admin paneli üzerinden merkezi olarak yönetilmektedir.\n\nÜcretler sekmesi aracılığıyla yeni bir ücret eklenebilir, mevcut ücretler düzenlenebilir veya silinebilir.\n\nHizmet yönetiminde her bir hizmet mutlaka bir kategoriye (hizmet türüne) bağlıdır. Öncelikle hizmet türü oluşturulur, ardından bu türe ait bir veya birden fazla hizmet eklenir. Hizmet türleri ve hizmetler düzenlenebilir veya silinebilir.\n\nBanka hesapları, Banka Hesapları sekmesi üzerinden eklenir. Mevcut banka hesapları düzenlenebilir, silinebilir veya detayları görüntülenebilir.\n\nTüm bu bilgiler kullanıcı tarafında tek bir sayfa altında, \"Katılım Ücreti\" başlığı ile düzenli ve anlaşılır şekilde sunulmaktadır."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1769196416/hizmet-ucret-bank_Clipchamp_ile_yap%C4%B1ld%C4%B1_ygkqd7.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1769196720/hizmet-ucret-bank-posteri_mpksr8.png",
+      "caption": "Ücretler, Hizmetler ve Banka Hesapları Yönetimi"
+    },
+    {
+      "type": 0,
+      "heading": "Konaklama Sayfası ve Oda Tipleri Yönetimi",
+      "subheading": "Konaklanabilecek yerlerin ve oda türlerinin kolay yönetimi",
+      "content": "Konaklama sayfası, etkinliğe katılan kullanıcıların konaklayabileceği yerleri detaylı şekilde görebilmesi amacıyla tasarlanmıştır. Bu sayfada konaklama adı, adres bilgileri, iletişim bilgileri ve sunulan oda türleri gibi gerekli tüm bilgiler kullanıcıya eksiksiz olarak gösterilir.\n\nYeni bir konaklama evi eklemek için admin panelinde yer alan Konaklama sekmesine girilir ve ilgili konaklamaya ait temel bilgiler doldurularak kayıt oluşturulur. Konaklama bilgileri kaydedildikten sonra, sistem otomatik olarak oda ekleme modalını gösterir ve bu konaklamaya ait oda türleri girilebilir.\n\nOda türleri, her biri belirli bir fiyat bilgisiyle birlikte tanımlanır. Örneğin; Tek Kişilik Oda: 900 ₺ gibi farklı oda tipleri eklenebilir. Bir konaklamaya birden fazla oda türü tanımlanabilir ve bu işlemler tamamen esnek bir yapı üzerinden yürütülür.\n\nKonaklama sekmesinin hemen altında yer alan Oda Tipleri sekmesi üzerinden mevcut oda türleri görüntülenebilir, düzenlenebilir veya silinebilir. Ayrıca yeni oda tipleri de bu alan üzerinden sisteme eklenebilir. Tüm konaklama ve oda yönetimi işlemleri admin paneli üzerinden hızlı ve kolay bir şekilde yönetilebilir."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1769255819/konaklama-odalari_Clipchamp_ile_yap%C4%B1ld%C4%B1_s947ck.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1769255823/konaklama-odalari-posteri_qb16eg.png",
+      "caption": "Konaklanabilecek yerlerin ve oda türlerinin kolay yönetimi"
+    },
+    {
+      "type": 0,
+      "heading": "Başvuru ve İletişim Sayfaları Yönetimi",
+      "subheading": "Başvuru formu ve iletişim bilgilerinin merkezi yönetimi",
+      "content": "Başvuru ve iletişim sayfalarını yönetmek için admin panelinden Başvuru sekmesine gidilir. Bu alanda başvuru sayfasında gösterilecek üst ve alt açıklama metinleri girilir. Ardından başvuru formu sisteme yüklenir. Yüklenen form indirilebilir veya silinebilir.\n\nBaşvuru sayfasında kullanıcı, formu indirerek doldurabilir ve sayfada belirtilen e-posta adresine gönderebilir.\n\nİletişim sayfası yönetimi için e-posta adresi, fiziksel adres ve telefon bilgileri girilir. Her bir telefon için birden fazla dahili numara eklenebilir. Dahili numaralar düzenlenebilir veya silinebilir. Tüm iletişim bilgileri admin paneli üzerinden kolayca yönetilir."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1769266157/basvuru-iletisim_adbzka.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1769266162/basvuru-iletisim-posteri_jizjff.png",
+      "caption": "Başvuru formu ve iletişim bilgilerinin merkezi yönetimi"
+    },
+    {
+      "type": 0,
+      "heading": "Ayarlar Yönetimi",
+      "subheading": "Site genel ayarlarının merkezi kontrolü",
+      "content": "Site ayarları admin panelindeki Ayarlar sekmesinden yönetilir. Bu alanda her bir sayfanın hero bölümünde gösterilen içerikler düzenlenebilir. Site adı ve kurum adı değiştirilebilir. Kurum adı hero alanında görüntülenir.\n\nSitenin ana logosu ile hero alanının sağ ve sol tarafında yer alan logolar güncellenebilir. Mevcut logolar değiştirilebilir veya yenileri yüklenebilir.\n\nAyarlar sekmesinin alt bölümünde sayfa isimleri yönetilir. Sayfa başlıkları özelleştirilebilir. Örneğin Anasayfa yerine farklı bir isim yazılabilir. İletişim sayfası Bize Arayın olarak değiştirilebilir.\n\nSayfa isimlerini varsayılan haline döndürmek için Sıfırla butonu kullanılır. Bu işlemle tüm sayfa adları tekrar Anasayfa, İletişim gibi orijinal değerlerine döner."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1769277011/ayarlar_j3g81y.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1769279828/ayarlar-posteri_gut7ui.png",
+      "caption": "Site genel ayarlarının merkezi kontrolü"
+    },
+    {
+      "type": 0,
+      "heading": "Ek Sayfalar Yönetimi",
+      "subheading": "Dinamik ve sınırsız içerik oluşturma",
+      "content": "Sistemin en güçlü özelliklerinden biri ek sayfa oluşturma yapısıdır. Admin Paneli üzerinden sınırsız sayıda ek sayfa oluşturulabilir. Bu sayfalar navbar üzerinde ana sayfaların yanına eklenebilir ve tek tıkla ilgili sayfaya yönlendirme yapılır.\n\nHer ek sayfanın içeriği tamamen dinamik olarak yönetilir. Başlık, paragraf ve benzeri birçok içerik elemanı panel üzerinden eklenebilir. İçerikler istenildiği kadar çoğaltılabilir ve sıralanabilir.\n\nEk sayfalar navbar içerisinde açılır menü (dropdown) olarak da tanımlanabilir. Örneğin “Kongre Programı” başlığı altında bir açılır liste oluşturulur. Bu listede “Kongre Programı” ve “Atölye Programı” gibi alt sayfalar yer alır. Her alt sayfa ayrı bir sayfaya yönlenir.\n\nTüm ek sayfalar admin panelinden düzenlenebilir. Detayları görüntülenebilir. Gerekli durumlarda tamamen silinebilir. Ek sayfa sayısında ve içerik miktarında herhangi bir sınır bulunmaz."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1769332618/eksayfalar_rndmlx.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1769332356/eksayfalar-posteri_mw6mli.png",
+      "caption": "Dinamik ve sınırsız içerik oluşturma"
+    },
+    {
+      "type": 0,
+      "heading": "Yetkilendirme ve Hesap Yönetimi",
+      "subheading": "Root ve Admin rol yapısı",
+      "content": "Sistemde Admin Paneli için iki farklı yetki seviyesi bulunmaktadır: Root ve Admin.\n\nRoot yetkisi, sistemdeki tüm işlemleri sınırsız şekilde yapabilir. Admin yetkisi ise içerik, sayfa ve veriler üzerinde tüm işlemleri gerçekleştirebilir ancak yeni bir admin hesabı ekleyemez, silemez veya yönetemez.\n\nAdmin yetkisine sahip bir kullanıcı yeni bir admin eklemek istediğinde, bu işlem doğrudan gerçekleşmez. Sistem, root yetkisine sahip tüm hesaplara bildirim gönderir. Root yetkisine sahip hesaplardan biri onay verdiği takdirde ilgili admin hesabı aktif hale gelir.\n\nRoot yetkisine sahip kullanıcılar mevcut hesapları kilitleyebilir. Kilitlenen bir hesap sisteme giriş yapamaz. Giriş sırasında kullanıcıya hesabının kilitlendiğine dair uyarı mesajı gösterilir. Kilitlenen hesap, yalnızca root yetkisine sahip bir kullanıcı tarafından tekrar aktif hale getirilebilir.\n\nTüm hesaplar kendi profillerini düzenleyebilir, şifrelerini değiştirebilir ve e-posta adreslerini güncelleyebilir. Root yetkisine sahip kullanıcılar sistemdeki tüm hesapların profil bilgilerini düzenleyebilirken, Admin yetkisine sahip kullanıcılar yalnızca kendi profillerini yönetebilir ve şifre değişikliği yapabilir."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1769342230/hesaplar_yqo8ex.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1769342524/hesaplar_xhvsgb.png",
+      "caption": "Yetkilendirme ve Hesap Yönetimi"
+    },
+    {
+      "type": 0,
+      "heading": "Çok Dilli İçerik Yönetimi",
+      "subheading": "Dil bazlı bağımsız içerik yapısı",
+      "content": "Sistem, içeriklerin birden fazla dilde sunulmasını destekler.\n\nAdmin Paneli üzerinden yeni bir dil eklenerek tamamen bağımsız bir içerik alanı oluşturulur. Varsayılan dil Türkçe olarak kabul edilir. Türkçe içerikler tamamlandıktan sonra yeni bir dil eklendiğinde, bu dile ait tüm alanlar boş olarak başlar ve içerikler sıfırdan girilir.\n\nYönetim panelindeki dil seçim açılır menüsü (dropdown) üzerinden aktif dil kolayca değiştirilebilir. Örneğin Türkçe seçildiğinde yalnızca Türkçe içerikler görüntülenir ve yönetilir.\n\nBaşka bir dil seçildiğinde ise yalnızca o dile ait içerikler gösterilir. Her dilin içeriği birbirinden bağımsızdır ve ayrı ayrı düzenlenebilir."
+    },
+    {
+      "type": 2,
+      "heading": "",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1769363612/diller_aag76a.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1769370497/diller-posteri_msbabj.png",
+      "caption": "Çok Dilli İçerik Yönetimi"
+    }
+  ]
+}                  

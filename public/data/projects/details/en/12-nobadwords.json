@@ -1,0 +1,42 @@
+{
+  "id": 12,
+  "title": "NoBadWords",
+  "subtitle": "AI-Powered Content Filtering",
+  "description": "Intelligent content moderation system combining AI with comprehensive toxic word database. Provides multilingual support, real-time filtering, and detailed analytics with API integration for websites and applications.",
+  "tags": [
+    "AI",
+    "NLP",
+    "API",
+    "Security"
+  ],
+  "image": "/assets/images/Projects/FeaturedProjects/NoBadWords.png",
+  "icon": "Filter",
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

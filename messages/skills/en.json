@@ -1,0 +1,47 @@
+{
+  "title": "Skills & Expertise",
+  "subtitle": "Technologies and tools I work with to build exceptional digital solutions",
+  "categories": {
+    "programmingLanguages": "Programming Languages",
+    "frameworks": "Frameworks & Libraries",
+    "concepts": "Concepts & Techniques",
+    "databases": "Databases"
+  },
+  "skills": {
+    "programmingLanguages": [
+      { "name": "C#" },
+      { "name": "Java" },
+      { "name": "Python" },
+      { "name": "PHP" },
+      { "name": "JavaScript" },
+      { "name": "Dart" },
+      { "name": "HTML" },
+      { "name": "CSS" }
+    ],
+    "frameworks": [
+      { "name": "ASP.NET MVC Core" },
+      { "name": "Laravel" },
+      { "name": "Django" },
+      { "name": "React" },
+      { "name": "Next.js" },
+      { "name": "Flutter" },
+      { "name": "Bootstrap" },
+      { "name": "Tailwind" }
+    ],
+    "concepts": [
+      { "name": "OOP" },
+      { "name": "Data Structures" },
+      { "name": "Algorithms" },
+      { "name": "Parallel Programming" },
+      { "name": "Machine Learning" },
+      { "name": "Deep Learning" },
+      { "name": "NLP" },
+      { "name": "Text Mining" },
+      { "name": "Network Security" }
+    ],
+    "databases": [
+      { "name": "MySQL" },
+      { "name": "Microsoft SQL Server" }
+    ]
+  }
+}

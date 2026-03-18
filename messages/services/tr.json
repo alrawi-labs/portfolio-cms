@@ -1,0 +1,26 @@
+{
+  "title": "Kaliteli Hizmetlerim",
+  "subtitle": "Fikirleri, hassasiyetle ve uzun vadeli vizyonla inşa edilmiş güçlü, ölçeklenebilir ve güzel dijital deneyimlere dönüştürüyorum.",
+  "items": [
+    {
+      "number": "01",
+      "title": "Full Stack Geliştirme",
+      "description": "Sezgisel, yüksek performanslı arayüzlerden güvenli backend mimarilerine kadar eksiksiz uçtan uca web çözümleri oluşturuyorum. Odak noktam temiz kod, ölçeklenebilirlik ve tüm cihazlarda olağanüstü kullanıcı deneyimidir."
+    },
+    {
+      "number": "02",
+      "title": "UI / UX Tasarım",
+      "description": "Zarif, işlevsel ve kullanıcı merkezli arayüzler tasarlıyorum. Her düzen, etkileşim ve akış, doğal, görsel olarak rafine ve zahmetsiz hissetmek için şekillendirilir ve kullanıcılarınızın deneyimin her anından keyif almasını sağlar."
+    },
+    {
+      "number": "03",
+      "title": "Algoritma Geliştirme",
+      "description": "Karmaşık problemleri hassasiyet ve verimlilikle çözen özel algoritmalar geliştiriyorum. Optimize edilmiş mantık yapılarından akıllı otomasyona kadar, daha akıllı, daha hızlı ve daha güvenilir çalışan sistemler tasarlıyorum."
+    },
+    {
+      "number": "04",
+      "title": "Web Sitesi Güvenliği ve Bakım",
+      "description": "Endüstri standardı güvenlik uygulamalarını kullanarak web sitelerini koruyorum ve sürdürüyorum. Sürekli izleme, performans optimizasyonu ve düzenli güncellemelerle web sitenizin hızlı, kararlı ve tamamen güvenli kalmasını sağlıyorum."
+    }
+  ]
+}

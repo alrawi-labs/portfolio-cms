@@ -1,0 +1,120 @@
+{
+  "id": 9,
+  "title": "Blockchain Platform",
+  "description": "Decentralized application built on Ethereum",
+  "longDescription": "A decentralized finance (DeFi) platform enabling peer-to-peer transactions, token staking, and governance through smart contracts on the Ethereum blockchain.",
+  "category": "Blockchain",
+  "tags": [
+    "Solidity",
+    "Web3",
+    "Smart Contracts"
+  ],
+  "image": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&h=800&fit=crop",
+  "techLogos": [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+    "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ethereum/ethereum-original.svg"
+  ],
+  "date": "2023-07",
+  "client": "CryptoVentures DAO",
+  "duration": "9 months",
+  "teamSize": 12,
+  "role": "Blockchain Developer & Smart Contract Auditor",
+  "technologies": [
+    {
+      "name": "Solidity",
+      "description": "Smart contract programming"
+    },
+    {
+      "name": "Web3.js",
+      "description": "Blockchain interaction library"
+    },
+    {
+      "name": "Hardhat",
+      "description": "Ethereum development environment"
+    },
+    {
+      "name": "IPFS",
+      "description": "Decentralized file storage"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": 0,
+      "heading": "Decentralized Architecture",
+      "content": "The platform is built on Ethereum using smart contracts that execute automatically without intermediaries. All transactions are transparent, immutable, and verified by the network."
+    },
+    {
+      "type": 0,
+      "heading": "Security First",
+      "content": "Security was paramount. Every smart contract underwent multiple audits, penetration testing, and formal verification. We implemented best practices including reentrancy guards, access controls, and upgrade mechanisms."
+    }
+  ],
+  "challenges": [
+    "Managing high gas fees during network congestion",
+    "Ensuring smart contract security and immutability",
+    "Creating intuitive UX for non-crypto users",
+    "Implementing efficient governance mechanisms"
+  ],
+  "solutions": [
+    "Layer 2 scaling solution with Polygon integration",
+    "Multiple security audits and bug bounty program",
+    "Progressive disclosure and guided onboarding",
+    "Token-weighted voting with delegation features"
+  ],
+  "results": [
+    {
+      "metric": "TVL",
+      "value": "$50M+",
+      "description": "Total value locked"
+    },
+    {
+      "metric": "Users",
+      "value": "25K+",
+      "description": "Active wallet addresses"
+    },
+    {
+      "metric": "Security",
+      "value": "100%",
+      "description": "Audit success rate"
+    },
+    {
+      "metric": "Transactions",
+      "value": "500K+",
+      "description": "On-chain transactions"
+    }
+  ],
+  "testimonial": {
+    "text": "The technical expertise and security focus of this team is exceptional. They built a platform we can trust with millions of dollars in assets.",
+    "author": "Satoshi Nakamoto Jr.",
+    "position": "Lead Developer, CryptoVentures DAO"
+  },
+  "detail": {
+    "backButton": "Back to Projects",
+    "meta": {
+      "date": "Date",
+      "duration": "Duration",
+      "client": "Client",
+      "teamSize": "Team Size",
+      "role": "Role"
+    },
+    "buttons": {
+      "viewLive": "View Live Site",
+      "viewCode": "View Code"
+    },
+    "sections": {
+      "technologies": "Technologies Used",
+      "technologiesDesc": "Leveraging modern tools and frameworks to build a robust solution",
+      "challenges": "Challenges",
+      "solutions": "Solutions",
+      "results": "Results & Impact",
+      "resultsDesc": "Measurable outcomes that demonstrate the success of the project"
+    },
+    "cta": {
+      "title": "Interested in Similar Results?",
+      "description": "Let's discuss how we can help bring your project to life with the same level of excellence",
+      "contact": "Get in Touch",
+      "viewMore": "View More Projects"
+    }
+  }
+}

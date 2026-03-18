@@ -1,0 +1,32 @@
+{
+  "title": "Languages",
+"subtitle": "Mastering languages opens doors to global communication and enhances opportunities for professional collaboration across cultures",
+  "levels": {
+    "native": "Native",
+    "professional": "Professional",
+    "intermediate": "Intermediate"
+  },
+  "languages": [
+    {
+      "name": "Arabic",
+      "nativeName": "العربية",
+      "level": "native",
+      "flag": "🇮🇶",
+      "backward": "/assets/images/LanguagesFlags/iraq.png"
+    },
+    {
+      "name": "Turkish",
+      "nativeName": "Türkçe",
+      "level": "professional",
+      "flag": "🇹🇷",
+       "backward": "/assets/images/LanguagesFlags/turkey.png"
+    },
+    {
+      "name": "English",
+      "nativeName": "English",
+      "level": "intermediate",
+      "flag": "🇺🇸",
+       "backward": "/assets/images/LanguagesFlags/america.png"
+    }
+  ]
+}

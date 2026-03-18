@@ -1,0 +1,41 @@
+{
+  "title": "Volunteering",
+  "volunteering": [
+    {
+      "role": "Guest Speaker",
+      "organization": "Bahçeşehir College – Kırıkkale Campus",
+      "event": "Career Journeys: How I Succeeded",
+      "location": "Kırıkkale, Türkiye",
+      "date": "November 2025",
+      "description": "As a representative of Kırıkkale University, I shared my experiences in Computer Engineering, university life, and career planning with students.",
+      "image": "/assets/images/Volunteering/bahcesehir-katilim-belgesi.png"
+    },
+    {
+      "role": "Organizing Committee Member",
+      "organization": "Kırıkkale University",
+      "event": "International Symposium on History of Science",
+      "location": "Kırıkkale, Turkey",
+      "date": "November 2024",
+      "description": "Served as a member of the organizing committee for the International Symposium on History of Science, contributing to planning, organizing, website management, and supervision to ensure the success of the academic event.",
+      "image": "/assets/images/Volunteering/Committee.png"
+    },
+    {
+      "role": "Arabic Teacher",
+      "organization": "Kırıkkale University",
+      "event": "International Relations Office - Foreign Languages Club",
+      "location": "Kırıkkale, Turkey",
+      "date": "January 2022 - February 2022",
+      "description": "Taught Arabic to students from various departments and received a certificate of appreciation for my contribution.",
+      "image": "/assets/images/Volunteering/arabic_teacher.png"
+    },
+    {
+      "role": "Certified First Aider",
+      "organization": "Kırıkkale Provincial Health Directorate",
+      "event": "Kırıkkale Provincial Health Directorate",
+      "location": "Kırıkkale, Turkey",
+      "date": "January 2020",
+      "description": "Obtained a certified first aider certificate.",
+      "image": "/assets/images/Volunteering/FIRST_AIDER_CERTIFICATE.png"
+    }
+  ]
+}

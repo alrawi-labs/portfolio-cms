@@ -1,0 +1,41 @@
+{
+  "title": "Gönüllü Çalışmalar",
+  "volunteering": [
+    {
+      "role": "Konuk Konuşmacı",
+      "organization": "Bahçeşehir Koleji Kırıkkale Kampüsü",
+      "event": "Meslek Yolculukları: Nasıl Başarılı Oldum",
+      "location": "Kırıkkale, Türkiye",
+      "date": "Kasım 2025",
+      "description": "Kırıkkale Üniversitesi temsilcisi olarak Bilgisayar Mühendisliği, üniversite süreci ve kariyer planlaması üzerine deneyimlerimi öğrencilerle paylaştım.",
+      "image": "/assets/images/Volunteering/bahcesehir-katilim-belgesi.png"
+    },
+    {
+      "role": "Düzenleme Kurulu Üyesi",
+      "organization": "Kırıkkale Üniversitesi",
+      "event": "Uluslararası Bilim Tarihi Sempozyumu",
+      "location": "Kırıkkale, Türkiye",
+      "date": "Kasım 2024",
+      "description": "Düzenleme Kurulu Üyesi olarak web sitesini hazırlayarak etkinliğin düzenlenmesi sürecine katkıda bulundum",
+      "image": "/assets/images/Volunteering/Committee.png"
+    },
+    {
+      "role": "Arapça Öğretmeni",
+      "organization": "Kırıkkale Üniversitesi",
+      "event": "Uluslararası İlişkiler Ofisi - Yabancı Diller Kulübü",
+      "location": "Kırıkkale, Türkiye",
+      "date": "Ocak 2022 - Şubat 2022",
+      "description": "Farklı bölümlerden öğrenciler için Arapça öğretmeni olarak eğitim verdim ve bu katkım için takdir belgesi aldım.",
+      "image": "/assets/images/Volunteering/arabic_teacher.png"
+    },
+    {
+      "role": "İlk Yardımcı",
+      "organization": "Kırıkkale İl Sağlık Müdürlüğü",
+      "event": "Kırıkkale İl Sağlık Müdürlüğü",
+      "location": "Kırıkkale, Türkiye",
+      "date": "Ocak 2020",
+      "description": "İlk yardımcı sertifikasını başarıyla aldım",
+      "image": "/assets/images/Volunteering/FIRST_AIDER_CERTIFICATE.png"
+    }
+  ]
+}

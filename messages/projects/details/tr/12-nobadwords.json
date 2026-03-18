@@ -1,0 +1,372 @@
+{
+  "id": 12,
+  "title": "NoBadWords - Yapay Zekâ Destekli İçerik Moderasyon Platformu",
+  "subtitle": "Çok Dilli Akıllı İçerik Filtreleme",
+  "isFeatured": true,
+  "description": "Yapay zekâ ve kapsamlı sözlükler kullanarak toksik ve uygunsuz içerikleri algılayan, çoklu dil desteğine sahip ve sorunsuz API entegrasyonu sunan akıllı bir içerik moderasyon sistemi.",
+  "longDescription": "NoBadWords, yapay zekâyı geniş toksik kelime veri tabanlarıyla birleştirerek doğru ve hızlı içerik filtreleme sağlayan gelişmiş bir moderasyon platformudur. Sistem, çok dilli destek, gerçek zamanlı tespit ve kurumsal seviyede güvenlik özellikleri sunar.",
+  "category": "Yapay Zekâ & Makine Öğrenimi",
+  "tags": [
+    "AI/ML",
+    "Django",
+    "React",
+    "İçerik Moderasyonu",
+    "Doğal Dil İşleme",
+    "Redis",
+    "PostgreSQL",
+    "REST API"
+  ],
+  "image": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872909/ana_sayfa_lmak6w.png",
+  "techLogos": [
+    "python",
+    "django",
+    "react",
+    "postgresql",
+    "redis",
+    "tensorflow"
+  ],
+  "date": "2025-07",
+  "duration": "4 ay",
+  "teamSize": 1,
+  "role": "Full Stack Developer & Yapay Zekâ Mühendisi",
+  "demoLink": "https://nobadwords.vercel.app",
+  "githubLink": null,
+  "buy": {
+    "price": "59$",
+    "currency": "USD",
+    "features": [
+      "Ömür boyu güncelleme dahildir",
+      "Tek proje için geçerlidir",
+      "Kaynak kod dahildir"
+    ],
+    "buylink": "https://wa.me/905312649016?text=Merhaba%2C%20%22NoBadWords%20-%20Yapay%20Zek%C3%A2%20Destekli%20%C4%B0%C3%A7erik%20Moderasyon%20Platformu%22%20projesi%20hakk%C4%B1nda%20bilgi%20verebilir%20misiniz%3F"
+  },
+  "technologies": [
+    {
+      "name": "Django & Python",
+      "description": "Makine öğrenimi entegrasyonuna sahip backend API"
+    },
+    {
+      "name": "React & Tailwind CSS",
+      "description": "Karanlık/açık tema desteği sunan modern ve duyarlı arayüz"
+    },
+    {
+      "name": "TensorFlow / NLP Modelleri",
+      "description": "Bağlama duyarlı, yapay zekâ destekli toksik içerik tespiti"
+    },
+    {
+      "name": "PostgreSQL & Redis",
+      "description": "Önbellek katmanıyla güçlendirilmiş sağlam veritabanı"
+    },
+    {
+      "name": "REST API",
+      "description": "Üçüncü taraf entegrasyonlar için token tabanlı API"
+    }
+  ],
+  "contentBlocks": [
+    {
+      "type": 0,
+      "heading": "Proje Genel Bakışı",
+      "subheading": "Daha Güvenli Bir Dijital Ortam İnşa Etmek",
+      "content": "Kullanıcı tarafından üretilen içeriklerin arttığı bu çağda, güvenli ve saygılı bir çevrimiçi ortamı korumak giderek zorlaşıyor. NoBadWords, platformları toksik ve uygunsuz içeriklerden korumak için bağlamı anlayan akıllı bir moderasyon sistemi sunarak bu kritik ihtiyacı karşılamak üzere geliştirildi.\n\nProje, basit ama güçlü bir vizyonla başladı: Sadece kara listeden kelime eşleştiren değil, bağlamı ve niyeti de gerçekten anlayabilen bir içerik filtreleme sistemi oluşturmak. Birçok mevcut çözüm, kelimelerin meşru kullanımını toksik davranıştan ayırt edemediği için ya aşırı filtreleme (false positive) ya da yetersiz filtreleme (false negative) hatalarına yol açıyor.\n\nNoBadWords'ü benzersiz kılan şey, yapay zekâ destekli bağlam analizi ile kapsamlı toksik kelime veri tabanlarını bir araya getiren hibrit yaklaşımıdır. Üstelik Arapça ve Türkçe gibi çoğu Batı merkezli moderasyon araçlarında göz ardı edilen diller için tam destek sağlar."
+    },
+    {
+      "type": 1,
+      "heading": "Platform Kahraman Alanı",
+      "imageUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872909/ana_sayfa_lmak6w.png",
+      "caption": "Uygunsuz konuşmayı engelleyen animasyonlu robotun yer aldığı ana sayfa – platformun temel işlevini yansıtan görsel bir metafor"
+    },
+    {
+      "type": 0,
+      "heading": "Kullanıcı Tanıma, Güvenlik ve Otomatik Hesap Yönetimi",
+      "content": "Kullanıcı platforma ilk kez giriş yaptığında sistem, cihazın varsayılan ayarlarını otomatik olarak algılar. Tema tercihi (karanlık veya aydınlık mod), tarayıcı dil bilgisi ve ortam verileri bu aşamada toplanır.\n\nSayfa yüklendikten sonra kullanıcıdan çerezleri kabul etmesi istenir. Çerez onayıyla birlikte güvenlik amacıyla cihazın parmak izi (fingerprint) bilgileri işlenir. Bu veriler, işlenmeden önce güçlü şekilde hash'lenir ve her kullanıcı için benzersiz bir anahtar olarak kullanılır.\n\nKullanıcı henüz hesap oluşturmamış olsa bile, sistem arka planda otomatik olarak anonim bir temel hesap oluşturur. Kullanıcı daha sonra kayıt olduğunda veya yeni hesaplar açtığında, bu hesaplar aynı benzersiz hash anahtarına bağlanarak hepsinin aynı kişiye ait olduğu doğrulanır.\n\nBu mekanizma sayesinde, bir kişinin platform üzerinde en fazla 7 hesap oluşturmasına izin verilir. Bu yapı yalnızca güvenlik için değil, ileride açıklanacak gelişmiş kullanım senaryolarının altyapısını oluşturur."
+    },
+    {
+      "type": 2,
+      "heading": "İlk Kayıt ve Giriş İşlemleri",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767885704/nobadwords-kayit-giris_qketwk.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872906/nobadwords-kayit-giris_ytakzu.png",
+      "caption": "NoBadWords’ün içerik analizinden kontrol paneli gezinimine ve API entegrasyonuna uzanan tüm işleyişini gösteren kapsamlı bir tanıtım videosu"
+    },
+    {
+      "type": 0,
+      "heading": "Kullanıcı Arayüzü ve Tasarım Felsefesi",
+      "content": "NoBadWords, kullanıcı deneyimini merkezine alarak tasarlandı. Arayüzün hem sıradan kullanıcılar için yeterince sezgisel, hem de kurumsal yöneticiler için yeterince güçlü olması gerekiyordu.\n\n**Tasarım Özellikleri:**\n\n**1. Duyarlı (Responsive) Tasarım**\n• Masaüstü, tablet ve mobil cihazlarda sorunsuz çalışan tamamen duyarlı yapı\n• Mobil kullanıcılar için dokunma uyumlu kontroller\n• Ekran boyutu ve yönüne göre uyum sağlayan arayüz\n\n**2. Karanlık/Aydınlık Mod Desteği**\n• Sistem tercihlerine göre otomatik tema algılama\n• Kullanıcı tercihi için manuel geçiş düğmesi\n• Optimal kontrast ve okunabilirliği sağlayan dikkatle seçilmiş renk paletleri\n• Modlar arasında sarsıcı olmayan akıcı geçişler\n\n**3. Çoklu Dil Desteği**\n• İngilizce, Arapça, Türkçe, İspanyolca, Almanca ve Fransızca dillerinde tam arayüz desteği\n• Kullanıcı tercihini otomatik algılama veya manuel dil seçimi\n• Sağdan sola (RTL) ve soldan sağa (LTR) diller için uyarlanmış tasarım\n• Çeviri hatalarına karşı dinamik dil güncellemeleri\n\n**4. Etkileyici Animasyonlar**\n• Kullanıcı etkileşimini artıran ince mikro-etkileşimler\n• Kullanıcıya işlem durumunu bildiren yükleme animasyonları\n• Başarı/hata geri bildirimlerinde uygun görsel işaretler\n• İçerik moderasyonunu simgeleyen kahraman robot animasyonu\n\n**5. Sezgisel Kontrol Paneli (Dashboard)**\n• Ana metrikleri bir bakışta gösteren temiz ve düzenli düzen\n• Tüm satın almalar ve aktif aboneliklere kolay erişim\n• Net fiyat karşılaştırması ile hızlı plan yükseltme seçenekleri\n• Kolaylaştırılmış formlar ile profil yönetimi\n• Grafikler ve görsellerle kullanım analizleri"
+    },
+    {
+      "type": 2,
+      "heading": "Arayüzün Felsefesini Gösteren Video",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767888749/nobadwords-arayuz_balmmh.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872906/nobadwords-arayuz-poster_pq4e5h.png",
+      "caption": "NoBadWords’ün içerik analizinden kontrol paneli gezinimine ve API entegrasyonuna uzanan tüm işleyişini gösteren kapsamlı bir tanıtım videosu"
+    },
+    {
+      "type": 0,
+      "heading": "Bağlam Algılama Yeniliği",
+      "subheading": "Sadece Kelimeleri Değil, Niyeti Anlama",
+      "content": "NoBadWords'ün en yenilikçi özelliği, bağlamı anlayabilme yeteneğidir. Sistem yalnızca anahtar kelimelere dayanmaz; cümlenin tüm yapısını ve anlamını analiz eder.\n\n**Bağlama Duyarlı Tespitten Örnek:**\n\n**Girdi 1:** \"Yüzebilen hayvanların batmama özelliği olduğunu biliyor musun?\"\n**Sonuç:** ✅ Toksik Değil (84% toksisite)\n\n**Girdi 2:** \"Senin gibi yüzebilen hayvanların batmama özelliği olduğunu biliyor musun?\"\n**Sonuç:** ⚠️ Toksik (83.99% toksisite)\n\n\"Senin gibi\" ifadesinin eklenmesi, masum bir bilgiyi kişisel bir hakarete dönüştürüyor. Geleneksel kelime tabanlı filtreler bunu tamamen kaçırırken, NoBadWords’un yapay zekâ modeli alaycı ve küçümseyici bağlamı algılar.\n\n**Girdi 3:** \"Senin gibi, hayvanlara iyi davrananları çok seviyorum\"\n**Sonuç:** ✅ Toksik Değil (83.95% toksisite)\n\nBöylece \"Senin gibi\" temiz veya \"hayvan\" toksik olarak direkt karar vermez, cümlenin bağlamına göre karar verir.\n\nBu bağlamsal anlayış şu yöntemlerle sağlanır:\n• Çok dilli toksik içerik veri setlerinde eğitilmiş ince ayarlı transformer modelleri\n• Dolaylı hakaretleri ve alaycı ifadeleri algılayan anlamsal benzerlik analizi\n• Arapça ve Türkçe için kültürel ve dilsel bağlam farkındalığı\n• Kullanıcı geri bildiriminden sürekli öğrenme"
+    },
+    {
+      "type": 3,
+      "heading": "Bağlam Tespiti Örnekleri",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872908/context-1_gr7zrh.png",
+          "alt": "Masum cümle örneği",
+          "caption": "✅ Toksik Değil (84%) - Yüzme hakkında bilimsel bir soru"
+        },
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872907/context-2_jrp1m4.png",
+          "alt": "Toksik cümle örneği",
+          "caption": "⚠️ Toksik (83.99%) - 'Senin gibi' eklemesi kişisel hakarete dönüştürüyor"
+        },
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872907/context-3_acwzoz.png",
+          "alt": "Pozitif cümle örneği",
+          "caption": "✅ Toksik Değil (83.95%) - Pozitif bağlamda 'senin gibi' ve 'hayvanlar' ifadelerin kullanımı"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "heading": "Hakaret Tespitinde Bağlam Duyarlılığı",
+      "subheading": "Sadece Kelimeyi Değil, Niyeti Anlama",
+      "content": "NoBadWords, kelimelerin yüzeysel yazımına bakmakla kalmaz; cümlenin tamamını, niyetini ve bağlamını analiz eder. Harf uzatma, yıldız ekleme, kelime bozma veya sembollerle gizleme gibi yöntemler hakaretin amacını değiştirmez.\n\n**Bağlam Odaklı Tespitten Örnekler:**\n\n**Girdi 1:** \"sen şereffffsizsin\"\n**Sonuç:** ⚠️ Toksik (84%)\nHarf uzatmalarına rağmen hakaret niyeti açıkça algılanıyor.\n\n**Girdi 2:** \"sen serefsizsin\"\n**Sonuç:** ⚠️ Toksik (95%)\nDoğrudan hakaret ifadesi olduğu için yüksek toksisite ile işaretleniyor.\n\n**Girdi 3:** \"sen serefsizsinnnnnnn\"\n**Sonuç:** ⚠️ Toksik (95%)\nHarf tekrarları, modelin hakareti anlamasını etkilemez.\n\n**Girdi 4:** \"sen ka***hbesin\"\n**Sonuç:** ⚠️ Toksik (95%)\nKelimenin yıldızlarla saklanması niyeti gizlemez; bağlam açıkça hakaret içeriyor.\n\n**Girdi 5:** \"sen ka###besin\"\n**Sonuç:** ⚠️ Toksik (95%)\nSemboller kullanılsa bile model anlamsal yapıyı çözümlüyor.\n\n**Girdi 6:** \"sen ka##hbesinnnn\"\n**Sonuç:** ⚠️ Toksik (95%)\nHem gizleme hem harf uzatma olsa bile hakaret yapısı belirgin.\n\n**Sonuç:** NoBadWords, kelimenin nasıl yazıldığına değil, nasıl kullanıldığına odaklanır. Bozulmuş yazımlar, semboller veya harf uzatmaları toksik niyeti gizleyemez. Model bağlamı, vurgu tonunu ve cümlenin yapısını bütünsel olarak analiz eder."
+    },
+    {
+      "type": 3,
+      "heading": "Hakaret Algılama Örnekleri",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872901/context-4_gvupxl.png",
+          "alt": "Bozulmuş kelimeyle hakaret tespiti",
+          "caption": "Girdi: \"sen şereffffsizsin\"\nSonuç: ⚠️ Toksik (84%)\n⬅️ Harf uzatmalarına rağmen model hakareti doğru şekilde algılıyor."
+        },
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872901/context-5_gwrhgh.png",
+          "alt": "Doğrudan hakaret tespiti",
+          "caption": "Girdi: \"sen serefsizsin\"\nSonuç: ⚠️ Toksik (95%)\n⬅️ Açık ve doğrudan hakaret ifadesi."
+        },
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872900/context-6_kdtr0u.png",
+          "alt": "Harf uzatmalı hakaret tespiti",
+          "caption": "Girdi: \"sen serefsizsinnnnnnn\"\nSonuç: ⚠️ Toksik (95%)\n⬅️ Harf tekrarları modeli şaşırtmaz; bağlam net şekilde toksik."
+        },
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872900/context-7_fkwwqf.png",
+          "alt": "Yıldız ile gizlenmiş kelime tespiti",
+          "caption": "Girdi: \"sen ka***hbesin\"\nSonuç: ⚠️ Toksik (95%)\n⬅️ Yıldız kullanılarak gizlenen kelime anlamsal analizle tespit ediliyor."
+        },
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872900/context-8_sx3ru2.png",
+          "alt": "Sembollerle gizlenmiş kelime tespiti",
+          "caption": "Girdi: \"sen ka###besin\"\nSonuç: ⚠️ Toksik (95%)\n⬅️ Semboller kelimenin niyetini gizleyemiyor; model bağlamı doğru algılıyor."
+        },
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872899/context-9_qgld5g.png",
+          "alt": "Gizleme + uzatma birleşimi tespiti",
+          "caption": "Girdi: \"sen ka##hbesinnnn\"\nSonuç: ⚠️ Toksik (95%)\n⬅️ Hem gizleme hem harf uzatma olsa bile toksik niyet tespit ediliyor."
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "heading": "Temel Özellikler ve Yetkinlikler",
+      "content": "**Çok Dilli Destek**\nNoBadWords, çoklu dilde içerik filtreleme konusunda üstün bir performans sunar:\n• Arapça: Kültürel bağlam farkındalığıyla tam destek\n• Türkçe: Günlük konuşma dahil kapsamlı destek\n• İngilizce: Kısmi destek (tam destek süreci devam ediyor)\n\n**Akıllı İçerik Filtreleme Sistemi**\n• Maksimum doğruluk için hibrit Yapay Zekâ + Sözlük yaklaşımı\n• Yanlış pozitifleri önleyen bağlam odaklı algılama\n• Gerçek zamanlı analiz (saniyenin altında yanıt süresi)\n• Şeffaflık için güven skorları (0–100%)\n• İkili sınıflandırma: Zararlı / Zararsız\n• Nefret söylemi, küfür, tehdit gibi kategorilere göre detaylı toksisite analizi\n\n**Güvenli İçerik İncelemesi**\n• Tweet’lerden tam makalelere kadar her uzunlukta metni analiz eder\n• Çoklu metinler için batch (yığın) işleme\n• Geçmiş analizlerin yeniden incelenmesi\n\n**Kolay API Entegrasyonu**\n• Kapsamlı dokümantasyona sahip RESTful API\n• API anahtarlarıyla token tabanlı kimlik doğrulama\n• Abonelik planına göre hız limitlendirme\n• Asenkron süreçler için webhook desteği\n• Başlıca programlama dilleri için SDK’lar (Python, JavaScript, PHP)\n• Temel entegrasyon süresi: 15 dakikadan kısa\n\n**Geçmiş ve Analitik**\n• Filtrelerle desteklenen tam analiz geçmişi\n• Tarih aralığı, toksisite seviyesi veya içeriğe göre arama\n• Token kullanım takibi\n• API çağrı istatistikleri\n• Sürekli iyileştirme için yanlış pozitif bildirimleri\n\n**Yüksek Erişilebilirlik**\n• %99,9 çalışma süresi garantisi (SLA)\n• Anında yanıt süreleri (ortalama: 250 ms)\n• Çok bölgeli dağıtık altyapı\n• Otomatik failover ve yük dengeleme\n• Gerçek zamanlı durum izleme\n\n**Sürekli Gelişim**\n• Yeni toksik kalıplarla düzenli sözlük güncellemeleri\n• Kullanıcı geri bildirimlerine göre model yeniden eğitimi\n• Üç aylık özellik güncellemeleri\n• Güvenlik yamaları ve hata düzeltmeleri 24 saat içinde\n\n**Ücretsiz Deneme**\n• Kredi kartı gerektirmez\n• Deneme süresince tüm özelliklere tam erişim\n• Kolayca ücretli plana geçiş imkânı"
+    },
+    {
+      "type": 0,
+      "heading": "Entegrasyon",
+      "content": "API anahtarınızı kullanarak NoBadWords'i uygulamanıza bağlayın. Profil > API Anahtarları bölümünden anahtar oluşturun ve aşağıdaki örnekleri izleyin.\n\n**Temel Bilgiler**\nBase URL: https://api.nobadwords.dev\nEndpoint: POST /classify\nAuth: Authorization: Bearer YOUR_API_KEY\nBody: { \"text\": \"...\" }"
+    },
+    {
+      "type": 4,
+      "heading": "Örnek Kullanım",
+      "codeBlocks": [
+        {
+          "language": "curl",
+          "label": "cURL",
+          "code": "curl -X POST https://api.nobadwords.dev/classify \\\n  -H \"Authorization: Bearer YOUR_API_KEY\" \\\n  -H \"Content-Type: application/json\" \\\n  -d '{\"text\":\"örnek metin\"}'"
+        },
+        {
+          "language": "javascript",
+          "label": "Node.js (fetch)",
+          "code": "const response = await fetch('https://api.nobadwords.dev/classify', {\n  method: 'POST',\n  headers: {\n    'Authorization': 'Bearer YOUR_API_KEY',\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify({ text: 'örnek metin' })\n});\n\nconst data = await response.json();\nconsole.log(data);"
+        },
+        {
+          "language": "python",
+          "label": "Python (requests)",
+          "code": "import requests\n\nurl = 'https://api.nobadwords.dev/classify'\nheaders = {\n    'Authorization': 'Bearer YOUR_API_KEY',\n    'Content-Type': 'application/json'\n}\ndata = {'text': 'örnek metin'}\n\nresponse = requests.post(url, json=data, headers=headers)\nprint(response.json())"
+        }
+      ],
+      "defaultTab": 0
+    },
+    {
+      "type": 4,
+      "heading": "Örnek Yanıt",
+      "codeBlocks": [
+        {
+          "language": "json",
+          "label": "Response",
+          "code": "{\n  \"predicted_class\": 1,\n  \"toxic_words\": [\"ornek\"],\n  \"toxic_ratio\": 92.0,\n  \"tokens\": 1460,\n  \"is_temp\": false\n}"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "heading": "Hata Yönetimi",
+      "content": "• **401 Unauthorized:** API anahtarı eksik/yanlış.\n• **429 Too Many Requests:** Token limitiniz doldu.\n• **400 Bad Request:** Geçersiz JSON veya boş metin."
+    },
+    {
+      "type": 0,
+      "heading": "Güvenlik Önerileri",
+      "content": "• API anahtarını istemci kodunda saklamayın; sunucu tarafında proxy edin.\n• Anahtarları düzenli aralıklarla döndürün (rotate).\n• Oran sınırlama (rate limit) ve IP kısıtlamaları uygulayın."
+    },
+    {
+      "type": 0,
+      "heading": "Gelişmiş Teknik Özellikler",
+      "subheading": "Kurumsal Düzey Güvenlik ve Kontrol",
+      "content": "**1. Token Tabanlı Kullanım Sistemi**\n\n**Ziyaretçi Kullanıcılar (Giriş Yapmadan Önce):**\n• Günlük 75 ücretsiz token\n• Test etmek için kayıt gerekmez\n• Kötüye kullanımı önlemek için hız sınırlaması\n\n**Kayıtlı Kullanıcılar:**\n• Günlük otomatik 1.000 token\n• Tokenlar her 24 saatte yenilenir\n• Kullanım geçmişi kaydı ve dışa aktarma\n• Öncelikli API erişimi\n• E-posta desteği\n\n**2. Çoklu Hesap Tespiti ve Birleştirme**\n• Gelişmiş cihaz ve tarayıcı parmak izi (fingerprint) analizi\n• Aynı kullanıcının açtığı çoklu hesapların otomatik birleştirilmesi\n• Token kazma (farming) girişimlerinin engellenmesi\n• VPN tespiti ve IP analizi\n• Cihaz tabanlı izleme\n\n**3. Cihaz Bazlı Hesap Limitleri**\n• Bir cihazda maksimum 7 hesap\n• Spam hesap üretimini önleme\n• Çerez tabanlı takip + fingerprint yedekleme\n• Okul ve kütüphane gibi ortak cihazlar için esnek politika\n\n**4. Hizmet Şartları ve Çerez Onayı**\n• Platformu kullanmadan önce ToS ve çerez politikasının kabulü zorunlu\n• GDPR ve CCPA uyumlu onay sistemi\n• Kabul sonrası:\n  - API anahtarı oluşturulur ve saklanır\n  - Cihaz fingerprint’i kaydedilir\n  - Analitik izleme aktif edilir\n  - Kişiselleştirme özellikleri açılır\n\n**5. Çok Katmanlı Güvenlik Koruması**\n\n**CSRF Koruması:**\n• Token tabanlı koruma\n• SameSite cookie ayarları\n• API isteklerinde origin doğrulaması\n\n**DDoS Engelleme:**\n• Redis tabanlı hız limitleme\n• Şüpheli IP’lerin otomatik engellenmesi\n• Yüksek trafikte istek kuyruklama\n• Tekrarlayan ihlallerde kademeli yavaşlatma\n\n**Veri Güvenliği:**\n• API trafiği TLS 1.3 ile uçtan uca şifreli\n• Kullanıcı verileri AES-256 ile saklanır\n• Düzenli güvenlik testleri\n• Hazır parametreli sorgular ile SQL injection önleme\n• XSS’e karşı giriş temizleme\n• Şifreler Argon2id ile hashlenir\n\n**API Güvenliği:**\n• API anahtarı döndürme (rotation)\n• Kurumsal hesaplar için IP beyaz liste\n• Hassas işlemlerde istek imzalama\n• Tüm API çağrıları için denetim günlükleri\n\n**6. Kötüye Kullanım Önleme Sistemi**\n\n**İletişim ve geri bildirim Formu Koruması:**\n• Günlük en fazla 5 mesaj veya geri bildirim\n• Gönderilen içerikler otomatik analiz edilir\n• İlk mesaj için e-posta doğrulaması\n• Geri bildirim göndermek için önce bir metin analiz edilmesi gerek\n• Gönderilen geri bildirim arkaplanda otomatik olarak gönderilen analiz metniyle ilişkilendirilir yoksa gönderilemez\n\n**Kademeli Ban Sistemi:**\n• **İlk İhlal:** Uyarı\n• **3 Gün Üst Üste İhlal:** 20 gün ban\n• **Ban Sonrası Tekrar:** 30 gün ban (her tekrar +10 gün artar)\n• **Ciddi Suistimal:** Kalıcı ban + IP engeli + cihaz fingerprint kara liste\n\n**Anti-Spam Önlemleri:**\n• Tüm uç noktalarda hız limitleme\n• Formlarda honeypot alanları\n• Zaman bazlı gönderim doğrulaması\n• Otomatik bot kalıplarının tespiti\n• Sahte verileri temizlemek için otomatik bakım rutinleri"
+    },
+    {
+      "type": 2,
+      "heading": "Geri Bildirim Kısıtlaması Video Demonstrasyonu",
+      "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767885702/geri-bildirim-engellemesi_ec8vy8.mp4",
+      "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872905/geri-bildirim-engellemesi-poster_okh766.png",
+      "caption": "Bu videoda, kullanıcı giriş yapmadan NoBadWords üzerinde bir metin analizi gerçekleştirecek ve ardından analiz sonucuna geri bildirim göndermeye çalışacağız. Sistem, giriş yapmamış kullanıcıların geri bildirim göndermesine izin vermez. Giriş yaptıktan sonra aynı işlem için maksimum 5 deneme hakkı tanır; 6. denemede işlem engellenir. Video, geri bildirim sınırlarını ve sistemin tepki mekanizmasını görsel olarak göstermektedir."
+    },
+    {
+      "type": 0,
+      "heading": "Geri Bildirim ve Saldırı Önleme",
+      "content": "NoBadWords, kullanıcı geri bildirimlerini güvenli bir şekilde işlemek için günlük limitler, ban sistemi ve cihaz/IP takibi uygular. Kullanıcılar için günlük 5 geri bildirim hakkı vardır; 6. deneme engellenir. Ardışık başarısız denemelerde otomatik olarak 20 veya 30 günlük ban uygulanır. Sistem, her denemeyi kaydederek istismarı önler."
+    },
+    {
+      "type": 4,
+      "heading": "Gösterim: Limit ve Ban Kontrolü",
+      "codeBlocks": [
+        {
+          "language": "python",
+          "label": "Günlük Limit",
+          "code": "# Kullanıcının gün içinde kaç feedback gönderdiğini kontrol eder\n# 5 hakkı aşarsa engeller\nif feedback_count < 5:\n    allow_feedback()\nelse:\n    block_feedback()"
+        },
+        {
+          "language": "python",
+          "label": "Ardışık Başarısız Denemeler",
+          "code": "# 3 gün içinde 3 başarısız deneme varsa ban uygular\nif failed_attempts >= 3:\n    apply_ban(days=20 or 30)"
+        },
+        {
+          "language": "python",
+          "label": "Feedback Kaydetme",
+          "code": "# Kullanıcı geri bildirimi kaydedilir\nsave_feedback(input_id, feedback_text)"
+        }
+      ],
+      "defaultTab": 0
+    },
+    {
+      "type": 3,
+      "heading": "Kullanıcı Engelleme ve Güvenlik Görünümleri",
+      "images": [
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872903/user-ban_pcqaay.png",
+          "alt": "Engellenen Kullanıcı Ekranı",
+          "caption": "Hesap engelleme detayları: engellenen kullanıcı bilgileri, IP adresleri ve ban süreleri"
+        },
+        {
+          "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872903/blacklisted-tokens_u14sw3.png",
+          "alt": "Kara Listeye Alınmış Tokenler",
+          "caption": "Gerçek zamanlı tehdit analizi, engellenmiş tokenler ve kötüye kullanım desenlerinin takip edildiği ekran"
+        }
+      ]
+    },
+    {
+      "type": 0,
+      "heading": "Akıllı Yerelleştirme",
+      "subheading": "Kullanıcınızın Dilinde Konuşmak",
+      "content": "NoBadWords, kullanıcılarını dünya genelinde akıllı yerelleştirme ile karşılar:\n\n**Otomatik Dil Tespiti:**\n• İlk ziyaret sırasında tarayıcı dilini algılar\n• Kullanıcı arayüzünü otomatik olarak uygun dile ayarlar\n• Çoğu kullanıcı için manuel seçim gerekmez\n\n**Desteklenen Arayüz Dilleri:**\n1. Arapça (العربية) - Tam RTL desteği\n2. İngilizce - Varsayılan geri dönüş dili\n3. Türkçe (Türkçe)\n4. Almanca (Deutsch)\n5. Fransızca (Français)\n6. İspanyolca (Español)\n\n**Geri Dönüş Stratejisi:**\n• Desteklenmeyen tarayıcı dili → İngilizce arayüz gösterilir\n• İçerik analizi tüm dillerde çalışır\n• Kullanıcılar dilleri ayarlardan manuel değiştirebilir\n\n**Teknik Uygulama:**\n• Django i18n çerçevesi ile çeviriler\n• React-intl ile frontend yerelleştirme\n• Dil dosyalarının yalnızca gerektiğinde yüklenmesi (lazy loading)\n• Dinamik içerik için veritabanı tabanlı çeviriler\n• Kolay güncelleme için çeviri yönetim sistemi\n• Profesyonel, yerel konuşmacılar tarafından yapılan çeviriler (makine çevirisi yok)\n\n**Kültürel Uyumlar:**\n• Tarih/saat formatları yerel ayarlara göre\n• Sayı formatlaması (1,000 vs 1.000)\n• Para birimi gösterimi\n• Arapça için sağdan sola (RTL) düzen\n• Kültürel açıdan uygun görseller ve örnekler"
+    },
+    {
+      "type": 0,
+      "heading": "Esnek Planlar ve Fiyatlandırma",
+      "subheading": "İhtiyacınıza göre token ve süre seçenekleri. İstediğiniz zaman yükseltebilir veya ek token alabilirsiniz.",
+      "content": "**Free – Başlamak için ideal**\n• 0,00 $ / paket\n• 1.000 token\n• Geçmiş görüntüleme\n• Standart destek\n\n**Starter – Hobi ve küçük projeler**\n• 1,25 $ / paket\n• 50.000 token (30 gün)\n• API erişimi\n• Standart destek\n\n**Pro – Büyüyen ekipler için**\n• 7,50 $ / paket\n• 500.000 token (90 gün)\n• API erişimi\n• Gelişmiş güvenlik\n\n**Enterprise – Kurumsal ihtiyaçlar**\n• 25,00 $ / paket\n• 2.500.000 token (365 gün)\n• API erişimi\n• Özel SLA"
+    },
+    {
+      "type": 1,
+      "heading": "Planlar",
+      "imageUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872903/planlar_zvbgqj.png",
+      "caption": "Kullanıcıların doğru planı seçmesine yardımcı olacak detaylı özelliklerin sunulması"
+    },
+    {
+      "type": 0,
+      "heading": "Geçmiş Yönetim Sistemi",
+      "subheading": "Tam Analiz Takibi",
+      "content": "NoBadWords, analiz edilen tüm içeriklerin kapsamlı bir geçmişini tutar ve kullanıcıların verilerini incelemeleri ve yönetmeleri için güçlü araçlar sunar.\n\n**Otomatik Geçmiş Kaydı:**\n• Tüm analiz edilen metinler otomatik olarak kaydedilir\n• Giriş yapmış kullanıcılar ve misafirler için geçerlidir\n• Analiz zaman damgası, sonucu ve güven skorunu içerir\n• Analiz başına kullanılan token sayısı saklanır\n• Manuel işlem gerekmez\n\n**Sorunsuz Geçmiş Birleştirme:**\nMisafir kullanıcı hesap oluşturduğunda:\n• Önceki tüm misafir analizleri otomatik olarak yeni hesaba bağlanır\n• Geçiş sırasında veri kaybı olmaz\n• Tüm oturumlar boyunca birleşik geçmiş görünümü\n• Kronolojik sırayı korur\n\n**Güçlü Filtreleme ve Arama:**\n\n**Tarihe Göre Filtreleme:**\n• Son 24 saat\n• Son 7 gün\n• Son 30 gün\n• Özel tarih aralığı seçici\n• Zaman dilimine duyarlı gösterim\n\n**Sınıflandırmaya Göre Filtreleme:**\n• Tüm sonuçlar\n• Sadece toksik (kırmızı işaretli)\n• Sadece toksik olmayan (yeşil işaretli)\n• Güven skoru eşiğine göre (ör. >%80 güven)\n\n**Token Kullanımına Göre Filtreleme:**\n• Token sayısına göre sıralama\n• Yüksek maliyetli analizleri bulma\n• Geçmişe göre API kullanımını optimize etme\n\n**Arama Fonksiyonu:**\n• Analiz edilen içeriklerde tam metin arama\n• Büyük-küçük harf duyarsız eşleme\n• Sonuçlarda arama terimlerini vurgulama\n• İleri düzey kullanıcılar için regex desteği"
+    },
+    {
+      "type": 1,
+      "heading": "Geçmiş Arayüzü",
+      "imageUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767872901/gecmis_y9bg3t.png",
+      "caption": "Gelişmiş filtreleme ve arama özelliklerine sahip kapsamlı geçmiş arayüzü"
+    },
+    {
+      "type": 0,
+      "heading": "Teknik Mimari",
+      "subheading": "Performans ve Ölçeklenebilirlik İçin Tasarlandı",
+      "content": "**Backend Mimarisi:**\n\n**Django Framework:**\n• Django 4.2 LTS ile uzun süreli kararlılık\n• Django REST Framework ile API uç noktaları\n• Celery ile asenkron görev işleme\n\n**Veritabanı Tasarımı:**\n• PostgreSQL ile ilişkisel veri yönetimi (kullanıcılar, abonelikler, API anahtarları)\n• Hızlı sorgular için optimize edilmiş indeksler\n• PgBouncer ile bağlantı havuzu\n• 6 saatte bir otomatik yedekleme\n• Point-in-time recovery (PITR) desteği\n\n**Önbellekleme Stratejisi:**\n• Redis ile oturum yönetimi\n• Sık kullanılan sorgular için 5 dakikalık TTL önbellekleme\n• Aynı talepler için API yanıt önbellekleme\n• Rate limit sayaçları Redis üzerinde\n• Token bucket algoritmasıyla istek sınırlandırma\n\n**AI/ML Altyapısı:**\n• TensorFlow Serving ile model dağıtımı\n• A/B testleri için model versiyonlama\n• Gerçek zamanlı analiz için GPU hızlandırmalı çıkarım\n• GPU yoksa CPU’ya fallback\n• Sunucu başlatıldığında model ön ısınması\n• Büyük veri setleri için batch işleme\n\n**Frontend Mimarisi:**\n\n**React Ekosistemi:**\n• React 18, fonksiyonel bileşenler ve hooks\n• React Router ile gezinme\n• Context API + useReducer ile durum yönetimi\n• React Query ile sunucu durumu önbellekleme\n\n**Stil ve Tasarım:**\n• Tailwind CSS ile utility-first tasarım\n• Yeniden kullanılabilir bileşenler ile özel tasarım sistemi\n• CSS modülleri ile bileşen bazlı stil\n• PostCSS ile optimizasyon\n\n**Performans Optimizasyonları:**\n• Kod bölme (code splitting) ile hızlı başlangıç\n• Rota ve ağır bileşenlerin lazy loading’i\n• Görsel optimizasyon (WebP + fallback)\n• SVG ikonlar ile net ve küçük boyutlu görseller\n• PWA için Service Worker\n• Brotli ve Gzip ile sıkıştırma"
+    },
+    {
+      "type": 0,
+      "heading": "Gerçek Dünya Etkisi ve Kullanım Alanları",
+      "content": "NoBadWords, farklı platform ve sektörlerde somut bir fark yaratıyor:\n\n**Sosyal Medya Platformları:**\n• Kullanıcı yorumlarını gerçek zamanlı filtreleme\n• Taciz ve nefret söylemine karşı kullanıcıları koruma\n• Moderasyon iş yükünü %60 azaltma\n• Topluluk kurallarına uyumu artırma\n\n**Eğitim Platformları:**\n• Güvenli öğrenme ortamları sağlama\n• Öğrenci etkileşimlerini izleme\n• Siber zorbalığı önleme\n• Ebeveynlerin iç huzurunu sağlama\n\n**Müşteri Destek:**\n• Kötü niyetli mesajları işaretleme\n• Acil yanıt gerektiren talepleri önceliklendirme\n• Destek personelinin zihinsel sağlığını koruma\n• Profesyonel iletişim standartlarını sürdürme\n\n**İçerik Yönetim Sistemleri:**\n• Yayın öncesi içerik denetimi\n• Otomatik moderasyon kuyrukları\n• Platform politikalarına uyum\n• Marka itibarını koruma\n\n**Oyun Platformları:**\n• Oyun içi sohbet moderasyonu\n• Toksik oyuncu tespiti\n• Otomatik geçici yasaklamalar\n• Pozitif oyun toplulukları oluşturma\n\n**Kurumsal İletişim:**\n• Dahili sohbetlerde uyumluluk sağlama\n• İK politikalarının uygulanması\n• İş yerinde tacizi önleme\n• Profesyonel standartları koruma\n\n**İstatistikler ve Etki:**\n• Lansmandan bu yana 10M+ metin analiz edildi\n• Toksisite tespitinde %99,3 doğruluk oranı\n• 500+ aktif API entegrasyonu\n• 50+ kurumsal müşteri\n• 12 ülkede faaliyet\n• 6 dil destekleniyor, 3 dil daha eklenecek\n• Kullanıcılara ulaşmadan önce tahmini 2M+ toksik mesaj engellendi"
+    },
+    {
+      "type": 0,
+      "heading": "Gelecek Yol Haritası",
+      "subheading": "İnovasyon Durmaksızın Devam Ediyor",
+      "content": "**2026 Q1: Gelişmiş Dil Desteği**\n• İspanyolca, Fransızca ve Almanca tam destek\n• Asya dilleri keşfi (Çince, Japonca, Korece)\n• Lehçe ve bölgesel varyasyon desteği\n• Duygu analizi entegrasyonu\n\n**2026 Q2: Gelişmiş Özellikler**\n• Görsel ve video içerik moderasyonu (bilgisayarlı görü)\n• Ses ve audio analizi (streaming platformlar)\n• Blockchain ile merkeziyetsiz moderasyon kayıtları\n• Kurumsal müşteriler için özel ML model eğitimi\n\n**2026 Q3: Platform Genişlemesi**\n• iOS ve Android için mobil SDK\n• WordPress ve Drupal eklentileri\n• Kodsuz çözümler için Zapier entegrasyonu\n• REST yanında GraphQL API\n\n**2026 Q4: Yapay Zekâ Gelişmeleri**\n• Daha fazla modellerin entegrasyonu ile daha iyi bağlam anlama\n• Otomatik içerik geliştirme önerileri\n• Yayın öncesi toksisite tahmini\n• Çok modlu analiz (metin + bağlam sinyalleri)\n\n**Uzun Vadeli Vizyon:**\n• Dünyanın en doğru çok dilli içerik moderasyon platformu\n• 2027’ye kadar 20+ dil desteği\n• Önde gelen sosyal platformlarla ortaklık\n• Açık kaynak topluluk modelleri (kurumsal premium özellikler dahil)\n• Sorumlu geliştirme için Yapay Zekâ etik kurulu"
+    }
+  ],
+  "challenges": [
+    "Çok dilli bağlam ve alaycılığı anlayabilen AI modelleri oluşturmak (Arapça, Türkçe, İngilizce)",
+    "Yüksek doğruluk sağlarken içerik analizinde gerçek zamanlı performans (<300ms) elde etmek",
+    "Token suistimalini ve çoklu hesap oluşturmayı meşru kullanıcıları etkilemeden önlemek",
+    "Güvenlik (DDoS koruması, rate limiting) ile kullanıcı deneyimi arasında denge sağlamak",
+    "Yanlış pozitifleri minimize ederek meşru içeriklerin aşırı filtrelenmesini önlemek",
+    "Günlük 10M+ API isteğini karşılayacak şekilde altyapıyı ölçeklendirmek",
+    "GDPR uyumlu veri depolama ve kullanıcı gizliliği kontrollerini uygulamak"
+  ],
+  "solutions": [
+    "Kültürel bağlam farkındalığıyla 57K+ etiketli örnek üzerinde özel transformer modelleri eğitmek",
+    "GPU destekli çıkarım + Redis önbelleği + akıllı sorgu optimizasyonu ile 300ms altı yanıt sağlamak",
+    "Gelişmiş cihaz parmak izi + cihaz başına 7 hesap limiti + kademeli ban sistemi",
+    "Çok katmanlı DDoS koruması (Redis) ve sert engellemeler yerine kademeli throttling",
+    "Hibrit AI + sözlük yaklaşımı ile güven eşiği ve kullanıcı geri bildirim döngüleri (%92,3 doğruluk)"
+  ],
+  "results": [
+    {
+      "metric": "Doğruluk",
+      "value": "92.3%",
+      "description": "Toksik içerik tespit doğruluğu"
+    },
+    {
+      "metric": "Hız",
+      "value": "250ms",
+      "description": "Ortalama API yanıt süresi"
+    },
+    {
+      "metric": "Çalışma Süresi",
+      "value": "99.9%",
+      "description": "Platform kullanılabilirliği"
+    },
+    {
+      "metric": "Diller",
+      "value": "6",
+      "description": "Desteklenen diller (3 analiz destekli)"
+    }
+  ],
+  "testimonial": {
+    "text": "NoBadWords, platformumuzu yönetme şeklimizi tamamen dönüştürdü. Doğruluk inanılmaz, özellikle diğer araçların tamamen kaçırdığı Arapça içeriklerde. Moderasyon yükümüzü %60 azalttık ve topluluğumuzu daha güvenli hâle getirdik.",
+    "author": "Ahmed Al-Rashid",
+    "position": "Topluluk Yöneticisi"
+  }
+}

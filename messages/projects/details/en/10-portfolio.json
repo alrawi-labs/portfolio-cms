@@ -1,0 +1,222 @@
+{
+    "id": 10,
+    "title": "Modern Portfolio",
+    "subtitle": "Modern Multilingual Developer Portfolio (Next.js Architecture)",
+    "isFeatured": true,
+    "description": "A modern, multilingual, and high-performance developer portfolio infrastructure. It combines personal brand presentation with aesthetic design, modular architecture, and a scalable structure.",
+    "longDescription": "Modern Portfolio is a multilingual and scalable portfolio infrastructure designed to enable developers to professionally showcase their projects, skills, and technical expertise.\n\nThe project is not merely a visual showcase; it is the result of a well-structured architectural decision process. Built using the Next.js App Router architecture, it delivers a fast, SEO-optimized, and performance-oriented system. Thanks to its dynamic routing structure, projects can be managed through dedicated detail pages.\n\nWith internationalization (i18n) support, content is organized within a multilingual structure. All text content can be centrally managed, and new languages can be seamlessly integrated into the system.\n\nThrough its modular component architecture, each section can be independently developed and reused. This approach ensures the project remains sustainable for both personal use and productization (such as selling it as a template).\n\nOn the design side, minimalism, balanced typography, and smooth animations are prioritized. The objective is to deliver a clean, professional, and trust-inspiring experience for visitors.",
+    "category": "Web Application",
+    "tags": [
+        "Next.js",
+        "TypeScript",
+        "Json",
+        "Tailwind CSS",
+        "Multilingual",
+        "UI/UX",
+        "App Router"
+    ],
+    "image": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770994912/portfolio_qeqmgo.png",
+    "techLogos": [
+        "nextjs",
+        "tailwind",
+        "json",
+        "typescript"
+    ],
+    "date": "2025-11",
+    "duration": "1 month",
+    "teamSize": 1,
+    "role": "Full Stack Developer",
+    "demoLink": "https://yasiralrawi.netlify.app/en",
+    "githubLink": "https://github.com/yasir237/modern-portfolio-en",
+    "buy": {
+        "price": "16$",
+        "currency": "USD",
+        "features": [
+            "Lifetime updates are included",
+            "Valid for a single project",
+            "Source code is included"
+        ],
+        "buylink": "https://yasiralrawi.gumroad.com/l/psuwo"
+    },
+    "technologies": [
+        {
+            "name": "Next.js (App Router)",
+            "description": "A modern React framework structure that is SEO-friendly, high-performance, and supports server/client component architecture."
+        },
+        {
+            "name": "Internationalization (i18n)",
+            "description": "Dynamic route-based multilingual support. Content can be centrally managed through message files."
+        },
+        {
+            "name": "Modular Component Architecture",
+            "description": "Each section is designed as an independent and reusable component. Provides a scalable and sustainable structure."
+        },
+        {
+            "name": "Tailwind CSS",
+            "description": "Utility-first approach enabling rapid development, a consistent design system, and responsive structure."
+        },
+        {
+            "name": "Dynamic Project Management",
+            "description": "Each project can be detailed through its own route. Easy content management with a JSON-based data structure."
+        }
+    ],
+    "contentBlocks": [
+        {
+            "type": 0,
+            "heading": "Project Overview",
+            "subheading": "Multilingual, Performance-Oriented, and Scalable Portfolio Infrastructure",
+            "content": "Modern Portfolio is a modern web application designed to allow developers to present their technical expertise and projects within a professional framework.\n\nThe system provides strong content organization through multilingual support, dynamic project detail pages, and a modular component architecture. With its SEO-optimized structure and performance enhancements, it ensures fast loading times and search engine compatibility.\n\nThe project is designed both for personal brand presentation and for productization as a sellable template."
+        },
+        {
+            "type": 3,
+            "heading": "Portfolio Sections and Motivational Visuals",
+            "images": [
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770994912/portfolio_qeqmgo.png",
+                    "alt": "Hero Section",
+                    "caption": "Main landing area — Name, title, years of experience, and call-to-action buttons"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999444/istatistikler_yipkbu.png",
+                    "alt": "Statistics Section",
+                    "caption": "Experience, project count, client metrics, and achievements"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999440/hizmetler_apczez.png",
+                    "alt": "Services Section",
+                    "caption": "Full Stack development, UI/UX design, algorithm development, and security services"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999655/one_cikan_projeler_axhxrs.png",
+                    "alt": "Featured Projects",
+                    "caption": "Selected projects built with modern technologies"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999656/projelere_yonlendirmek_dbwirf.png",
+                    "alt": "Explore Projects Section",
+                    "caption": "Call-to-action area directing visitors to all projects"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999439/projeler_swsvpc.png",
+                    "alt": "Projects Section",
+                    "caption": "Main portfolio area listing developed projects"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999442/proje_detay_ntu0bh.png",
+                    "alt": "Project Detail Page",
+                    "caption": "Comprehensive technical and visual presentation of a single project"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999654/deneyim_egitim_d8i64i.png",
+                    "alt": "Experience and Education",
+                    "caption": "Chronological presentation of professional experience and academic background"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999649/yetenekler_l2vuox.png",
+                    "alt": "Skills Section",
+                    "caption": "Programming languages, frameworks, and technical expertise areas"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999651/diller_pges93.png",
+                    "alt": "Languages Section",
+                    "caption": "Arabic, Turkish, and English language proficiency levels"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999658/gonullu_faaliyetler_qnj0jd.png",
+                    "alt": "Volunteer Activities",
+                    "caption": "Guest speaking and social contribution initiatives"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999656/sertifikalar_e4tg12.png",
+                    "alt": "Certificates Section",
+                    "caption": "IBM, BTK Academy, Kodluyoruz, and other professional certifications"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999605/cumle1_hdmcxb.png",
+                    "alt": "Motivational Visual 1",
+                    "caption": "I transform complex ideas into unforgettable digital experiences"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999496/cumle2_jorexe.png",
+                    "alt": "Motivational Visual 2",
+                    "caption": "Every project I design carries the signature of creativity and technical intelligence"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999443/cumle3_znlfij.png",
+                    "alt": "Motivational Visual 3",
+                    "caption": "I don’t just write code — I build game-changing solutions"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999442/cumle4_vm3tct.png",
+                    "alt": "Motivational Visual 4",
+                    "caption": "I design interfaces that capture attention and leave a lasting impression"
+                },
+                {
+                    "url": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770999443/iletisim_kivycu.png",
+                    "alt": "Contact Section",
+                    "caption": "Contact form and direct access information"
+                }
+            ]
+        },
+        {
+            "type": 0,
+            "heading": "Modern Multilingual Architecture",
+            "subheading": "Multilingual and Scalable System Design",
+            "content": "This portfolio is not merely a visual showcase. It is built upon a performance-oriented, modular, and data-driven architecture.\n\nSeparate content files exist for each language. When a user switches the language, the system automatically loads the corresponding language file.\n\nTo add a new language, it is sufficient to create a new content file."
+        },
+        {
+            "type": 0,
+            "heading": "JSON-Based Project Management",
+            "subheading": "Unlimited Projects • Content Management Without Code Changes",
+            "content": "Each project is added as an independent JSON file.\n\nThere is no limitation on the number of files. Therefore, the system supports an unlimited number of projects.\n\nTo add a new project, it is sufficient to create a new JSON file. No modifications to the existing structure are required.\n\nThis approach makes the project manageable without requiring technical expertise."
+        },
+        {
+            "type": 0,
+            "heading": "Dynamic Routing and SEO-Optimized Structure",
+            "subheading": "Dedicated Detail Page for Each Project",
+            "content": "Thanks to the dynamic routing structure, each project is presented with its own unique URL.\n\nThis architecture generates separate, search engine-optimized pages.\n\nFor both user experience and SEO performance, the modern Next.js App Router architecture has been utilized."
+        },
+        {
+            "type": 0,
+            "heading": "Modular Component Architecture",
+            "subheading": "Reusable and Sustainable Structure",
+            "content": "All sections are designed as independent and reusable components.\n\nThis structure allows the system to be easily extended, enabling new sections to be added and the existing design to be improved without disruption.\n\nThe code organization is carefully planned to be clean, scalable, and sustainable."
+        },
+        {
+            "type": 0,
+            "heading": "Performance and User Experience",
+            "subheading": "Fast, Fluid, and Modern",
+            "content": "A professional user experience is delivered through a minimalist design approach and smooth animations.\n\nThanks to its responsive structure, a consistent appearance is maintained across all devices.\n\nThe goal is to create a clean, trustworthy, and impactful digital impression."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1770998139/portfoilo_ozet_xt95sy.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1770994912/portfolio_qeqmgo.png",
+            "caption": "Website Overview"
+        },
+        {
+            "type": 0,
+            "heading": "Block-Based JSON Content System",
+            "subheading": "Dynamic and Scalable Structure",
+            "content": "Each project is added as an independent JSON file. Content is placed under the 'contentBlocks' array, and each block is defined with a specific 'type' value.\n\nThe system automatically renders the corresponding component based on the block type. This enables flexible management of text, images, videos, galleries, and multi-code content."
+        },
+        {
+            "type": 4,
+            "heading": "Supported Content Blocks",
+            "codeBlocks": [],
+            "defaultTab": 0
+        },
+        {
+            "type": 0,
+            "heading": "System Advantages",
+            "content": "To add a new project, it is sufficient to create a new JSON file. No changes are required on the codebase.\n\nSeparate content files exist for each language. When the language is switched, the system automatically loads the corresponding file.\n\nThis architecture makes the portfolio infinitely extensible, manageable without technical expertise, and suitable for productization."
+        },
+        {
+            "type": 0,
+            "heading": "Source Code and Documentation",
+            "subheading": "Installation Guide, Architecture, and Usage Instructions",
+            "content": "You can access the complete source code, architectural structure, installation steps, and comprehensive documentation of the project via the GitHub repository.\n\nDetailed documentation and usage instructions are provided within the README file.\n\nRepository: https://github.com/yasir237/modern-portfolio-en"
+        }
+    ]
+}

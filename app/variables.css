@@ -1,0 +1,15 @@
+:root {
+  --gradient-start: #2a1454;
+  --gradient-end: #8750f7;
+  --bg-primary: #140c1c;
+  --bg-secondary: #0e0714;
+  --text-color: rgb(221 221 221);
+  --text-color2: #8750f7;
+  --border-color-subtle: rgb(31, 41, 55);  /* Gri border için */
+  --border-color: #8750f7;                  /* Mor border için */
+  --bg-hover: rgb(31, 41, 55);
+  --text-hover: rgb(192, 132, 252);
+  --purple-dark: #4a1d7a;
+  --purple-medium: #6b2fb5;
+  --purple-light: #7343d2;
+}

@@ -1,0 +1,432 @@
+{
+    "id": 11,
+    "title": "Centilmen - Kuaför Randevu Sistemi",
+    "subtitle": "Kullanıcı ve Admin Paneli Yöneten Sistem",
+    "isFeatured": true,
+    "description": "Bu proje, Türkiye’de faaliyet gösteren bir kuaför işletmesi için geliştirilmiş, profesyonel ve modern bir çevrim içi randevu platformudur. Kullanıcı deneyimini en üst seviyeye çıkarmak amacıyla; zengin animasyonlar, etkileşimli geçişler ve yüksek kaliteli görsel efektler ile desteklenen oldukça akışkan bir arayüz sunmaktadır.\n\nZiyaretçiler siteye giriş yaptıkları andan itibaren kendilerini doğru yerde hisseder, ihtiyaç duydukları hizmeti birkaç saniye içinde görüntüleyip kolayca randevu oluşturabilirler.",
+    "longDescription": "Centilmen, React ve Tailwind CSS kullanılarak geliştirilmiş, yüksek etkileşimli animasyonlar ve yapay zekâ destekli medya içerikleriyle zenginleştirilmiş kapsamlı bir randevu sistemidir. Üç ayrı panel (Müşteri, Çalışan ve Admin) üzerinden hizmet yönetimi, randevu takibi ve görsel içerik sunumu yapılmasını sağlar. Django REST Framework tabanlı backend ile hızlı, güvenli ve ölçeklenebilir bir yapı sunar.",
+    "category": "Web Uygulamaları & Dijital Çözümler",
+    "tags": [
+        "React",
+        "Django",
+        "Tailwind CSS",
+        "UI/UX",
+        "REST API",
+        "Animasyon",
+        "Randevu Sistemi",
+        "PostgreSQL",
+        "Redis"
+    ],
+    "image": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873026/ana_sayfa_i4xokl.png",
+    "techLogos": [
+        "react",
+        "tailwind",
+        "django",
+        "python",
+        "restapi",
+        "postgresql"
+    ],
+    "date": "2025-09",
+    "duration": "3 ay",
+    "teamSize": 1,
+    "role": "Full Stack Developer",
+    "demoLink": "https://centilmen.vercel.app/",
+    "githubLink": null,
+    "buy": {
+        "price": "199$",
+        "currency": "USD",
+        "features": [
+            "Lifetime updates are included",
+            "Valid for a single project",
+            "Source code is included"
+        ],
+        "buylink": "https://wa.me/905312649016?text=Merhaba%2C%20%22Centilmen%20-%20Kuaf%C3%B6r%20Randevu%20Sistemi%22%20projesi%20hakk%C4%B1nda%20bilgi%20verebilir%20misiniz%3F"
+    },
+    "technologies": [
+        {
+            "name": "React & Tailwind CSS",
+            "description": "Akıcı animasyonlarla desteklenen modern, hızlı ve sezgisel kullanıcı arayüzü"
+        },
+        {
+            "name": "Django REST Framework",
+            "description": "Güvenli ve ölçeklenebilir backend mimarisi"
+        },
+        {
+            "name": "Yapay Zekâ Destekli Görsel İçerikler",
+            "description": "Hizmetlerin profesyonel tanıtımı için özel üretim AI görselleri ve videolar"
+        },
+        {
+            "name": "PostgreSQL",
+            "description": "Güçlü ve tutarlı veri yönetimi altyapısı"
+        },
+        {
+            "name": "Çok Panelli Yönetim Sistemi",
+            "description": "Müşteri, Çalışan ve Admin panelleri ile kapsamlı iş akışı yönetimi"
+        }
+    ],
+    "contentBlocks": [
+        {
+            "type": 2,
+            "heading": "Admin ve Müşteri Panelleri",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767895263/ozet_ds3yse.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873008/ozet-poster_phbxaz.png",
+            "caption": "Hem müşteri paneli hem de kuaför paneli hızlı bir şekilde gösteren video"
+        },
+        {
+            "type": 0,
+            "heading": "Proje Genel Bakışı",
+            "subheading": "Modern ve Etkileşimli Randevu Yönetim Sistemi",
+            "content": "Centilmen, kuaför salonları için geliştirilmiş modern bir **çevrim içi randevu ve yönetim platformudur**. Kullanıcı deneyimini merkeze alan proje; akıcı animasyonlar, etkileşimli geçişler ve yapay zekâ ile üretilmiş yüksek kaliteli medya içerikleriyle zenginleştirilmiş bir arayüz sunar.\n\n Sistem; **Müşteri, Çalışan ve Admin** olmak üzere üç ayrı panelden oluşur. Müşteriler hızlı bir şekilde randevu oluşturabilirken, çalışanlar kendi programlarını yönetebilir, admin ise hizmetleri, medya içeriklerini ve kullanıcıları merkezî bir panel üzerinden kontrol edebilir.\n\nFrontend tarafında **React ve Tailwind CSS**, backend tarafında ise **Django REST Framework** kullanılarak ölçeklenebilir, güvenli ve yüksek performanslı bir mimari oluşturulmuştur. Proje, hem tasarım kalitesi hem de işlevsellik bakımından kuaför işletmelerine profesyonel bir dijital deneyim sunmayı amaçlamaktadır."
+        },
+        {
+            "type": 0,
+            "heading": "Header – Net, Düzenli ve Yönlendirici Bir Navigasyon",
+            "subheading": "Kullanıcıya aradığı her şeyi tek bakışta sunan pratik menü yapısı",
+            "content": "Sayfanın üst kısmında yer alan header alanı, ziyaretçiye sade ve anlaşılır bir gezinme deneyimi sunar. Menü yapısı; saç modellerine göz atmak, kuaför hakkında bilgi edinmek, sisteme kayıt olmak ya da hızlıca randevu oluşturmak isteyen kullanıcıları en kısa yoldan hedeflerine ulaştırır.\n\nSaç modelleri bölümü, farklı tarz kategorilerini keşfetmeyi kolaylaştırırken; Keşfet menüsü kullanıcıyı markanın kimliği, ekibi, hizmetleri ve iletişim kanallarıyla buluşturan kapsamlı bir yapıya sahiptir. Kayıt/Giriş seçenekleri ise kişisel deneyimi başlatmak isteyen ziyaretçilere hızlı erişim sağlar.\n\nDil seçici sayesinde kullanıcı arayüzünü tercih ettiği dile anında uyarlayarak çok daha kişisel ve erişilebilir bir kullanım sunar.\n\nGenel olarak, bu bölüm; şık tasarımın işlevsellikle birleştiği, kullanıcıyı yormayan ve her tıklamada doğru yere yönlendiren bir navigasyon mimarisi oluşturur."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877724/header_mjxofv.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873019/header-poster_ab3clu.png",
+            "caption": "Header Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "Footer – Markanın Kimliğini Tamamlayan Şık ve Dengeli Bir Kapanış",
+            "subheading": "Zarafet ve işlevselliğin buluştuğu alt navigasyon alanı",
+            "content": "Sayfanın alt bölümünde yer alan footer, Centilmen’in stil anlayışını yansıtan sade ve zarif bir tasarımla ziyaretçiyi karşılar. Markanın mottosu ve kimliğini vurgulayan kısa bir ifade, bölümün genel havasına güçlü bir karakter katar.\n\nKullanıcıya her an ulaşılabilir bir deneyim sunmak amacıyla randevu bağlantısı kolay erişilebilir şekilde öne çıkarılır. Menu yapısı ise salon hakkında bilgi almak, hizmetleri incelemek, saç modellerine göz atmak veya iletişim kanallarına ulaşmak isteyen ziyaretçilere net ve düzenli bir yol haritası sunar.\n\nDestek ve yasal bilgi bağlantılarının da yer aldığı bu alan, kullanıcıların güvenli ve bilinçli bir şekilde platformda ilerlemesini sağlar. Genel olarak footer, hem estetik hem de fonksiyonel yapısıyla sayfanın profesyonel bir şekilde tamamlanmasına katkı sunar."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877723/footer_v3azmt.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873017/footer-poster_pgpwll.png",
+            "caption": "Footer Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "Floating Buttons – Her An Erişilebilir Aksiyon Odaklı Navigasyon",
+            "subheading": "Kullanıcı davranışına duyarlı, görünürlüğü akıllıca yönetilen sabit butonlar",
+            "content": "Sitede, kullanıcı deneyimini güçlendirmek ve hızlı aksiyon almayı kolaylaştırmak amacıyla iki adet sabit floating buton kullanılır. Bu butonlar sayfa ilk yüklendiğinde görünmez; kullanıcı aşağı yönlü kaydırmaya başladığında otomatik olarak belirir ve ekran boyunca sabit kalarak sürekli erişilebilir hale gelir. Kullanıcı tekrar sayfanın en üstüne döndüğünde ise kendiliğinden gizlenerek arayüzün sadeliğini korur.\n\nFloating yapıda sunulan bu iki buton, birincisi randevu alma adımına, ikincisi ise WhatsApp üzerinden hızlı iletişime yönlendirir. Böylece kullanıcı hangi sayfada olursa olsun tek dokunuşla işlem başlatabilir.\n\nBu butonlar, randevu ve hesap işlemleri gibi dikkat gerektiren özel sayfalarda görünmez. Bunun dışındaki tüm sayfalarda aktif olarak çalışarak ziyaretçiye pratik ve kesintisiz bir erişim imkânı sağlar."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877723/floating_buttons_eqgrjw.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873016/floating-buttons-poster_tb8ec4.png",
+            "caption": "Floating Butonlar"
+        },
+        {
+            "type": 0,
+            "heading": "Hero Section – İlk İzlenimin Gücü",
+            "subheading": "Marka Kimliğini İlk Saniyede Hissettiren Açılış",
+            "content": "Ana sayfa, ziyaretçiyi ilk anda etkileyen güçlü bir görsel atmosferle açılır. Modern tasarım anlayışıyla hazırlanan dinamik video arka planı, markanın stilini ve premium duruşunu daha girişte hissettirir.\n\nSol bölümde yer alan marka vurgusu, Centilmen’in karakterini yalın fakat etkili bir dille ortaya koyarken; sağ taraftaki aksiyon odaklı randevu alanı, ziyaretçiyi hiçbir çaba harcamadan yönlendiren akıcı bir kullanıcı deneyimi sunar.\n\nBu bölüm, görsel çekicilik ve fonksiyonelliğin birleştiği dengeli bir yapı oluşturarak kullanıcının dikkatini doğal bir akışla randevu adımına taşır."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767878348/anasayfa_hero_ubbn02.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873026/ana_sayfa_i4xokl.png",
+            "caption": "Ana Sayfası - Hero Kısmı"
+        },
+        {
+            "type": 0,
+            "heading": "Tanıtım Bölümü – Kullanıcıya Yön Veren Sezgisel Deneyim",
+            "subheading": "Özgürce Model Seçimi ve Kolay Rezervasyon Akışı",
+            "content": "Bu bölüm, kullanıcıya platformu ne kadar rahat ve özgür bir şekilde kullanabileceğini ilk bakışta gösteren bir yapı sunar. Salon atmosferini yansıtan kaliteli kuaför görseli, yanında yer alan **En Çok Tercih Edilen Saç Stili** kartıyla birleşerek ziyaretçiye dilediği modeli doğrudan sistem üzerinden seçebileceğini hissettirir.\n\nÖne konumlandırılmış kuaför logosu, markanın güvenilirliğini pekiştirirken; her noktada görünür halde bulunan randevu butonu, kullanıcıyı doğal ve kesintisiz bir şekilde rezervasyon adımına yönlendirir.\n\nBu bölüm, estetik sunumu pratik kullanım kolaylığıyla bir araya getirerek hem bilgilendirici hem de aksiyon odaklı bir deneyim oluşturur."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877736/anasayfa_tanitim_xaghko.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873025/anasayfa-tanitim-poster_f1zomw.png",
+            "caption": "Ana Sayfa - Tanıtım Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "Müşterilerimizin Tercih Sebepleri – Akıcı ve Premium Bir Deneyim",
+            "subheading": "Modern Scroll Etkisiyle Güçlendirilmiş Kuaför Avantajları",
+            "content": "Bu bölüm, sabit ekran yapısı üzerine kurulu modern scroll animasyonu sayesinde ziyaretçiye akıcı ve yüksek kaliteli bir deneyim sunar. İçerik, kullanıcı kaydırdıkça doğal bir akışla değişerek markanın profesyonel yaklaşımını, hizmet kalitesini ve modern yapısını sade fakat etkileyici bir dille hissettirir."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877732/anasayfa_nedenler_yaubgx.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873024/anasayfa-nedenler-poster_rg0idv.png",
+            "caption": "Ana Sayfa - Müşterilerimizin Tercih Sebepleri Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "İstatistikler – Güven Oluşturan Başarı Hikayesi",
+            "subheading": "Markanın Deneyimini Somut Verilerle Destekleyen Bölüm",
+            "content": "Bu bölüm, Centilmen’in sektördeki güçlü duruşunu öne çıkaran istatistiksel bir sunum içerir. Hizmet verilen müşteri sayısından ekibin uzmanlık düzeyine, yıllara dayanan tecrübeden alınan ödüllere kadar pek çok başarı unsuru, sade fakat etkileyici bir tasarım eşliğinde kullanıcıya aktarılır.\n\nRakamların ötesinde verilen bu genel tablo, markanın güvenilirliğini pekiştirir ve ziyaretçide profesyonel bir kuaför deneyimi yaşayacağına dair güçlü bir izlenim bırakır."
+        },
+        {
+            "type": 1,
+            "heading": "",
+            "imageUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873022/anasayfa-istatistikler_t3wglf.png",
+            "caption": "Ana Sayfa - İstatistikler Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "Tıraş Makinesi Scroll Section – Akıcı ve Etkileyici Bir Geçiş Deneyimi",
+            "subheading": "Marka Mesajını Hareketle Güçlendiren Özel Animasyon",
+            "content": "Bu bölüm, sayfaya dinamizm katan özel bir scroll animasyonuna sahiptir. Kullanıcı ilerledikçe tıraş makinesinin sahneye akıcı bir şekilde dahil olması, hem modern tasarım çizgisini hem de markanın teknik hassasiyetini yansıtır.\n\nBaşlangıçta görünen marka mottosu, animasyon boyunca zarif bir geçişle farklı bir mesaja evrilir. Bu dönüşüm, Centilmen’in uzmanlık, kalite ve kişisel bakım konusundaki profesyonel yaklaşımını güçlü bir görsel anlatımla destekler.\n\nHareket ile metnin birleştiği bu yapı, ziyaretçiye hem görsel hem duygusal bir akış sunarak markanın karakterini etkileyici bir şekilde hissettirir."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877729/anasayfa_tras_makinesi_akbohw.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873022/anasayfa-tras-makinesi-poster_xj26lr.png",
+            "caption": "Ana Sayfa - Traş Makinesi Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "Öne Çıkan Modeller Section – İlham Veren Stil Kataloğu",
+            "subheading": "Popüler saç modellerini keşfetmek için tasarlanmış modern bir vitrin",
+            "content": "Bu bölüm, ziyaretçilere en çok tercih edilen saç modellerini düzenli ve ilham verici bir katalog yapısıyla sunar. Klasikten moderne, kısa kesimlerden trend fade stillerine kadar geniş bir yelpaze kullanıcıya net bir şekilde gösterilir.\n\nKullanıcı, ilgisini çeken bir stile tıkladığında doğrudan o modele ait detay sayfasına yönlendirilir. Bu özel sayfada modelin farklı açılardan çekilmiş fotoğrafları, stilin genel yapısı ve kullanım önerileri gibi bilgilere kolayca ulaşılabilir.\n\nBu yapı, ziyaretçinin yalnızca görsel bir fikir edinmesini değil, aynı zamanda hangi stilin kendisine daha uygun olabileceğini rahatça değerlendirmesini sağlayan akıcı bir deneyim oluşturur."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877729/anasayfa_one_cikan_modeller_cp6uzl.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873021/anasayfa-one-cikan-modeller-poster_yzyceu.png",
+            "caption": "Ana Sayfa - Öne Çıkan Modeller Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "Yaptığımız Centilmenleri Görün – Gerçek Dönüşümlerin Galerisi",
+            "subheading": "Önce–sonra karşılaştırmalarıyla hizmet kalitesini doğrudan deneyimleme",
+            "content": "Bu bölüm, ziyaretçiye Centilmen’in sunduğu dönüşümü en anlaşılır şekilde göstermeyi amaçlar. Sol taraftaki “Galeriyi Görün” ve “Videoları İzle” butonları; kullanıcıyı daha fazla örneğe yönlendiren sade ve işlevsel bir yapı sunar.\n\nSağ tarafta yer alan interaktif önce–sonra görüntü alanı, ziyaretçilerin gerçek müşteriler üzerinde yapılan değişimleri anlık olarak karşılaştırmasına olanak tanır. Kullanıcı fotoğrafı kaydırarak dönüşümün tüm detaylarını görebilir ve hizmetin kalitesini doğrudan deneyimlemiş olur.\n\nBu yaklaşım, sadece görsel bir sunum yapmakla kalmaz; Centilmen’in elinden çıkan işlerin güven veren, somut bir kanıtını da ortaya koyar."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877727/anasayfa_once_sonra_hkbi2v.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873021/anasayfa-once-sonra-poster_baep7n.png",
+            "caption": "Ana Sayfa - Önce Sonra Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "Özgürlük Section – Tam Kontrol Kullanıcının Elinde",
+            "subheading": "Kişiselleştirilmiş hizmet deneyimini adım adım hissettiren etkileşimli akış",
+            "content": "Bu bölümde kullanılan sabit ekran ve akış efektleri, ziyaretçiye modern ve özgürleştirici bir deneyim sunar. Scroll ilerledikçe içerik katman katman açılır ve kullanıcı, hizmet sürecinin tamamen kendi tercihleriyle şekillendiğini hisseder.\n\nModel seçimi, kuaför tercihi ve esnek randevu zamanı gibi adımlar; zorunluluk değil, kullanıcının istediği şekilde yönetebileceği seçenekler olarak sunulur. Bu anlatım tarzı, Centilmen’in yalnızca bir hizmet vermediğini; müşterisine karar özgürlüğü, kontrol ve kişiselleştirilmiş bir deneyim sunduğunu güçlü bir şekilde hissettirir.\n\nBölümün genel yapısı, özgürlüğün lüksle birleştiği bir hizmet anlayışını vurgulayarak, ziyaretçiye “her şey senin elinde” mesajını verir."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877727/anasayfa_ozgurluk_iguuzn.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873020/anasayfa-ozgurluk-poster_kyrdmq.png",
+            "caption": "Ana Sayfa - Özgürlük Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "Profesyonel Dokunuş Section – Tasarımın Gerçeğe Dönüştüğü An",
+            "subheading": "Sanatsal bir çizginin ustalıkla birleştiği etkileşimli deneyim",
+            "content": "Bu bölüm, ziyaretçiye adeta bir dönüşüm sürecine tanıklık ediyormuş hissi verir. Scroll ilerledikçe ekranda beliren ince çizgi, tasarım görselini gerçek bir fotoğrafa dönüştürerek Centilmen’in sunduğu hizmetin yalnızca bir kesim değil, bir sanat eseri olduğunu vurgular.\n\nHareketli akışın yanında beliren açıklamalar, deneyimin profesyonel bir dokunuşla başladığını, yüz hatlarına uygun kişisel önerilerle devam ettiğini ve tüm hizmetin rahat, modern ve özenle tasarlanmış bir atmosferde sunulduğunu hissettirir.\n\nBu yapı, hem estetiğin hem de ustalığın ön planda olduğu özel bir müşteri deneyimini güçlü bir şekilde ifade eder."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877726/anasayfa_cizim_gercek_lyhedf.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873020/anasayfa-cizim-gercek-poster_pa5rh7.png",
+            "caption": "Ana Sayfa - Profesyonel Dokunuş Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "Ekibimizle Tanışın – Uzmanların Bir Araya Geldiği Nokta",
+            "subheading": "Profesyonel kuaförleri modern ve güven veren bir sunumla keşfedin",
+            "content": "Bu bölümde ekip üyeleri, modern kart yapılarıyla özenle sergilenir. Her kart; uzmanlık alanı, deneyim süresi ve profesyonel yetkinlikleri gösteren sade fakat etkili bir düzenle hazırlanmıştır.\n\nKullanıcı, her kuaförün profesyonel profilini detaylı şekilde görüntüleyebildiği için randevu öncesi doğru uzmanı seçme konusunda kendini daha güvende hisseder. Bu yaklaşım, yalnızca bir ekip tanıtımı değil; marka ile kullanıcı arasında güven, şeffaflık ve kişisel bağ oluşturan önemli bir deneyim katmanı yaratır."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877717/anasayfa_ekibimiz_yqkonw.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873015/anasayfa-ekibimiz-poster_tzwkqf.png",
+            "caption": "Ana Sayfa - Ekibimizle Tanışın Bölümü"
+        },
+        {
+            "type": 0,
+            "heading": "Sıkça Sorulan Sorular – Net ve Güven Veren Yanıtlar",
+            "subheading": "Kullanıcıların en merak ettiği konulara açıklık getiren rehber alanı, iletişim sayfası ise kuaföre ulaşım için her türlü yöntemi çok açık ve güzel bir şekilde sunuyor",
+            "content": "Bu bölümler, ziyaretçilerin kuaför deneyimiyle ilgili aklına gelebilecek temel soruları yalın ve anlaşılır bir dille yanıtlar. Randevu süreci, ödeme seçenekleri, kuaför seçimi, model belirleme gibi sık karşılaşılan konular; karmaşıklıktan uzak, kullanıcıyı rahatlatan açıklamalarla sunulur.\n\nSSS bölümün sonunda yer alan iletişim yönlendirmesi ise ek güven sağlar; kullanıcıya her an destek alabileceğini hissettirerek marka ile doğrudan bir bağ kurar.\n\nİletişim Sayfasında müşterinin hem dijital hem de fiziksel bir şekilde kuaföre ulaşması için yöntemleri sunarak müşteri ve kuaför ile iletişimi daha güçlü olmasını sağlıyor."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877726/anasayfa_sss_qgrxur.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873020/anasayfa-sss-poster_sry06d.png",
+            "caption": "Ana Sayfa - Sıkça Sorulan Sorular Bölümü - İletişim Sayfası"
+        },
+        {
+            "type": 0,
+            "heading": "Kayıt, Aktivasyon ve Giriş Süreci",
+            "subheading": "Güvenli, yönlendirici ve kullanıcıyı yarı yolda bırakmayan hesap oluşturma deneyimi",
+            "content": "Kullanıcıların platformla olan yolculuğu, sade ve anlaşılır bir kayıt süreciyle başlar. Hesap oluşturma aşamasında girilen e-posta adresine otomatik olarak bir aktivasyon kodu gönderilir ve kullanıcı, bu kod aracılığıyla hesabını güvenli bir şekilde doğrular.\n\nKayıt sırasında girilen telefon numarası alanı, farklı kullanım alışkanlıklarını otomatik olarak algılayacak şekilde tasarlanmıştır. WhatsApp üzerinden +90 ile kopyalanan numaralar, 5 ile başlayan ya da 05 ile başlayan bitişik formatlar sistem tarafından anında Türkiye telefon standardına dönüştürülür. Böylece kullanıcı, numarayı nasıl yazdığıyla ilgilenmeden süreci sorunsuz şekilde tamamlayabilir.\n\nAktivasyon tamamlanmadan sistem erişimi sınırlı tutulur; bu süreçte kullanıcıya belirli aralıklarla nazik ve planlı hatırlatma bildirimleri gönderilerek deneyimin kesintiye uğramaması sağlanır.\n\nKayıt ve giriş adımları, tek bir sayfa üzerinde akıcı geçiş animasyonlarıyla sunulur. Görsel sürekliliği bozmadan yalnızca gerekli alanların ve aksiyonların değişmesi, kullanıcıya hızlı, modern ve karmaşadan uzak bir etkileşim hissi verir."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877727/kayit_giris_sureci_wg8tss.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873016/kayit-giris-sureci-poster_xrxjks.png",
+            "caption": "Kayıt, Aktivasyon ve Giriş Süreci"
+        },
+        {
+            "type": 0,
+            "heading": "Giriş Yapmadan Randevu Talebi – Akıllı Yönlendirme Akışı",
+            "subheading": "Kullanıcıyı zorlamadan, doğru adıma doğal şekilde yönlendiren uyarı sistemi",
+            "content": "Giriş yapmamış bir kullanıcı randevu alma adımına geçtiğinde, sistem süreci kesintiye uğratmadan devreye girer ve kullanıcıyı bilgilendiren şık bir yönlendirme ekranı sunar. Bu ekran, randevu işlemi için hesap oluşturmanın neden gerekli olduğunu net ve sade bir dille açıklar.\n\nKullanıcıya, hesap oluşturduğunda randevularını yönetebilme, geçmiş işlemlerini görüntüleyebilme ve hatırlatma bildirimleri alabilme gibi avantajlar doğal bir akış içinde hissettirilir. Aynı zamanda kullanıcıya iki farklı yol sunularak kontrol tamamen kendisine bırakılır; ister hemen hesap oluşturabilir, isterse işlemi daha sonra tamamlamak üzere süreci erteleyebilir.\n\nMevcut hesabı olan kullanıcılar için giriş seçeneği açıkça sunulur ve böylece herhangi bir zorunluluk hissi oluşturmadan, kullanıcıyı en doğru adıma yönlendiren dengeli ve kullanıcı dostu bir deneyim sağlanır."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877717/randevu_icin_giris_yap_pxovdg.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873015/randevu-icin-giris-yap-poster_g7ecjv.png",
+            "caption": "Randevu almak için giriş yapılması gerektiğini bildiren ekran"
+        },
+        {
+            "type": 0,
+            "heading": "Randevu Alma Süreci",
+            "subheading": "Adım adım ilerleyen, esnek ve kullanıcı kontrolünü merkeze alan randevu deneyimi",
+            "content": "Randevu oluşturma süreci, giriş yapmış kullanıcılar için tasarlanmış akıcı ve yönlendirici bir akışla başlar. İlk adımda kullanıcı, sistemde yer alan kuaförleri fotoğraflarıyla birlikte görerek tercih yapabilir. Dileyen kullanıcılar için tüm kuaförleri kapsayan alternatif bir seçim seçeneği de sunulur.\n\nBir kuaför seçildiğinde, yalnızca o kuaföre ait müsait saatler net ve anlaşılır bir şekilde listelenir. Tüm kuaförler seçeneği tercih edildiğinde ise sistem genelindeki uygun zaman aralıkları gösterilir. Kullanıcı, herhangi bir saat üzerine geldiğinde o zaman diliminde hangi kuaförlerin müsait olduğunu anında görebilir ve seçim yaparak bir sonraki adıma ilerler.\n\nİkinci aşamada kullanıcıdan saç modeli tercihi alınır. Belirli bir modeli seçebileceği gibi, tercihini kuaföre bırakabileceği esnek bir seçenek de sunulur. Bu seçimle birlikte randevu süreci tamamlanır ve kullanıcıya, oluşturulan randevuya ait bilgileri özetleyen bilgilendirici bir kart gösterilir.\n\nİsteyen kullanıcılar, randevu saatinden önce tarayıcı üzerinden hatırlatma bildirimi almayı tercih edebilir. Oluşturulan randevu başlangıçta beklemede durumuna alınır; ilgili kuaför tarafından onaylandığında ise kullanıcının profilinde onaylanmış olarak görünür hale gelir. Bu yapı, hem kullanıcı hem de kuaför tarafında kontrollü ve düzenli bir randevu yönetimi sağlar."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877718/randevu_alma_sureci_p37bat.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873015/randevu-alma-sureci-poster_aviqmh.png",
+            "caption": "Randevu Alma Süreci"
+        },
+        {
+            "type": 0,
+            "heading": "Favori Kuaför Önerisi",
+            "subheading": "Randevu sonrası kişiselleştirilmiş kullanıcı deneyimi",
+            "content": "Favori kuaförü bulunmayan bir müşteri randevu oluşturduğunda, sistem bu etkileşimi kişisel bir deneyime dönüştürür. Randevu işlemi tamamlandıktan sonra kullanıcıya, randevu aldığı kuaförü favorilerine eklemek isteyip istemediğini soran sade ve şık bir bilgilendirme sunulur.\n\nBu adım, kullanıcıyı zorlamadan ve akışı bozmadan ilerler. Onay verilmesi halinde ilgili kuaför otomatik olarak kullanıcının favori listesine eklenir. Böylece bir sonraki randevu sürecinde kullanıcı, alıştığı ve memnun kaldığı kuaföre çok daha hızlı ulaşabilir.\n\nBu yapı, hem kullanıcıya kişisel bir aidiyet hissi kazandırır hem de tekrar randevu alma sürecini daha pratik ve akıcı hale getirir."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767878325/favori_kuafor_ifinbc.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873011/favori-kuafor-poster_g2ww90.png",
+            "caption": "Favori Kuaför Önerisi"
+        },
+        {
+            "type": 0,
+            "heading": "Kuaför Paneli",
+            "subheading": "Randevularını, zamanını ve profilini tek merkezden yöneten profesyonel kontrol alanı",
+            "content": "Kuaför paneli, admin tarafından oluşturulan hesap bilgileriyle erişilen, tamamen rol bazlı ve profesyonel bir yönetim alanı sunar. Kuaför sisteme giriş yaptığında, karşısına ilk olarak güncel performans verilerini özetleyen bir dashboard ekranı gelir. Günlük, haftalık ve aylık randevu durumu; tamamlanan işlemler, bekleyen talepler, gelir ve doluluk oranı gibi bilgiler sade ve okunabilir bir yapıyla sunularak kuaförün iş yoğunluğunu tek bakışta analiz etmesini sağlar.\n\nYeni randevular sisteme düştüğünde, kuaför bekleyen talepleri hızlıca inceleyebilir ve tek tıklamayla onaylayabilir ya da reddedebilir. Bu yapı, randevu sürecinin kontrollü ve düzenli ilerlemesini sağlarken, kullanıcı tarafında da net bir durum takibi oluşturur.\n\nPanelin sol tarafında yer alan şık ve minimal sidebar, kuaförün ihtiyaç duyduğu tüm alanlara hızlı erişim sunar. Randevular, müşteriler, içerikler, saç modelleri, iletişim mesajları ve profil yönetimi gibi bölümler, karmaşa oluşturmadan tek bir merkezden yönetilebilir.\n\nProfil sayfası, kuaförün kendisini dijital ortamda en doğru şekilde ifade edebileceği kapsamlı bir alan olarak tasarlanmıştır. Kişisel bilgiler, uzmanlık alanları ve biyografi içerikleri düzenlenebilir; metinlerin yanı sıra fotoğraf ve video eklenerek güçlü bir kişisel vitrin oluşturulabilir.\n\nÇalışma takvimi bölümü sayesinde kuaför, haftalık müsaitlik saatlerini detaylı şekilde yönetebilir. Tekil saatler eklenebileceği gibi, belirli bir zaman aralığı seçilerek otomatik saat dilimleri oluşturulabilir. Saat aralıkları tamamen esnek yapıdadır ve kuaförün çalışma düzenine göre özelleştirilebilir.\n\nKuaför paneli, yalnızca randevu onaylamak için değil; zamanı, hizmet kalitesini ve dijital kimliği profesyonelce yönetmek için tasarlanmış bütüncül bir sistem sunar."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877718/kuafor_giris_profil_fpb0qh.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873014/kuafor-giris-profil-poster_wjcwi0.png",
+            "caption": "Kuaför Paneli"
+        },
+        {
+            "type": 0,
+            "heading": "Kuaför İstisna Günleri Belirleme",
+            "subheading": "Randevularını, zamanını ve profilini tek merkezden yöneten profesyonel kontrol alanı",
+            "content": "Öngörülemeyen durumlar içinİistisna günler tanımlanabilir. Böylece bir günü tamamen kapatmak yerine, yalnızca belirli saatler devre dışı bırakılabilir. Bu istisnalar tek seferlik ya da tekrar eden şekilde ayarlanarak randevu sisteminin gerçek hayattaki akışa uyum sağlaması amaçlanır."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877710/kuafor_istisna_umjj0n.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873010/kuafor-istisna-poster_oplfsq.png",
+            "caption": "Kuaför İstisna Günleri Belirleme"
+        },
+        {
+            "type": 0,
+            "heading": "Yetkilendirme Özelliği",
+            "subheading": "Rol bazlı, detaylı ve çift katmanlı güvenlik sistemi",
+            "content": "Centilmen platformunda her kuaför hesabı, kendisine özel olarak tanımlanan yetkilere sahiptir. Bu yapı sayesinde sistem içindeki tüm işlemler kontrollü, izlenebilir ve güvenli şekilde yürütülür. Yetkilendirme mekanizması hem arayüz (frontend) hem de sunucu tarafı (backend) tarafından ayrı ayrı denetlenerek, yetkisiz hiçbir işlemin gerçekleştirilmesine izin vermez.\n\nSistemde tanımlanan tüm yetkiler; yetkiyi veren kişi bilgisi, e-posta adresi ve işlem tarihi ile birlikte kayıt altına alınır. Aşağıda yer alan yetkiler, Deniz Haznedar (deniz@gmail.com) tarafından 20.12.2025 16:18 tarihinde tanımlanmıştır.\n\n**1. Kuaför Ekleyebilir Yetkisi:** Bu yetkiye sahip olan kuaförler, sisteme yeni kuaför hesapları ekleyebilir. Bu yetki tanımlı değilse kullanıcı başka bir kuaför ekleyemez. İlgili buton ve işlemler arayüzde görünmez ve backend tarafından tamamen engellenir.\n\n**2. Kuaför Düzenleyebilir Yetkisi:** Mevcut kuaförlerin belirli bilgilerini düzenleyebilme imkânı sunar. Ancak yetkilendirme alanı her zaman görünmez; yalnızca **Kuaför Yetkilendirebilir Yetkisi** bulunan kullanıcılar bu alanı görebilir. Eğer kullanıcı Kuaför Düzenleyebilir yetkisine sahip değil ancak yetkilendirme yetkisi varsa, düzenle seçeneğine tıkladığında açılan pencerede yalnızca yetkiler alanı görüntülenir. Kullanıcı her iki yetkiye de sahip değilse düzenleme seçeneği hiç gösterilmez; zorla erişim sağlansa bile backend tüm değişiklikleri engeller.\n\n**3. Kuaför Silebilir Yetkisi:** Sistem üzerinde kayıtlı kuaför hesaplarını silebilme yetkisini kapsar. Bu işlem yüksek güvenlik gerektirdiği için yalnızca açıkça yetkilendirilmiş kullanıcılar tarafından gerçekleştirilebilir.\n\n**4. Kuaför Yetkilendirebilir Yetkisi:** Mevcut kuaförlerin yetkilerini yönetme hakkı tanır. Hangi kuaförün hangi işlemleri yapabileceği bu yetki aracılığıyla kontrol edilir ve rol dağılımı dinamik olarak düzenlenebilir.\n\n**5. Randevu Ekleyebilir Yetkisi:** Kullanıcının, başka kuaförler adına doğrudan onaylı randevular oluşturmasına olanak tanır. Bu şekilde eklenen randevular sistemde anında onaylanmış olarak yer alır.\n\n**6. Randevu Düzenleyebilir Yetkisi:** Mevcut randevuların durumunu güncelleme yetkisini kapsar. Bu yetkiye sahip kullanıcılar, başka kuaförlerin randevularını onaylayabilir, reddedebilir veya randevu durumlarını düzenleyebilir.\n\n**7. Müşteri Düzenleyebilir Yetkisi:** Sistem içerisinde kayıtlı müşterilerin bilgilerini güncelleyebilme hakkı sağlar.\n\n**8. Müşteri Silebilir Yetkisi:** Mevcut bir müşterinin hesabını sistemden tamamen silebilme yetkisini kapsar.\n\n**9. Site Ayarlarını Düzenleyebilir Yetkisi:** Platformun genel site ayarlarını yönetme imkânı sunar. Bu yetki kapsamında; gelen yorumlar onaylanabilir, yeni saç modelleri eklenebilir, iletişim mesajları görüntülenip yanıtlanabilir ve siteye ait içeriksel yönetim işlemleri gerçekleştirilebilir.\n\nBu yetkilendirme yapısı sayesinde Centilmen, hem küçük ekipler hem de çoklu kuaför yapıları için ölçeklenebilir, güvenli ve profesyonel bir yönetim deneyimi sunar."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877717/yetkilendirme_sistemi_mmokvd.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873014/yetkilendirme-sistemi-poster_zuhnrl.png",
+            "caption": "Yetkilendirme sistemi"
+        },
+        {
+            "type": 0,
+            "heading": "Kuaför Biyografisi ve Çalışma Takvimi Yönetimi",
+            "subheading": "Esnek içerik yapısı ve tam kontrol sunan kişisel profil alanı",
+            "content": "Her kuaför, kendi hesabı üzerinden kişisel biyografisini özgürce oluşturabilir ve dilediği zaman düzenleyebilir. Aynı zamanda **Kuaför Düzenleyebilir Yetkisi** bulunan kullanıcılar, diğer kuaförlerin biyografi içeriklerini de yönetebilir. Yapılan tüm düzenlemeler doğrudan kullanıcı arayüzüne yansır ve ziyaretçilere açık şekilde görüntülenir.\n\nBiyografi oluşturma süreci sıra numarası mantığıyla çalışır. Bu yapı sayesinde metin, görsel ve video içerikleri istenilen düzende ve aynı hizada konumlandırmak mümkündür. Aynı sıra numarasına sahip içerikler yan yana hizalanır; örneğin aynı sıraya eklenen bir metin ve fotoğraf birlikte görünür. İçeriklerin eklenme sırasına göre metnin solda, görselin sağda ya da tam tersi şekilde konumlanması kolayca kontrol edilebilir. Farklı sıra numaraları kullanıldığında ise içerikler alt alta yerleşir.\n\nBu esnek yapı yalnızca tekil kombinasyonlarla sınırlı değildir. Metin yanına metin, bir görsel yanına birden fazla görsel, video yanına metin ya da fotoğraf eklenebilir. İçerik türleri arasında herhangi bir kısıtlama bulunmaz; biyografi alanı tamamen serbest ve modüler bir şekilde tasarlanmıştır.\n\nProfil yönetim alanında ayrıca kuaförün çalışma takvimi detaylı biçimde kontrol edilebilir. Günler tamamen açık veya kapalı olarak ayarlanabilir, yalnızca belirli saatler aktif bırakılabilir. Tek tek saat ekleme imkânının yanı sıra, belirli bir saat aralığı seçilerek bu aralıkta otomatik ve çoklu saatler hızlıca oluşturulabilir. Bu yapı, günlük planlamayı zahmetsiz ve hatasız hale getirir.\n\nTüm bu özellikler sayesinde kuaför profilleri yalnızca bilgilendirici bir alan olmaktan çıkar; kişisel tarzı yansıtan, düzenli ve profesyonel bir vitrine dönüşür."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877720/biygorafi_sjy1ut.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873013/biygorafi-poster_xd4qc7.png",
+            "caption": "Kuaför Biyografisi ve Çalışma Takvimi Yönetimi"
+        },
+        {
+            "type": 0,
+            "heading": "WhatsApp Üzerinden Randevu Bildirimi",
+            "subheading": "API kullanılmadan gerçekleştirilen alternatif bilgilendirme yöntemi",
+            "content": "Bir randevu onaylandığında sistem, kullanıcıya ek bir bilgilendirme seçeneği sunar. Bu aşamada yönetici ya da kuaför panelinde, ilgili müşteriye WhatsApp üzerinden bilgilendirme mesajı gönderilip gönderilmek istenmediği sorulur.\n\nEkranda, gönderilecek mesajın içeriği önizleme şeklinde gösterilir ve gerektiğinde düzenlenmesine izin verilir. Mesaj; randevu tarihi, saati, kuaför bilgisi ve alınan hizmet gibi temel detayleri içerir.\n\nKullanıcı bu adımı onayladığında sistem doğrudan WhatsApp uygulamasına yönlendirme yapar ve mesaj, WhatsApp üzerinden manuel gönderime hazır hale gelir. Bu yapı, herhangi bir WhatsApp Business API ya da harici servis kullanılmadan çalışır.\n\nBu yöntem, socket ya da gerçek zamanlı bildirim altyapısı bulunmayan sistemler için pratik ve düşük maliyetli bir alternatif çözüm sunar. Aynı zamanda mesaj gönderimi tamamen kullanıcı kontrolünde olduğu için güvenli ve esnek bir iletişim deneyimi sağlar."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877708/wp_bildirim_ijo96g.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873010/wp-bildirim-poster_sbb1vw.png",
+            "caption": "WhatsApp Üzerinden Randevu Bildirimi"
+        },
+        {
+            "type": 0,
+            "heading": "Çalışan Yönetimi",
+            "subheading": "Çalışan bilgileri, performans analizi ve yetki bazlı yönetim süreci",
+            "content": "Çalışan yönetimi modülü üzerinden sistemde yer alan tüm kuaförlerin detaylı bilgileri görüntülenebilir. Tüm çalışanlar, birbirlerinin bilgilerini panel içerisinde görebilir; bu bilgiler zaten public nitelikte olup kullanıcı tarafında yer alan \"Ekibimiz\" sayfasında da görüntülenmektedir. Panel içerisinde ise bu bilgiler daha detaylı bir şekilde sunulur. Düzenleme yetkisine sahip kullanıcılar, çalışan bilgilerini güncelleyebilir.\n\nHer çalışan için kapsamlı bir **Performans Analizi** ekranı bulunmaktadır. Bu ekranda veriler grafikler ve istatistiklerle desteklenerek sunulur. Analizler; Bugün, Bu Hafta, Bu Ay ve Tüm Zamanlar filtreleriyle incelenebilir. Toplam randevu sayısı, önceki döneme göre değişim oranları, tamamlanan randevular, tamamlanma yüzdesi, toplam müşteri sayısı, tekrar eden müşteriler, ortalama puan ve değerlendirme sayıları detaylı olarak gösterilir.\n\nRandevu durumu analizi bölümünde; tamamlanan, onaylanan, bekleyen ve iptal edilen randevular oranlarıyla birlikte grafiksel olarak sunulur. Müşteri analizi kısmında ise kayıtlı kullanıcılar, misafir kullanıcılar, tekrar eden ve yeni müşteriler ayrı ayrı analiz edilir.\n\nSistem ayrıca en popüler hizmetleri, haftalık randevu dağılımını, en yoğun gün ve saat bilgilerini ve son 30 güne ait randevu trendini görsel grafiklerle gösterir. Müşteri memnuniyeti alanında 1–5 yıldız arası değerlendirme dağılımı, toplam yorum sayısı ve onaylı yorumlar yer alır.\n\nİptal analizleri; kullanıcı iptali, kuaför iptali, admin iptali ve sistem iptali olarak ayrıştırılır ve toplam iptal oranı hesaplanır. Ayrıca randevuların kim tarafından oluşturulduğu (kullanıcı, kuaför, admin veya sistem) ayrı bir analiz başlığı altında sunulur.\n\nEkleme yetkisine sahip kullanıcılar sisteme yeni bir kuaför/çalışan ekleyebilir. Düzenleme yetkisine sahip kullanıcılar, çalışan bilgilerini güncelleyebilir ve çalışanı aktif veya pasif duruma alabilir.\n\nSilme yetkisi bulunan kullanıcılar ise çalışanı kalıcı olarak silebilir. Silme işlemi geri alınamaz ve işlem öncesinde kullanıcıya açık bir uyarı ekranı gösterilir. Bu ekranda çalışanın adı, e-posta adresi, telefon numarası ve tamamlanan randevu sayısı yer alır. Silme işlemiyle birlikte çalışana ait tüm randevu geçmişi, performans verileri, müşteri yorumları, puanlar ve hesap bilgileri kalıcı olarak silinir. İşlemin tamamlanabilmesi için kullanıcıdan onay amacıyla \"SIL\" yazması istenir."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877711/calisan_yonetimi_zmnmce.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873010/calisan-yonetimi-poster_z1ryfy.png",
+            "caption": "Çalışan Yönetimi"
+        },
+        {
+            "type": 0,
+            "heading": "Randevu İptal Durumları ve Aktif Randevu Kısıtlaması",
+            "subheading": "Randevu iptalinin kim tarafından yapıldığının takibi ve aynı anda tek aktif randevu kuralı",
+            "content": "Randevu sistemi, iptal işlemlerinin kim tarafından gerçekleştirildiğini açık ve şeffaf bir şekilde takip edecek şekilde tasarlanmıştır. Kullanıcı, aldığı bir randevuyu kendisi iptal ederse randevu detaylarında bu durum \"Kullanıcı tarafından iptal edildi\" şeklinde gösterilir. Eğer randevu kullanıcı dışında biri tarafından iptal edilirse (örneğin bir kuaför veya yetkili bir personel), randevu detaylarında iptali gerçekleştiren kuaförün adı açıkça belirtilir.\n\nSistem, kullanıcıların aynı anda birden fazla aktif randevu almasını engelleyecek şekilde çalışır. Eğer bir kullanıcının hali hazırda onaylanmış veya aktif bir randevusu bulunuyorsa ve kullanıcı yeni bir randevu almaya çalışırsa işlem engellenir ve kullanıcıya bilgilendirici bir hata ekranı gösterilir.\n\nBu hata ekranında, kullanıcının mevcut randevusunun tarihi ve saati açıkça belirtilir ve yeni bir randevu alabilmesi için öncelikle mevcut randevusunu iptal etmesi gerektiği ifade edilir. Kullanıcıya \"Ana Sayfaya Dön\" ve \"Tekrar Dene\" seçenekleri sunularak yönlendirme sağlanır.\n\nGösterilen hata mesajı şu şekildedir:\n\"Zaten 21.12.2025 11:00 tarihinde onaylanmış bir randevunuz bulunmaktadır. Yeni randevu alabilmek için mevcut randevunuzu iptal etmeniz gerekmektedir.\"\n\nBu yapı sayesinde hem randevu çakışmaları önlenir hem de iptal işlemleri kayıt altına alınarak randevu geçmişi üzerinde net ve izlenebilir bir süreç sağlanır. Sistem, kullanıcı deneyimini korurken kuaför ve salon operasyonlarının düzenli bir şekilde ilerlemesini amaçlar."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877708/randevu_guvenligi_baoblp.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873009/randevu-guvenligi-poster_f21dk9.png",
+            "caption": "Çalışan Yönetimi"
+        },
+        {
+            "type": 0,
+            "heading": "Son Randevu Ekranı",
+            "subheading": "Kuaförlerin sıradaki randevuları anlık olarak takip edebilmesi için tasarlanmış yönetim ekranı",
+            "content": "Kuaför panelinde, müşterilerden gelen randevuları sırasıyla takip edebilmek için özel olarak tasarlanmış bir \"Son Randevu\" ekranı bulunmaktadır. Bu ekran sayesinde kuaför, gün içindeki sıradaki randevuları kronolojik sıraya göre net bir şekilde görebilir ve randevu akışını kolayca yönetebilir.\n\nSon randevu ekranında her bir randevu için randevunun alındığı tarih ve saat bilgisi, randevu günü (örneğin 23 Aralık 2025 Salı), müşterinin adı ve soyadı, randevu saati, randevu durumu (örneğin Onaylandı), müşteri telefon numarası ve e-posta adresi gibi temel bilgiler eksiksiz olarak gösterilir.\n\nKuaför, bu ekran üzerinden sıradaki randevuyu aktif olarak takip edebilir. Randevu tamamlandığında \"Randevuyu Tamamla\" butonuna tek bir tıklama ile randevuyu tamamlanmış olarak işaretleyebilir. Bu işlem sonrasında sistem otomatik olarak bir sonraki sıradaki randevuyu öne alır ve kuaförün yeni randevuya geçmesini sağlar.\n\nBu yapı sayesinde kuaförler, manuel takip yapmaya gerek kalmadan gün içindeki randevu akışını düzenli, hızlı ve hatasız bir şekilde yönetebilir. Son randevu ekranı, özellikle yoğun çalışma saatlerinde randevu karışıklıklarını önleyerek operasyonel verimliliği artırmayı amaçlar."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877706/son_randevu_ekrani_ivzh6t.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873009/son-randevu-ekrani-poster_w7iqyj.png",
+            "caption": "Son Randevu Ekranı"
+        },
+        {
+            "type": 0,
+            "heading": "Randevu Değerlendirme ve Yorum Süreci",
+            "subheading": "Randevu sonrası müşteri geri bildirimlerini toplamak ve yönetmek için tasarlanmış değerlendirme akışı",
+            "content": "Bir müşteri randevusu tamamlandığında, müşterinin profil sayfasında otomatik olarak yeni bir alan görünür. Bu alan \"Son Randevunuzu Değerlendirin\" başlığı altında sunulur ve müşteriye, ilgili kuaför ile gerçekleştirdiği randevuya ait kısa bir bilgilendirme yapılır. Örneğin; \"Deniz Haznedar ile randevunuz (Side Part – uygulanan saç kesimi). Deneyiminizi paylaşın ve puanlayın.\" şeklinde açık ve yönlendirici bir metin yer alır.\n\nBu bilgilendirmenin altında müşteriyi aksiyona teşvik eden \"Randevunuzu Değerlendirin\" butonu bulunur. Müşteri bu butona tıkladığında, yeni bir modal pencere açılır.\n\nAçılan modalda üst kısımda \"Randevunuz Nasıldı?\" başlığı yer alır. Başlığın hemen altında değerlendirilmekte olan randevuya ait tüm detaylar gösterilir. Bu detaylar arasında randevu tarihi ve saati, hizmet türü (örneğin Side Part), randevunun gerçekleştirildiği kuaförün adı ve diğer bilgilendirici ögeler bulunur.\n\nModal içerisinde müşteriye 5 yıldız üzerinden puanlama yapabileceği bir değerlendirme alanı sunulur. Müşteri, isterse 1 yıldız isterse 5 yıldıza kadar dilediği puanı seçebilir. Yıldız puanlamasının altında ise müşterinin yazılı geri bildirim bırakabilmesi için bir yorum alanı yer alır. Müşteri bu alana randevu deneyimiyle ilgili düşüncelerini özgürce yazabilir.\n\nMüşteri yıldız puanlamasını yaptıktan ve yorumunu girdikten sonra değerlendirmeyi gönderir. Gönderilen yorum ve puanlama, \"Site Ayarlarını Düzenleyebilir\" yetkisine sahip olan kuaförlerin erişebildiği Yorumlar Yönetimi sayfasında otomatik olarak listelenir. Ancak bu aşamada yorumlar doğrudan yayınlanmaz; \"Onay Bekliyor\" durumunda gösterilir.\n\nYetkili kuaför, yorumu inceleyip onayladığı takdirde, ilgili yorum ve yıldız puanı platformun ana sayfasında yer alan \"Müşterilerimiz Ne Diyor\" bölümünde yayınlanır. Yayınlanan yorumda müşterinin adı ve verdiği yıldız puanı açık bir şekilde görünür.\n\nBu yapı sayesinde hem müşteri geri bildirimleri kontrollü bir şekilde toplanır hem de platformun güvenilirliği ve hizmet kalitesi, gerçek kullanıcı deneyimleri üzerinden şeffaf biçimde sergilenmiş olur."
+        },
+        {
+            "type": 2,
+            "heading": "",
+            "videoUrl": "https://res.cloudinary.com/dvx6nsrd9/video/upload/v1767877710/son_randevunuzu_degerlendirin_qdj3wn.mp4",
+            "posterUrl": "https://res.cloudinary.com/dvx6nsrd9/image/upload/v1767873009/son-randevunuzu-degerlendirin-poster_gkdffe.png",
+            "caption": "Randevu Değerlendirme ve Yorum Süreci"
+        }
+    ]
+}

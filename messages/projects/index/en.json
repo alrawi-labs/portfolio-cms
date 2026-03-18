@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "badge": "Portfolio",
+    "title": "Our Projects",
+    "subtitle": "Explore our portfolio of innovative solutions and creative works that drive success"
+  },
+  "search": {
+    "placeholder": "Search projects...",
+    "filterButton": "Filters",
+    "showingResults": "Showing",
+    "project": "project",
+    "projects": "projects"
+  },
+  "categories": {
+    "all": "All",
+    "webDevelopment": "Web Development",
+    "mobileApp": "Mobile App",
+    "design": "Design",
+    "aiMl": "AI/ML",
+    "blockchain": "Blockchain"
+  },
+  "projectCard": {
+    "technologiesUsed": "Technologies Used"
+  },
+  "noResults": {
+    "title": "No projects found",
+    "description": "Try adjusting your search or filter criteria",
+    "clearButton": "Clear Filters"
+  },
+  "featuredProjects": {
+    "title": "Featured Projects",
+    "subtitle": "Showcasing innovative solutions built with modern technologies",
+    "viewProject": "View Project",
+    "allProjects": {
+      "title": "Explore My Complete Portfolio",
+      "description": "Discover more innovative projects, creative solutions, and technical excellence across different technologies and domains",
+      "button": "View All Projects",
+      "stats": {
+        "projects": "Projects",
+        "technologies": "Technologies",
+        "years": "Years"
+      }
+    }
+  }
+}

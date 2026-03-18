@@ -1,0 +1,57 @@
+{
+  "title": "Experience & Education",
+  "subtitle": "My professional journey and academic achievements",
+  "tabs": {
+    "experience": "My Experience",
+    "education": "My Education"
+  },
+  "experience": [
+    {
+      "year": "July 2025 - August 2025",
+      "title": "Freelance Full-Stack Developer",
+      "company": "AI-Powered Audio Separation Platform"
+    },
+    {
+      "year": "May 2025 - July 2025",
+      "title": "ASP.NET MVC Developer",
+      "company": "Kırıkkale University, Rectorate, Information Processing Department"
+    },
+    {
+      "year": "April 2025",
+      "title": "Full-Stack Developer",
+      "company": "Kırıkkale University, Rectorate, Information Processing Department"
+    },
+    {
+      "year": "September 2024",
+      "title": "Full-Stack Developer",
+      "company": "Kırıkkale University, Faculty of Humanities and Social Sciences"
+    },
+    {
+      "year": "March 2024",
+      "title": "Full-Stack Developer",
+      "company": "Kırıkkale University, Faculty of Veterinary Medicine"
+    }
+  ],
+  "education": [
+    {
+      "year": "September 2021 - June 2025",
+      "title": "Bachelor in Computer Engineering",
+      "company": "Kırıkkale University, Kırıkkale"
+    },
+    {
+      "year": "July 2024 - August 2024",
+      "title": "Backend Development Internship",
+      "company": "Bayraktar Solar Enerji, Ankara"
+    },
+    {
+      "year": "July 2023 - August 2023",
+      "title": "Full-Stack Developer Internship",
+      "company": "Kırıkkale University, Rectorate, Information Processing Department"
+    },
+    {
+      "year": "September 2014 - May 2018",
+      "title": "High School Diploma",
+      "company": "Besheer Atalay Anatolian Imam Hatip High School, Kırıkkale"
+    }
+  ]
+}

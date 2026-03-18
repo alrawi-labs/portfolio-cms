@@ -1,0 +1,57 @@
+{
+  "title": "Deneyim ve Eğitim",
+  "subtitle": "Profesyonel yolculuğum ve akademik başarılarım",
+  "tabs": {
+    "experience": "Deneyimlerim",
+    "education": "Eğitimim"
+  },
+  "experience": [
+    {
+      "year": "Temmuz 2025 - Ağustos 2025",
+      "title": "Serbest Full-Stack Geliştirici",
+      "company": "Yapay Zeka Destekli Ses Ayırma Platformu"
+    },
+    {
+      "year": "Mayıs 2025 - Temmuz 2025",
+      "title": "ASP.NET MVC Geliştirici",
+      "company": "Kırıkkale Üniversitesi, Rektörlük, Bilgi İşlem Daire Başkanlığı"
+    },
+    {
+      "year": "Nisan 2025",
+      "title": "Full-Stack Geliştirici",
+      "company": "Kırıkkale Üniversitesi, Rektörlük, Bilgi İşlem Daire Başkanlığı"
+    },
+    {
+      "year": "Eylül 2024",
+      "title": "Full-Stack Geliştirici",
+      "company": "Kırıkkale Üniversitesi, İnsan ve Toplum Bilimleri Fakültesi"
+    },
+    {
+      "year": "Mart 2024",
+      "title": "Full-Stack Geliştirici",
+      "company": "Kırıkkale Üniversitesi, Veteriner Fakültesi"
+    }
+  ],
+  "education": [
+    {
+      "year": "Eylül 2021 - Haziran 2025",
+      "title": "Bilgisayar Mühendisliği Lisans",
+      "company": "Kırıkkale Üniversitesi, Kırıkkale"
+    },
+    {
+      "year": "Temmuz 2024 - Ağustos 2024",
+      "title": "Backend Geliştirme Stajı",
+      "company": "Bayraktar Solar Enerji, Ankara"
+    },
+    {
+      "year": "Temmuz 2023 - Ağustos 2023",
+      "title": "Full-Stack Geliştirici Stajı",
+      "company": "Kırıkkale Üniversitesi, Rektörlük, Bilgi İşlem Daire Başkanlığı"
+    },
+    {
+      "year": "Eylül 2014 - Mayıs 2018",
+      "title": "Lise Diploması",
+      "company": "Beşir Atalay Anadolu İmam Hatip Lisesi, Kırıkkale"
+    }
+  ]
+}

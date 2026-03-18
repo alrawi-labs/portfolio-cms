@@ -1,0 +1,26 @@
+{
+  "title": "My Quality Services",
+  "subtitle": "I turn ideas into powerful, scalable, and beautifully crafted digital experiences — built with precision and long-term vision.",
+  "items": [
+    {
+      "number": "01",
+      "title": "Full Stack Development",
+      "description": "I create complete end-to-end web solutions — from intuitive, high-performance interfaces to secure backend architectures. My focus is on clean code, scalability, and exceptional user experience across all devices."
+    },
+    {
+      "number": "02",
+      "title": "UI / UX Design",
+      "description": "I design elegant, functional, and user-centered interfaces. Every layout, interaction, and flow is shaped to feel natural, visually refined, and effortless, ensuring your users enjoy every moment of the experience."
+    },
+    {
+      "number": "03",
+      "title": "Algorithm Development",
+      "description": "I develop custom algorithms that solve complex problems with precision and efficiency. From optimized logic structures to intelligent automation, I engineer systems that run smarter, faster, and more reliably."
+    },
+    {
+      "number": "04",
+      "title": "Website Security & Maintenance",
+      "description": "I protect and maintain websites using industry-standard security practices. With continuous monitoring, performance optimization, and regular updates, I ensure your website stays fast, stable, and fully secure."
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
-export default function LoginPage() {
+function LoginForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const from = searchParams.get("from") || "/admin";
@@ -80,14 +80,12 @@ export default function LoginPage() {
           }}
           className="login-left"
         >
-          {/* Arka plan dokusu */}
           <div
             style={{
               position: "absolute",
               inset: 0,
               pointerEvents: "none",
-              background:
-                "linear-gradient(135deg, #8750f708 0%, transparent 60%)",
+              background: "linear-gradient(135deg, #8750f708 0%, transparent 60%)",
             }}
           />
           <div
@@ -98,8 +96,7 @@ export default function LoginPage() {
               width: 400,
               height: 400,
               borderRadius: "50%",
-              background:
-                "radial-gradient(circle, #8750f712 0%, transparent 70%)",
+              background: "radial-gradient(circle, #8750f712 0%, transparent 70%)",
               animation: "glow 6s ease-in-out infinite",
             }}
           />
@@ -111,13 +108,11 @@ export default function LoginPage() {
               width: 280,
               height: 280,
               borderRadius: "50%",
-              background:
-                "radial-gradient(circle, #6340b510 0%, transparent 70%)",
+              background: "radial-gradient(circle, #6340b510 0%, transparent 70%)",
               animation: "glow 8s ease-in-out infinite 2s",
             }}
           />
 
-          {/* Sol içerik */}
           <div
             style={{
               position: "relative",
@@ -148,7 +143,6 @@ export default function LoginPage() {
                   flexShrink: 0,
                 }}
               />
-
               <span
                 style={{
                   color: "#e2e2e8",
@@ -195,7 +189,6 @@ export default function LoginPage() {
               bir panelde.
             </p>
 
-            {/* Feature badges */}
             <div
               style={{
                 display: "flex",
@@ -264,7 +257,6 @@ export default function LoginPage() {
           }}
           className="login-right"
         >
-          {/* Form başlığı */}
           <div style={{ marginBottom: 40 }}>
             <h1
               style={{
@@ -282,7 +274,6 @@ export default function LoginPage() {
             </p>
           </div>
 
-          {/* Form */}
           <form
             onSubmit={handleSubmit}
             style={{ display: "flex", flexDirection: "column", gap: 20 }}
@@ -422,13 +413,16 @@ export default function LoginPage() {
                 padding: "14px",
                 background:
                   loading || !username || !password ? "#2a1a4a" : "#8750f7",
-                color: loading || !username || !password ? "#6340b5" : "#fff",
+                color:
+                  loading || !username || !password ? "#6340b5" : "#fff",
                 border: "none",
                 borderRadius: 10,
                 fontSize: 14,
                 fontWeight: 600,
                 cursor:
-                  loading || !username || !password ? "not-allowed" : "pointer",
+                  loading || !username || !password
+                    ? "not-allowed"
+                    : "pointer",
                 boxShadow:
                   loading || !username || !password
                     ? "none"
@@ -463,7 +457,6 @@ export default function LoginPage() {
             </button>
           </form>
 
-          {/* Alt bilgi */}
           <div
             style={{
               marginTop: 36,
@@ -489,7 +482,6 @@ export default function LoginPage() {
         </div>
       </div>
 
-      {/* Responsive — mobilde sol paneli gizle */}
       <style>{`
         @media (max-width: 860px) {
           .login-left   { display: none !important; }
@@ -502,5 +494,27 @@ export default function LoginPage() {
         }
       `}</style>
     </>
+  );
+}
+
+export default function LoginPage() {
+  return (
+    <Suspense
+      fallback={
+        <div
+          style={{
+            minHeight: "100dvh",
+            background: "#0a0a10",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
+        >
+          <div style={{ color: "#52525e", fontSize: 14 }}>Yükleniyor…</div>
+        </div>
+      }
+    >
+      <LoginForm />
+    </Suspense>
   );
 }

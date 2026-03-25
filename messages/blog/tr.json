@@ -1,0 +1,35 @@
+{
+    "hero": {
+        "badge": "Makaleler ve İçgörüler",
+        "title": "Blog",
+        "subtitle": "Web geliştirme, tasarım ve harika yazılımlar oluşturma sanatı üzerine düşünceler.",
+        "sectionCategory": "Tüm Makaleler"
+    },
+    "search": {
+        "placeholder": "Makaleler, konular, etiketler ara…",
+        "filterButton": "Filtrele",
+        "showingResults": "Gösteriliyor",
+        "article": "makale",
+        "articles": "makale"
+    },
+    "categories": {
+        "all": "Tümü",
+        "webDevelopment": "Web Geliştirme",
+        "programming": "Programlama",
+        "design": "Tasarım",
+        "aiMl": "Yapay Zeka / Makine Öğrenimi",
+        "career": "Kariyer"
+    },
+    "readMore": "Devamını Oku",
+    "readingTime": "dk okuma",
+    "backToBlog": "Bloga Dön",
+    "tableOfContents": "İçindekiler",
+    "relatedArticles": "İlgili Makaleler",
+    "shareArticle": "Paylaş",
+    "linkCopied": "Kopyalandı!",
+    "noResults": {
+        "title": "Makale bulunamadı",
+        "description": "Aramanızı değiştirmeyi veya filtreleri temizlemeyi deneyin.",
+        "clearButton": "Filtreleri Temizle"
+    }
+}

@@ -61,7 +61,7 @@ export default function Footer() {
 
           {/* Copyright */}
           <div className="text-gray-400">
-            © 2025 All Rights Reserved by{" "}
+            © 2026 All Rights Reserved by{" "}
             <span className="text-purple-400">Yasir AL-Rawi</span>
           </div>
         </div>

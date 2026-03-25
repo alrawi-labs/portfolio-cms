@@ -1,0 +1,35 @@
+{
+    "hero": {
+        "badge": "Articles & Insights",
+        "title": "Blog",
+        "subtitle": "Thoughts on web development, design, and the craft of building great software.",
+        "sectionCategory": "All Articles"
+    },
+    "search": {
+        "placeholder": "Search articles, topics, tags…",
+        "filterButton": "Filter",
+        "showingResults": "Showing",
+        "article": "article",
+        "articles": "articles"
+    },
+    "categories": {
+        "all": "All",
+        "webDevelopment": "Web Dev",
+        "programming": "Programming",
+        "design": "Design",
+        "aiMl": "AI / ML",
+        "career": "Career"
+    },
+    "readMore": "Read",
+    "readingTime": "min read",
+    "backToBlog": "Back to Blog",
+    "tableOfContents": "Contents",
+    "relatedArticles": "Related Articles",
+    "shareArticle": "Share",
+    "linkCopied": "Copied!",
+    "noResults": {
+        "title": "No articles found",
+        "description": "Try adjusting your search or clearing the filters.",
+        "clearButton": "Clear Filters"
+    }
+}

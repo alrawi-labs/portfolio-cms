@@ -175,3 +175,68 @@ export interface ProjectsIndex {
   };
   items: ProjectListItem[];
 }
+
+// Blogls
+
+export interface BlogAuthor {
+  name: string;
+  avatar: string;
+  title?: string;
+}
+
+export interface BlogPost {
+  id: string;
+  slug: string;
+  title: string;
+  subtitle?: string;
+  excerpt: string;
+  category: string;         // key — e.g. "webDevelopment"
+  tags: string[];
+  coverImage: string;
+  author: BlogAuthor;
+  publishedAt: string;      // ISO date string e.g. "2024-03-15"
+  updatedAt?: string;
+  readingTime: number;      // minutes
+  isFeatured?: boolean;
+  contentBlocks: BlogContentBlock[];
+}
+
+/* ── Content block types (same pattern as projects) ── */
+export type BlogContentBlock =
+  | BlogTextBlock
+  | BlogImageBlock
+  | BlogCodeBlock
+  | BlogQuoteBlock
+  | BlogDividerBlock;
+
+export interface BlogTextBlock {
+  type: 0;
+  heading?: string;
+  subheading?: string;
+  content: string;          // supports **bold** markdown
+}
+
+export interface BlogImageBlock {
+  type: 1;
+  imageUrl: string;
+  caption?: string;
+  heading?: string;
+}
+
+export interface BlogCodeBlock {
+  type: 2;
+  heading?: string;
+  language: string;
+  code: string;
+  caption?: string;
+}
+
+export interface BlogQuoteBlock {
+  type: 3;
+  quote: string;
+  author?: string;
+}
+
+export interface BlogDividerBlock {
+  type: 4;
+}

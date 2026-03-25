@@ -1,0 +1,35 @@
+{
+  "hero": {
+    "badge": "إضاءات معرفية ورؤى",
+    "title": "المدونة",
+    "subtitle": "رحلة في فلسفة تطوير الويب، فن التصميم، وهندسة التجارب الرقمية الاستثنائية.",
+    "sectionCategory": "الأرشيف الكامل"
+  },
+  "search": {
+    "placeholder": "عن ماذا تبحث؟ مقالات، وسوم، أفكار...",
+    "filterButton": "تخصيص النتائج",
+    "showingResults": "نستعرض لك",
+    "article": "مقال",
+    "articles": "مقالات"
+  },
+  "categories": {
+    "all": "الكل",
+    "webDevelopment": "تطوير الويب",
+    "programming": "عالم البرمجة",
+    "design": "الإبداع والتصميم",
+    "aiMl": "الذكاء الاصطناعي",
+    "career": "آفاق مهنية"
+  },
+  "readMore": "استكشف القصة",
+  "readingTime": "دقائق من القراءة",
+  "backToBlog": "العودة للمدونة",
+  "tableOfContents": "محتويات المقال",
+  "relatedArticles": "قد يثير اهتمامك أيضاً",
+  "shareArticle": "أنشر المعرفة",
+  "linkCopied": "تم نسخ الرابط!",
+  "noResults": {
+    "title": "لم نعثر على ما تبحث عنه",
+    "description": "ربما كلمات بحث مختلفة أو إعادة ضبط الفلاتر ستوصلك لما تريد.",
+    "clearButton": "البدء من جديد"
+  }
+}

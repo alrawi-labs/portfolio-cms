@@ -17,6 +17,7 @@ export default getRequestConfig(async ({ requestLocale }) => {
       ...(await import(`@/messages/${locale}.json`)).default,
       
       // Bölüm mesajları
+      blog: (await import(`@/messages/blog/${locale}.json`)).default,
       services: (await import(`@/messages/services/${locale}.json`)).default,
       resume: (await import(`@/messages/resume/${locale}.json`)).default,
       skills: (await import(`@/messages/skills/${locale}.json`)).default,

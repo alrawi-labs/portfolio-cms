@@ -20,6 +20,8 @@ const NAV_GROUPS = [
       { href: "/admin/projects",       label: "Projeler",     icon: "⊞", desc: "Proje kartları"     },
       { href: "/admin/projects-index", label: "Proje Sayfası",icon: "⊟", desc: "Sayfa metinleri"   },
       { href: "/admin/services",       label: "Servisler",    icon: "⊙", desc: "Hizmet kartları"    },
+            { href: "/admin/blog", label: "Bloglar", icon: "◈", desc: "Tüm Bloglar" },
+
       { href: "/admin/skills",         label: "Beceriler",    icon: "◈", desc: "Teknolojiler"       },
       { href: "/admin/resume",         label: "CV",           icon: "◇", desc: "Deneyim & eğitim"  },
       { href: "/admin/certificates",   label: "Sertifikalar", icon: "◉", desc: "Belgeler"           },

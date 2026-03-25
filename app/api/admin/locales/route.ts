@@ -22,7 +22,6 @@ async function writeLocales(locales: { code: string; name: string; locale: strin
     `  { code: '${l.code}', name: '${l.name}', locale: '${l.locale}' }`
   ).join(",\n");
 
-  // Orijinal dosyadaki ek export satırlarını koru
   const content = `// data/systemLanguages.ts
 export const systemLanguages = [
 ${entries}
@@ -38,6 +37,13 @@ export const localeMap = Object.fromEntries(
 );
 `;
   await fs.writeFile(SYS_FILE, content, "utf-8");
+}
+
+/* ── Klasörü recursive olarak sil ── */
+async function removeDir(dirPath: string): Promise<void> {
+  try {
+    await fs.rm(dirPath, { recursive: true, force: true });
+  } catch { /* klasör yoksa yok say */ }
 }
 
 /* ── Boş JSON şablonları ── */
@@ -116,7 +122,6 @@ export async function POST(request: NextRequest) {
     for (const [relPath, content] of Object.entries(files)) {
       const fullPath = path.join(ROOT, relPath);
       await fs.mkdir(path.dirname(fullPath), { recursive: true });
-      // Zaten varsa üzerine yazma
       try { await fs.access(fullPath); }
       catch { await fs.writeFile(fullPath, JSON.stringify(content, null, 2), "utf-8"); }
     }
@@ -144,7 +149,7 @@ export async function DELETE(request: NextRequest) {
     const updated  = existing.filter(l => l.code !== code);
     await writeLocales(updated);
 
-    // JSON dosyalarını sil (hata olsa bile devam et)
+    // Tekil JSON dosyalarını sil
     const filesToDelete = [
       `messages/${code}.json`,
       `messages/certificates/${code}.json`,
@@ -159,6 +164,17 @@ export async function DELETE(request: NextRequest) {
     for (const f of filesToDelete) {
       try { await fs.unlink(path.join(ROOT, f)); } catch { /* yok sayılabilir */ }
     }
+
+    // Proje detayları klasörünü sil (messages/projects/details/{code}/)
+    await removeDir(path.join(ROOT, "messages", "projects", "details", code));
+
+    // Proje index klasörünü sil (messages/projects/index/ içindeki tek dosya zaten silindi,
+    // ama klasör boş kalmışsa temizle)
+    try {
+      const indexDir = path.join(ROOT, "messages", "projects", "index");
+      const remaining = await fs.readdir(indexDir);
+      if (remaining.length === 0) await fs.rmdir(indexDir);
+    } catch { /* yok sayılabilir */ }
 
     return NextResponse.json({ success: true });
   } catch (error) {

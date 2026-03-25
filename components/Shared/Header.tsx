@@ -220,6 +220,14 @@ export default function Header() {
             </div>
 
             <button
+              onClick={() => router.push("/blog")}
+              className="text-text hover:text-text-hover transition-colors relative group text-base font-semibold tracking-wide"
+            >
+              {t("blogs")}
+              <span className="absolute -bottom-1 start-0 w-0 h-0.5 bg-gradient-primary group-hover:w-full transition-all duration-700"></span>
+            </button>
+
+            <button
               onClick={() => scrollToSection("contact")}
               className="text-text hover:text-text-hover transition-colors relative group text-base font-semibold tracking-wide"
             >
@@ -347,7 +355,12 @@ export default function Header() {
                   </button>
                 </div>
               </div>
-
+              <button
+                onClick={() => router.push("/blog")}
+                className="text-text hover:text-text-hover transition-colors py-1.5 text-base font-semibold tracking-wide text-start block w-full"
+              >
+                {t("blogs")}
+              </button>
               <button
                 onClick={() => scrollToSection("contact")}
                 className="text-text hover:text-text-hover transition-colors py-2 text-base font-semibold tracking-wide text-start"

@@ -1,0 +1,497 @@
+[
+  {
+    "id": "1",
+    "slug": "java-programlama-2023-2024",
+    "title": "Java Programlama 2023-2024 Bahar Dönemi",
+    "subtitle": "Sınıflar, OOP Prensipleri ve Temel Java Konseptleri Kapsamlı Rehberi",
+    "excerpt": "Java'da Random, Scanner, IO gibi temel sınıflardan başlayarak, Kapsülleme (Encapsulation), Kalıtım (Inheritance), Çok Biçimlilik (Polymorphism) ve Soyutlama (Abstraction) üzerine eksiksiz ders notları.",
+    "category": "programming",
+    "tags": [
+      "Java",
+      "OOP",
+      "Backend",
+      "Programming"
+    ],
+    "coverImage": "https://private-user-images.githubusercontent.com/204489698/438293097-381f101c-9f06-41a6-a4fb-bfd975f46210.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzQwMjUyNjgsIm5iZiI6MTc3NDAyNDk2OCwicGF0aCI6Ii8yMDQ0ODk2OTgvNDM4MjkzMDk3LTM4MWYxMDFjLTlmMDYtNDFhNi1hNGZiLWJmZDk3NWY0NjIxMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMzIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDMyMFQxNjQyNDhaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xZTJjMTBmYmIxMDZlZjVjZTRjOGFmNDY0N2MxOTMzMGNjM2I4ZmEwOTRmMDcxOTU4ZTAyMTI1MTFlMTJlYmM3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.zII0-ZRVRk38VWzrIuzU0H8D-4XsLQagTGI-4Ozdy-Q",
+    "author": {
+      "name": "Sedanur Alrawi",
+      "avatar": "https://private-user-images.githubusercontent.com/204489698/438293097-381f101c-9f06-41a6-a4fb-bfd975f46210.png",
+      "title": "Full Stack Developer"
+    },
+    "publishedAt": "2024-05-01",
+    "readingTime": 45,
+    "isFeatured": true,
+    "contentBlocks": [
+      {
+        "type": 0,
+        "content": "**Burada bahsedilen tüm sınıfların ve daha fazlasının ilgili örnek kodları yukarıdaki yüklediğim `ornekler.java` dosyasında bulunmaktadır.**"
+      },
+      {
+        "type": 0,
+        "heading": "1. `Random` Sınıfı",
+        "content": "Java'da rastgele sayılar üretmek için kullanılan bir sınıftır. Bu sınıf, genellikle oyunlar, simülasyonlar, rastgele seçimler ve diğer birçok uygulama için rastgele sayılara ihtiyaç duyulan durumlarda kullanılır.\n\nKütüphanesini eklemek için şu kodu kullanabilirsiniz:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "import java.util.Random;"
+      },
+      {
+        "type": 0,
+        "content": "`main` metodunda kullanımı, 0,1 rakamları rastgele seçecek"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n  Random rand = new Random();\n  int num = rand.nextInt(2);\n}"
+      },
+      {
+        "type": 0,
+        "content": "**sabit bir sayı ile kullanımı**\n\n- `0 ile 10` arasında seçim yapmak için"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n  final int MAX = 10;\n  Random rand = new Random();\n  int num = rand.nextInt(MAX) + 1;\n}"
+      },
+      {
+        "type": 0,
+        "content": "- `5 ile 15` arasında seçim yapmak için"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "final int MAX = 15;\nfinal int MIN = 5;\nRandom rand = new Random();\nint randomNumber = rand.nextInt((MAX - MIN) + 1) + MIN;"
+      },
+      {
+        "type": 0,
+        "content": "**Önemli metotlar**"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "int randomNumber = rand.nextInt(100); // 0 ile 99 arasında rastgele bir tamsayı üretir\ndouble randomDouble = rand.nextDouble(); // 0.0 ile 1.0 arasında rastgele bir ondalıklı sayı üretir\nboolean randomBoolean = rand.nextBoolean(); // true veya false değerlerinden birini rastgele olarak üretir\nfloat randomFloat = rand.nextFloat(); // 0.0 ile 1.0 arasında bir float sayı üretir."
+      },
+      {
+        "type": 0,
+        "heading": "2. `Scanner` Sınıfı",
+        "content": "Java'da kullanıcıdan girdi almak için kullanılan bir sınıftır. Kullanıcıdan klavyeden girdi almak için yaygın olarak kullanılır. Scanner sınıfı, bir girdi akışı üzerinde işlem yapmak için çeşitli yöntemler sağlar ve bu yöntemlerle tamsayılar, ondalıklı sayılar, metin gibi farklı türlerde verileri okuyabiliriz.\n\nKütüphanesini eklemek için şu kodu kullanabilirsiniz:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "import java.util.Scanner;"
+      },
+      {
+        "type": 0,
+        "content": "`main` metodunda kullanımı, kullanıcıdan bir string değeri almak için kullanımı"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n  Scanner scan = new Scanner(System.in);\n  System.out.print(\"Enter your name : \");\n  String name = scan.nextLine();\n}"
+      },
+      {
+        "type": 0,
+        "content": "**Önemli metotlar**"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "int number = scan.nextInt(); // Klavyeden bir tamsayı girdisi okur\ndouble decimal = scan.nextDouble(); // Klavyeden bir ondalıklı sayı girdisi okur\nString text = scan.nextLine(); // Klavyeden bir metin girdisi okur\nBoolean bol = scan.nextBoolean(); // Bir boolean değer okur. Kabul edilen değerler \"true\" veya \"false\" (büyük/küçük harf duyarlı değildir).\nfloat f = scan.nextFloat(); // Bir float değeri okur."
+      },
+      {
+        "type": 0,
+        "heading": "3. `DecimalFormat` Sınıfı",
+        "content": "Java'da sayıları biçimlendirmek için kullanılan bir sınıftır. Bu sınıf, özel sayı biçimlendirme desenleri kullanarak sayıları belirli bir biçimde biçimlendirmenizi sağlar.\n\nÖnemli bir nokta olarak, bu işlevin dönüş değeri `java.lang.String` türündedir\n\nKütüphanesini eklemek için şu kodu kullanabilirsiniz:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "import java.text.DecimalFormat;"
+      },
+      {
+        "type": 0,
+        "content": "`main` metodunda kullanımı, noktadan sonra 2 basamak kalacak şekilde yuvarlamak için kullanımı"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n  DecimalFormat df = new DecimalFormat(\"#.##\");\n  double number = 123.456;\n  System.out.println(df.format(number));\n}"
+      },
+      {
+        "type": 0,
+        "heading": "4. `NumberFormat` Sınıfı",
+        "content": "Java'da sayıların biçimlendirilmesi için kullanılan bir sınıftır.\n\nKütüphanesini eklemek için şu kodu kullanabilirsiniz:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "import java.text.NumberFormat;"
+      },
+      {
+        "type": 0,
+        "content": "`main` metodunda kullanımı, yüzde değerlerini biçimlendirmek için `getPercentInstance` metodu kullanılır."
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n  double ratio = 0.75;\n  NumberFormat nf = NumberFormat.getPercentInstance();\n  System.out.println(nf.format(ratio)); // output: 75%\n}"
+      },
+      {
+        "type": 0,
+        "content": "belirli bir biçimlendirme için şu kütüphane eklenmeli"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "import java.util.Locale;"
+      },
+      {
+        "type": 0,
+        "content": "`Türk` standartlarına göre para birimi biçimlendirme"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n  double amount = 1234.56;\n  NumberFormat turkishCurrencyFormat = NumberFormat.getCurrencyInstance(Locale.forLanguageTag(\"tr-TR\"));\n  String formattedAmount = turkishCurrencyFormat.format(amount);\n  System.out.println(\"Biçimlendirilmiş Miktar: \" + formattedAmount); // Output: 1.234,56 ₺\n}"
+      },
+      {
+        "type": 0,
+        "heading": "5. `IO` Sınıfı",
+        "content": "Java'da IO (Input/Output) sınıfı, giriş/çıkış işlemlerini yönetmek için kullanılan bir sınıf kümesini ifade eder.\n\nKütüphanesini eklemek için şu kodu kullanabilirsiniz:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "java.io.*;"
+      },
+      {
+        "type": 0,
+        "content": "`* işareti`, bu sınıfa ait tüm metotları tanımlamak anlamına gelmektedir.\n\nJava dilinde `throws IOException` ifadesi, bir metodunun hata durumlarını belirtmek için kullanılır."
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void URLDissector() throws IOException{\n}"
+      },
+      {
+        "type": 0,
+        "content": "bir dosya okuma örneği:\ngerekli tanımlamalar:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "import java.io.BufferedReader;\nimport java.io.FileReader;\nimport java.io.IOException;"
+      },
+      {
+        "type": 0,
+        "content": "`main` metodunda kullanımı, dosya.txt adlı bir dosyayı okumak için FileReader kullanılır"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n  try {\n    String dosyaYolu = \"dosya.txt\";\n    FileReader fileReader = new FileReader(dosyaYolu);\n    BufferedReader bufferedReader = new BufferedReader(fileReader);\n    String satir;\n    while ((satir = bufferedReader.readLine()) != null) {\n      System.out.println(satir);\n    }\n    bufferedReader.close();\n  } catch (IOException e) {\n    System.out.println(\"Dosya okuma hatası: \" + e.getMessage());\n  }\n}"
+      },
+      {
+        "type": 0,
+        "heading": "`useDelimiter` metodu",
+        "content": "Bir Scanner nesnesinin girdi dizesini parçalamak için kullanılan bir deseni belirtmenizi sağlar."
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "Scanner scanner = new Scanner(dosya);\nscanner.useDelimiter(\" \");"
+      },
+      {
+        "type": 0,
+        "content": "`useDelimiter` için bir örnek:\n\ndosya.txt:"
+      },
+      {
+        "type": 2,
+        "language": "text",
+        "code": "Java,Python,C++,JavaScript\nHTML,CSS,JavaScript,TypeScript\nC#,Java,Python,Ruby"
+      },
+      {
+        "type": 0,
+        "content": "`main` metodu:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n  try {\n    String dosyaYolu = \"dosya.txt\";\n    File dosya = new File(dosyaYolu);\n    Scanner scanner = new Scanner(dosya);\n    scanner.useDelimiter(\",\");\n    while (scanner.hasNext()) {\n      String token = scanner.next();\n      System.out.println(token);\n    }\n    scanner.close();\n  } catch (FileNotFoundException e) {\n    System.out.println(\"Dosya bulunamadı: \" + e.getMessage());\n  }\n}"
+      },
+      {
+        "type": 0,
+        "content": "Output:"
+      },
+      {
+        "type": 2,
+        "language": "text",
+        "code": "Java\nPython\nC++\nJavaScript\nHTML\nCSS\nJavaScript\nTypeScript\nC#\nJava\nPython\nRuby"
+      },
+      {
+        "type": 0,
+        "heading": "6. `ArrayList` Sınıfı",
+        "content": "- Bir ArrayList nesnesi, ihtiyaç duyulduğunda büyür ve küçülür.\n- ArrayList'in index değerleri 0'dan başlar.\n- Ekleme ve silme işlemlerine göre indexler ayarlanır.\n\nKütüphanesini eklemek için şu kodu kullanabilirsiniz:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "import java.util.ArrayList;"
+      },
+      {
+        "type": 0,
+        "content": "Listede depolanan nesnenin türü, ArrayList nesnesi oluşturulurken belirlenir:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "ArrayList<String> names = new ArrayList<String>();\nArrayList<int> numbers = new ArrayList<int>();\nArrayList<Book> books = new ArrayList<Book>();"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main (String[] args)\n{\n  ArrayList<String> band = new ArrayList<String>();\n  band.add(\"Paul\");\n  band.add(\"Pete\");\n  band.add(\"John\");\n  band.add(\"George\");\n  System.out.println(band);\n  int location = band.indexOf(\"Pete\");\n  band.remove(location);\n  System.out.println(band);\n  band.add(2, \"Ringo\");\n  System.out.println(\"Size: \" + band.size());\n}"
+      },
+      {
+        "type": 0,
+        "content": "**Önemli metotlar**"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "myList.add(\"Bashful\"); // sona ekler\nmyList.add(1, \"Sleepy\"); // konuma ekler\nmyList.remove(0); // konumdaki öğeyi siler\nmyList.get(0); // konumdaki öğeyi döndürür\nmyList.isEmpty(); // boş mu kontrol eder\nmyList.size(); // boyutu döndürür"
+      },
+      {
+        "type": 0,
+        "heading": "7. `swing` Kütüphanesi",
+        "content": "Java programlama dilinde GUI bileşenlerini oluşturmak için kullanılan bir kütüphanedir.\n\n### **`JOptionPane`** sınıfı:\nJava Swing kütüphanesinde bulunan ve temel iletişim kutuları oluşturmayı kolaylaştıran bir sınıftır.\n\nkütüphaneyi eklemek bu şekilde:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "import javax.swing.JOptionPane;"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n  String numStr, result;\n  int num, again;\n  do {\n    numStr = JOptionPane.showInputDialog(\"Enter an integer\");\n    num = Integer.parseInt(numStr);\n    result = \"That number is \" + ((num % 2 == 0) ? \"even\" : \"odd\");\n    JOptionPane.showMessageDialog(null, result);\n    again = JOptionPane.showConfirmDialog(null, \"Do Another?\");\n  } while (again == JOptionPane.YES_OPTION);\n}"
+      },
+      {
+        "type": 0,
+        "heading": "8. `String` Sınıfı",
+        "content": "- String bir değişken değildir, bir `objedir`\n- `for` döngüsü içinde String'e ekleme işlemi yapmak, `çok maliyetli` bir yaklaşımdır.\n\n#### İki şekilde tanımlanabilir:"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "String st = \"Sarı Kırmızı, Ateş ve Aslan\";"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "String st = new String(\"Sarı Kırmızı, Ateş ve Aslan\");"
+      },
+      {
+        "type": 0,
+        "content": "**Önemli metotlar**\n* __`charAt` method:__ bir karaktere ulaşmak için kullanılır.\n* __`compareTo` method:__ bir nesneyi diğerine göre sıralamak için kullanılır.\n* __`concat` method:__ iki stringi birleştirmek için kullanılır.\n* __`equals` method:__ iki nesnenin aynı olup olmadığını kontrol eder.\n* __`equalsIgnoreCase` method:__ büyük/küçük harf farkını göz ardı ederek karşılaştırır.\n* __`length` method:__ uzunluğu döndürür.\n* __`replace` method:__ bir karakteri başka bir karakterle değiştirir.\n* __`substring` method:__ belirli bir aralığındaki karakterleri alır.\n* __`toLowerCase` / `toUpperCase` method:__ harfleri küçük/büyüğe dönüştürür."
+      },
+      {
+        "type": 1,
+        "imageUrl": "https://private-user-images.githubusercontent.com/204489698/438293097-381f101c-9f06-41a6-a4fb-bfd975f46210.png",
+        "caption": "Notion'da Aç"
+      },
+      {
+        "type": 0,
+        "heading": "🏛️ Classes",
+        "content": "Daha önce `Scanner`, `ArrayList` ve `String` gibi classları kullanıyorduk. Ancak şimdi kendi classlarımızı biz yazmaya başlayacağız.\n\nBir sınıf oluştururken, dışarıdan erişilebilir olması gereken özellikleri `public`, dışarıdan erişilmemesini istediğimiz özellikleri `private` olarak tanımlarız.\n\n## Örnek: Zar Sınıfı"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "class zar {\n\tprivate final int MAX = 6;\n\tprivate int ustYuz;\n\n\tpublic zar() {\n\t\tustYuz = 1;\n\t}\n\n\tpublic void atama() {\n\t\tustYuz = (int) (Math.random() * MAX) + 1;\n\t}\n\n\tpublic void setUstYuzu(int ustYuz) {\n\t\tif (ustYuz <= MAX && ustYuz > 0)\n\t\t\tthis.ustYuz = ustYuz;\n\t}\n\n\tpublic int getUstYuzu() {\n\t\treturn ustYuz;\n\t}\n\n\tpublic String toString() {\n\t\tString sonuc = Integer.toString(ustYuz);\n\t\treturn sonuc;\n\t}\n}"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n\tzar zar1, zar2;\n\tint toplam;\n\tzar1 = new zar();\n\tzar2 = new zar();\n\tzar1.atama();\n\tzar2.atama();\n\tSystem.out.println(\"Zar Bir: \" + zar1 + \", Zar İki: \" + zar2);\n\tzar1.atama();\n\tzar2.setUstYuzu(4);\n\ttoplam = zar1.getUstYuzu() + zar2.getUstYuzu();\n\tSystem.out.println(\"Toplam: \" + toplam);\n}"
+      },
+      {
+        "type": 0,
+        "heading": "Kapsülleme",
+        "content": "Bir nesnenin iç detaylarının istemciye gizlenmesini sağlayan bir programlama prensibidir.\n\n### **Üç Temel Görünürlük Belirteci**:\n- **`public`**: Her yerden erişilebilir.\n- **`private`**: Sadece tanımlandığı sınıf içerisinden erişilebilir.\n- `protected`: Aynı paket içerisinden ve alt sınıflardan erişilebilir.\n\n## **Getter ve Setter**\n- Erişimci metodlar `getter` olarak adlandırılır.\n- Mutatör metodlar `setter` olarak adlandırılır."
+      },
+      {
+        "type": 3,
+        "quote": "Bu metodlar, kapsülleme ilkesini korurken, sınıf dışından özel verilere güvenli bir şekilde erişim ve bu verilerin değiştirilmesini sağlar."
+      },
+      {
+        "type": 1,
+        "imageUrl": "https://github.com/yasir723/java/assets/111686779/7ad5641a-39de-464e-9a8f-bf819987206f",
+        "caption": "Generate Getters and Setters - Adım 1"
+      },
+      {
+        "type": 1,
+        "imageUrl": "https://github.com/yasir723/java/assets/111686779/a72e2baa-57e0-4a64-a6ce-e636d3c81e32",
+        "caption": "Generate Getters and Setters - Adım 2"
+      },
+      {
+        "type": 1,
+        "imageUrl": "https://github.com/yasir723/java/assets/111686779/e0e5f881-00b3-436f-8105-0cd7364c8864",
+        "caption": "Generate Constructor using Fields - Adım 1"
+      },
+      {
+        "type": 1,
+        "imageUrl": "https://github.com/yasir723/java/assets/111686779/e78fee24-3c1e-46b6-bdc6-d1b1f90c8fd9",
+        "caption": "Generate Constructor using Fields - Adım 2"
+      },
+      {
+        "type": 0,
+        "heading": "Static Değişkenler ve Metotlar",
+        "content": "Static metotlar veya değişkenler sınıftan bir nesne türetmeden çağrılabilir.\n\n```java\nresult = Math.sqrt(25); // output: 5\n```"
+      },
+      {
+        "type": 3,
+        "quote": "Statik değişkenler tüm nesneler için aynıdır ve bir statik değişkenin değeri herhangi bir nesnede değiştirildiğinde, diğer tüm nesnelerde de değişir."
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "private static float price;"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public class Helper {\n\tpublic static int cube(int num) {\n\t\treturn num * num * num;\n\t}\n}\n// Kullanım:\nvalue = Helper.cube(4); // output: 64"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "class Slogan {\n\tprivate String ifade;\n\tprivate static int adet = 0;\n\n\tpublic Slogan(String str) {\n\t\tifade = str;\n\t\tadet++;\n\t}\n\n\tpublic String toString() { return ifade; }\n\n\tpublic static int getAdet() { return adet; }\n}"
+      },
+      {
+        "type": 0,
+        "heading": "Class Relationships (Sınıf ilişkileri)",
+        "content": "## Java'da en yaygın üç ilişki türü\n\n- **Dependency(Bağımlılık)**: A uses B\n- **Aggregation(Birleşim)**: A has-a B\n- **Inheritance(Kalıtım)**: A is-a B"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "class KesirSayi {\n\tprivate int pay, payda;\n\n\tpublic KesirSayi(int pay, int payda) {\n\t\tif (payda == 0) payda = 1;\n\t\tif (payda < 0) { pay *= -1; payda *= -1; }\n\t\tthis.pay = pay;\n\t\tthis.payda = payda;\n\t\tsadelestir();\n\t}\n\n\tpublic int getPay() { return pay; }\n\tpublic int getPayda() { return payda; }\n\n\tpublic KesirSayi tersi() { return new KesirSayi(payda, pay); }\n\tpublic KesirSayi topla(KesirSayi op2) {\n\t\treturn new KesirSayi(pay * op2.getPayda() + op2.getPay() * payda, payda * op2.getPayda());\n\t}\n\tpublic KesirSayi cikar(KesirSayi op2) {\n\t\treturn topla(new KesirSayi(op2.getPay() * -1, op2.getPayda()));\n\t}\n\tpublic KesirSayi carp(KesirSayi op2) {\n\t\treturn new KesirSayi(pay * op2.getPay(), payda * op2.getPayda());\n\t}\n\tpublic KesirSayi bol(KesirSayi op2) { return carp(op2.tersi()); }\n\tpublic boolean esitMi(KesirSayi op2) { return pay == op2.getPay() && payda == op2.getPayda(); }\n\n\tpublic String toString() {\n\t\tif (pay == 0) return \"0\";\n\t\tif (payda == 1) return pay + \"\";\n\t\treturn pay + \"/\" + payda;\n\t}\n\n\tprivate void sadelestir() {\n\t\tif (pay != 0) { int o = ebob(Math.abs(pay), payda); pay /= o; payda /= o; }\n\t}\n\tprivate int ebob(int a, int b) {\n\t\twhile (b != 0) { int t = b; b = a % b; a = t; } return a;\n\t}\n}"
+      },
+      {
+        "type": 0,
+        "heading": "## ⚪ **Aggregation Nedir?**",
+        "content": "Aggregation bir nesnenin diğer nesnelerden oluştuğu durumu ifade eder. Java'da \"has-a\" ilişkisi olarak adlandırılır.\n\n- Bir araba bir şasiye sahiptir.\n- Bir üniversite departmanlara sahiptir."
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "class Student {\n\tprivate String isim, soyisim;\n\tprivate Address evAdresi, okulAdresi;\n\n\tpublic Student(String isim, String soyisim, Address evAdresi, Address okulAdresi) {\n\t\tthis.isim = isim; this.soyisim = soyisim;\n\t\tthis.evAdresi = evAdresi; this.okulAdresi = okulAdresi;\n\t}\n\n\tpublic String toString() {\n\t\treturn isim + \" \" + soyisim + \"\\nEv: \" + evAdresi + \"\\nOkul: \" + okulAdresi;\n\t}\n}"
+      },
+      {
+        "type": 2,
+        "language": "mermaid",
+        "code": "classDiagram\nStudent <-- StudentBody\nStudent *-- Address\nStudentBody: + main (args String[]) void\nStudent : - String isim\nStudent : - String soyisim\nStudent : - Address evAdresi\nStudent : - Address okulAdresi\nStudent : + toString()\nAddress : - String sehir\nAddress : - String ilce\nAddress : - String cadde\nAddress : - long postaKodu\nAddress : + toString()"
+      },
+      {
+        "type": 3,
+        "quote": "Aggregation, yazılım tasarımında nesneler arasındaki ilişkileri daha etkili ve verimli bir şekilde modellemek için güçlü bir tekniktir."
+      },
+      {
+        "type": 0,
+        "heading": "🟡 Inheritance (Kalıtım)",
+        "content": "Kalıtım, nesne yönelimli programlamanın temel bir prensibidir. Bir sınıf, diğer bir sınıfın özelliklerini ve davranışlarını miras alabilir.\n\n- Mevcut sınıfa **ebeveyn sınıf** denir.\n- Türetilmiş sınıfa **çocuk sınıf** denir."
+      },
+      {
+        "type": 3,
+        "quote": "Ancak gereksiz yerlerde kullanılması performansı olumsuz etkiler."
+      },
+      {
+        "type": 2,
+        "language": "mermaid",
+        "code": "classDiagram\nCalisan <|-- Gelistirici\nCalisan <|-- Muhasebeci\nCalisan <|-- Tedarikci\nCalisan : - String isim\nCalisan : - String maas\nGelistirici : - String projeAdi\nMuhasebeci : - String GunlukStok\nTedarikci : - String sehir"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public class Araba extends Arac {\n    // Sınıf içeriği\n}"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "class Kitap {\n\tprotected int sayfaSayisi = 1500;\n\tpublic void setSayfa(int n) { sayfaSayisi = n; }\n\tpublic int getSayfa() { return sayfaSayisi; }\n}\n\nclass Sozluk extends Kitap {\n\tprivate int tanimlar = 52500;\n\tpublic double oranHesapla() { return (double) tanimlar / sayfaSayisi; }\n\tpublic void setTanim(int n) { tanimlar = n; }\n\tpublic int getTanim() { return tanimlar; }\n}"
+      },
+      {
+        "type": 0,
+        "heading": "🟡 Polymorphism (Çok Biçimlilik)",
+        "content": "Polymorphism, aynı işlemin farklı nesneler üzerinde farklı şekillerde gerçekleştirilebilmesini sağlayan bir kavramdır.\n\n## Avantajları\n- **Esneklik:** Kodu daha esnek hale getirir.\n- **Bakım Kolaylığı:** Kod bakımını kolaylaştırır.\n- **Kod Tekrarını Azaltma:** Kod tekrarını azaltır.\n\n### Overloading (Aşırı Yükleme)"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "class Restoran {\n\tpublic float siparis(float toplamFiyat) { return toplamFiyat; }\n\tpublic float siparis(float toplamFiyat, float kargoUcreti) { return toplamFiyat + kargoUcreti; }\n\tpublic float siparis(float toplamFiyat, float kargoUcreti, String kupon) {\n\t\tfloat oran = getOranByKupon(kupon);\n\t\treturn toplamFiyat + kargoUcreti - (toplamFiyat * oran);\n\t}\n}"
+      },
+      {
+        "type": 0,
+        "content": "### Overriding (Geçersiz Kılma)"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "class Employee {\n\tprivate String name, department;\n\tprivate float salary;\n\tpublic Employee(String name, String department, float salary) {\n\t\tthis.name = name; this.department = department; this.salary = salary;\n\t}\n\tpublic float getSalary() { return salary; }\n}\n\nclass SalariedEmployee extends Employee {\n\tprivate float bouns;\n\tpublic SalariedEmployee(float bouns, String name, String department, float salary) {\n\t\tsuper(name, department, salary);\n\t\tthis.bouns = bouns;\n\t}\n\t@Override\n\tpublic float getSalary() { return super.getSalary() + bouns; }\n}"
+      },
+      {
+        "type": 0,
+        "heading": "❤️‍🔥 Aggregation ve Composition",
+        "content": "**Aggregation**: Alt nesne bağımsız bir yaşam döngüsüne sahiptir. (Has-A ilişkisi)\n**Composition**: Alt nesne üst nesne ile aynı yaşam döngüsüne sahiptir. (Part-Of ilişkisi)"
+      },
+      {
+        "type": 2,
+        "language": "mermaid",
+        "code": "classDiagram\nEmployee *-- PersonallInformation\nEmployee o-- Department\nEmployee: - int id\nEmployee: - float salary\nPersonallInformation: - firstName String\nPersonallInformation: - lastName String\nDepartment: - deptNo int\nDepartment: - deptName String"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "class Employee {\n\tprivate int id;\n\tprivate float salary;\n\tprivate PersonalInformation personalInfo; // Composition\n\tprivate Department dept; // Aggregation\n\n\tpublic Employee(int id, float salary, String firstName, String lastName,\n\t\t\tString accountNumber, int yearOfBirth, Department dept) {\n\t\tthis.id = id; this.salary = salary;\n\t\tthis.personalInfo = new PersonalInformation(firstName, lastName, accountNumber, yearOfBirth);\n\t\tthis.dept = dept;\n\t}\n}"
+      },
+      {
+        "type": 3,
+        "quote": "Composition'da `PersonalInformation` sınıfını constructor içerisinde `new PersonalInformation()` olarak ürettiğimize dikkat edin. Bu sayede Employee silindiğinde PersonalInformation da silinir."
+      },
+      {
+        "type": 0,
+        "heading": "🟡 Abstract Class (Soyut Sınıf)",
+        "content": "Bir **`abstract`** class, bir sınıf hiyerarşisinde genel bir kavramı temsil eden yer tutucu bir sınıftır. Soyut sınıflardan **\"new\"** anahtar kelimesi ile bir nesne oluşturulamaz."
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "abstract class Car {\n\tprivate float height, weight;\n\tprivate int numberOfWheels;\n\n\tpublic Car(float height, float weight, int numberOfWheels) {\n\t\tthis.height = height; this.weight = weight; this.numberOfWheels = numberOfWheels;\n\t}\n\n\tabstract void autoPilot();\n\tabstract void streamingServices();\n\tabstract void parkingSernsors();\n}\n\nclass SUV extends Car {\n\tprivate String model;\n\tpublic SUV(String model, float height, float weight, int numberOfWheels) {\n\t\tsuper(height, weight, numberOfWheels);\n\t\tthis.model = model;\n\t}\n\t@Override void autoPilot() { System.out.println(\"SUV autoPilot\"); }\n\t@Override void streamingServices() { System.out.println(\"SUV streamingServices\"); }\n\t@Override void parkingSernsors() { System.out.println(\"SUV parkingSernsors\"); }\n}"
+      },
+      {
+        "type": 0,
+        "heading": "🟡 Interface (Arayüz)",
+        "content": "Java'da soyutlamayı gerçekleştirmenin bir diğer yolu **`interface`** tanımlamaktır. Bir sınıf birden fazla interface implement edebilir."
+      },
+      {
+        "type": 2,
+        "language": "mermaid",
+        "code": "classDiagram\nselfDrivable<|.. Car\nmovable <|.. Car\n<<interface>>selfDrivable\n<<interface>>movable\nCar : - x int\nCar : - y int\nselfDrivable : + destination(String) void\nselfDrivable : + drive() void\nmovable : + moveUp() void\nmovable : + moveDown() void\nmovable : + moveLeft() void\nmovable : + moveRight() void"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "interface selfDrivable {\n\tvoid destination(String d);\n\tvoid drive();\n}\n\ninterface movable {\n\tvoid moveUp();\n\tvoid moveDown();\n\tvoid moveLeft();\n\tvoid moveRight();\n}\n\nclass Car implements movable, selfDrivable {\n\tprivate int x, y;\n\n\t@Override public void moveUp() { y--; }\n\t@Override public void moveDown() { y++; }\n\t@Override public void moveLeft() { x--; }\n\t@Override public void moveRight() { x++; }\n\t@Override public void destination(String d) { System.out.println(\"Destination = \" + d); }\n\t@Override public void drive() { System.out.println(\"Drive\"); }\n}"
+      },
+      {
+        "type": 2,
+        "language": "java",
+        "code": "public static void main(String[] args) {\n\tCar car = new Car();\n\tcar.destination(\"39.878805935007165,33.44799553728058\");\n\n\tselfDrivable sdCar = new Car();\n\t((Car)sdCar).moveDown(); // Cast işlemi örneği\n}"
+      }
+    ],
+    "updatedAt": "2026-03-20"
+  }
+]
